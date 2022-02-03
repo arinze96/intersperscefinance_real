@@ -20,7 +20,7 @@
 <link rel="shortcut icon" type="image/png" href="{{ asset('assets/favicon.png') }}"/>
 <link rel="stylesheet" href="{{ asset("assets/css/dashboard/dashlite.css") }}">
 <link id="skin-default" rel="stylesheet" href="{{ asset("assets/css/dashboard/theme.css?ver=1.4.0") }}">
-<link rel="shortcut icon" type="image/png" href="{{ asset("assets/images/home/logo/ProStack_favicon.png") }}"/>
+<link rel="shortcut icon" type="image/png" href="{{ asset("assets/images/logo/Intersperse_Finance_Trans_Vector_(1).png") }}"/>
 <meta name="description" content=""/>
 <meta name="keywords" content="">
 <meta name="csrf-token" content="{{ csrf_token() }}" />

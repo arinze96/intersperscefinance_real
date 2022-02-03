@@ -6,7 +6,7 @@
                     <div class="header-main-wrapper">
                         <div class="navbar-header">
                             <button type="button" data-toggle="offcanvas" class="btn-hamburger visible-tablet"><span class="icon-bar"></span></button>
-                            <a href="index-2.html" class="header-logo"><img src="assets/img/logo/logo-white.png" alt="Main Logo" class="logo" /></a>
+                            <a href="{{route('app.home')}}" class="header-logo"><img src="{{ asset('assets/images/logo/Intersperse_Finance_Trans_Vector_(2).png') }}" alt="Main Logo" class="logo" /></a>
                         </div>
                         <nav class="navigation navbar-offcanvas pull-right">
                             <div class="nav-wrapper">
@@ -46,15 +46,7 @@
                                     <li class=""><a 
                                         href="{{route('investment_plan')}}"
                                          class="main-menu"><span class="text">INVESTMENT PLANS</span><span class=""><i class=""></i></span></a>
-                                        <!-- <ul class="dropdown-menu">
-                                                    <li><a href="project.html" class="link-page">Project</a></li>
-                                                    <li><a href="project-single.html" class="link-page">Project Single</a></li>
-                                                    <li><a href="project-1.html" class="link-page">Project Style 01</a></li>
-                                                    <li><a href="project-2.html" class="link-page">Project Style 02</a></li>
-                                                    <li><a href="project-3.html" class="link-page">Project Style 03</a></li>
-                                                    <li><a href="project-4.html" class="link-page">Project Style 04</a></li>
-                                                    <li><a href="project-5.html" class="link-page">Project Style 05</a></li>
-                                                </ul> -->
+                                        
                                     </li>
                                      <li class=""><a 
                                         href="{{route('user.login')}}"

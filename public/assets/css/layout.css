@@ -452,6 +452,8 @@ a:hover {
 */
 ul.navbar-nav a.main-menu span.text {
   position: relative;
+  color:#93c23d;
+  font-weight: bolder;
 }
 ul.navbar-nav a.main-menu span.text:before {
   content: '';
