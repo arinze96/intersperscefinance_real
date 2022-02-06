@@ -179,6 +179,10 @@ class UserController extends Controller
         return view("home.index", ["Plans" => $Plans]);
     }
 
+    public function dena(Request $request){
+        return("home.index");
+    }
+
     public function returnFAQ(Request $request)
     {
         return view("home.faq");
