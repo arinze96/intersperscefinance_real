@@ -22,30 +22,103 @@
                             <div class="container">
                                 <div class="page-title-wrapper">
                                     <div class="page-title-content">
-                                        <h1 class="title">PERSONAL LOANS</h1>
+                                        <h1 class="title">CHILDREN ACCOUNT</h1>
                                         <ol class="breadcrumb">
                                             <li><a {{-- href="{{route('home')}}" --}} class="link home">Home</a></li>
-                                            <li><a {{-- href="{{route('about')}}" --}} class="link active">PERSONAL LOANS</a></li>
+                                            <li><a {{-- href="{{route('about')}}" --}} class="link active">CHILDREN ACCOUNT</a></li>
                                         </ol>
                                     </div>
                                 </div>
                             </div>
                         </section>
-                        <section class="about-special padding-top padding-bottom">
+                        <section class="news padding-top padding-bottom">
                             <div class="container">
-                                <h2 class="page-title">PERSONAL LOANS</h2>
-                                <div class="wrapper-timeline">
-                                    <div class="content-timeline">
-                                        <div class="timeline-block">
-                                            {{-- <div class="timeline-number"><span>2003</span></div> --}}
-                                            <div class="timeline-title">Personal loans</div>
-                                            <p class="timeline-text">Cryptocurrency is a form of payment that can be exchanged online for goods and services. Many companies have issued their own currencies, often called tokens, and these can be traded specifically for the good or service that the company provides. Think of them as you would arcade tokens or casino chips. You’ll need to exchange real currency for the cryptocurrency to access the good or service. Cryptocurrencies work using a technology called blockchain. Blockchain is a decentralized technology spread across many computers that manages and records transactions. Part of the appeal of this technology is its security. Cryptocurrencies are sets of software protocols for generating digital tokens and for tracking transactions in a way that makes it hard to counterfeit or re-use tokens. which is why at Atlanticmutuals we pride ourselves in ensuring you choose the right investment plan for you. More than 10,000 different cryptocurrencies are traded publicly, according to CoinMarketCap.com, a market research website. And cryptocurrencies continue to proliferate, raising money through initial coin offerings, or ICOs. The total value of all cryptocurrencies on Aug. 18, 2021, was more than $1.9 trillion — down from April high of $2.2 trillion, according to CoinMarketCap. The total value of all bitcoins, the most popular digital currency, was pegged at about $849 billion, regaining some ground from recent price lows. Still, the market value of bitcoin is down from April high of $1.2 trillion with our 24/7 support staffs present, we work round the clock to ensure smooth user experience.</p>
-                                            {{-- <div class="timeline-slider">
-                                                <div class="item-slider">
-                                                    <a href="#"><img src="assets/img/about/about-1.jpg" alt=""
-                                                            class="img-responsive"></a>
-                                                </div>
-                                            </div> --}}
+                                <div class="row">
+                                    <div class="article">
+                                        <div class="col-md-6">
+                                            <a class="wp-img"><img
+                                                    src="assets/img/homepage/general.jpg" alt=""
+                                                    class="img-responsive"></a>
+                                        </div>
+                                        <div class="col-md-6"><a 
+                                                class="article-title"></a>
+
+                                            <div class="preview">
+                                                <p class="paragraph">As a parent, We want the best for our kids. We want to do everything Possible to set them up for success.
+
+                                                    We at Intersperse Finance have spoken with many parents and grandparents who have one simple question: How can I invest in my child or grandchild’s future? Knowing the power of compound interest, some couple wrote us that they wanted to kick-start their son’s retirement savings. Others just want to help their kids get a college diploma without taking on any debt.
+
+                                                </p>
+                                                <p class="paragraph">Those are great concerns to have, so give yourself a high five! Whether “Junior” is still crawling around the living room floor or getting ready to graduate from high school, we got you covered, you can secure and invest in their future. The Monetary Trades Children’s Account is a unique investments account designed to allow parents invest then save for their children’s future and teach them about savings/investments from a tender age. The account is modeled in two tiers for young children and teens with an overarching objective of making savings fun for them and teaching them financial discipline.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="news padding-top padding-bottom">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="article">
+                                       
+                                        <div class="col-md-6"><a 
+                                                class="article-title"></a>
+
+                                            <div class="preview">
+                                                <p class="paragraph">BGC account is modeled in two tiers for young children and teens with an overarching objective of making savings fun for them and teaching them financial discipline.
+                                                </p>
+                                                <p class="paragraph">
+                                                    An account specifically for children between the ages of 0-15yrs
+                                                </p>
+                                                <p class="paragraph">
+                                                    ROI rate at 150% per annum (withdrawal once a year and only if there are emergency needs)
+                                                </p>
+                                                <p class="paragraph">
+                                                    Zero account opening balance
+                                                </p>
+                                                <p class="paragraph">
+                                                    Minimum Investment of $15,000
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <a href="#" class="wp-img"><img
+                                                    src="assets/img/homepage/children.jpg" alt=""
+                                                    class="img-responsive"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="news padding-top padding-bottom">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="article">
+                                        <div class="col-md-6">
+                                            <a class="wp-img"><img
+                                                    src="assets/img/homepage/teens.jpg" alt=""
+                                                    class="img-responsive"></a>
+                                        </div>
+                                        <div class="col-md-6"><a
+                                                class="article-title"></a>
+
+                                            <div class="preview">
+                                                <p class="paragraph">MT Teens account is a next level account for teenagers from 16years and above.
+
+                                                </p>
+                                                <p class="paragraph">
+                                                    An account specifically for children between the ages of 16-Above
+                                                </p>
+                                                <p class="paragraph">
+                                                    Interest rate at 200%( withdraw twice a year and more only if they are emergency needs)
+                                                </p>
+                                                <p class="paragraph">
+                                                    Zero account opening balance
+                                                </p>
+                                                <p class="paragraph">
+                                                    Minimum Investment of $20,000
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

@@ -22,10 +22,10 @@
                             <div class="container">
                                 <div class="page-title-wrapper">
                                     <div class="page-title-content">
-                                        <h1 class="title">PERSONAL LOANS</h1>
+                                        <h1 class="title">RETIREMENT FUNDS</h1>
                                         <ol class="breadcrumb">
                                             <li><a {{-- href="{{route('home')}}" --}} class="link home">Home</a></li>
-                                            <li><a {{-- href="{{route('about')}}" --}} class="link active">PERSONAL LOANS</a></li>
+                                            <li><a {{-- href="{{route('about')}}" --}} class="link active">RETIREMENT FUNDS</a></li>
                                         </ol>
                                     </div>
                                 </div>
@@ -33,19 +33,20 @@
                         </section>
                         <section class="about-special padding-top padding-bottom">
                             <div class="container">
-                                <h2 class="page-title">PERSONAL LOANS</h2>
+                                <h2 class="page-title">RETIREMENT FUNDS</h2>
                                 <div class="wrapper-timeline">
                                     <div class="content-timeline">
                                         <div class="timeline-block">
                                             {{-- <div class="timeline-number"><span>2003</span></div> --}}
-                                            <div class="timeline-title">Personal loans</div>
-                                            <p class="timeline-text">Cryptocurrency is a form of payment that can be exchanged online for goods and services. Many companies have issued their own currencies, often called tokens, and these can be traded specifically for the good or service that the company provides. Think of them as you would arcade tokens or casino chips. You’ll need to exchange real currency for the cryptocurrency to access the good or service. Cryptocurrencies work using a technology called blockchain. Blockchain is a decentralized technology spread across many computers that manages and records transactions. Part of the appeal of this technology is its security. Cryptocurrencies are sets of software protocols for generating digital tokens and for tracking transactions in a way that makes it hard to counterfeit or re-use tokens. which is why at Atlanticmutuals we pride ourselves in ensuring you choose the right investment plan for you. More than 10,000 different cryptocurrencies are traded publicly, according to CoinMarketCap.com, a market research website. And cryptocurrencies continue to proliferate, raising money through initial coin offerings, or ICOs. The total value of all cryptocurrencies on Aug. 18, 2021, was more than $1.9 trillion — down from April high of $2.2 trillion, according to CoinMarketCap. The total value of all bitcoins, the most popular digital currency, was pegged at about $849 billion, regaining some ground from recent price lows. Still, the market value of bitcoin is down from April high of $1.2 trillion with our 24/7 support staffs present, we work round the clock to ensure smooth user experience.</p>
-                                            {{-- <div class="timeline-slider">
-                                                <div class="item-slider">
-                                                    <a href="#"><img src="assets/img/about/about-1.jpg" alt=""
-                                                            class="img-responsive"></a>
-                                                </div>
-                                            </div> --}}
+                                            <div class="timeline-title">RETIREMENT FUNDS</div>
+                                            <p class="timeline-text">
+                                                On the surface, retirement planning hasn't changed all that much over the years. You work, you save and then you retire. But while the mechanics may be the same, today's savers are facing some challenges that previous generations didn't have to worry about.
+                                                
+                                                 First of all, life expectancy is longer, which means you'll need your money to last longer – potentially into your 90s. Bond yields are also much lower than they used to be, which means you can't buy a few fixed income instruments and earn a double-digit return. Then there is the health crisis due to the coronavirus pandemic.
+                                                
+                                                 This is compounded by the fact that more companies are moving away from defined benefit pensions —which guaranteed you a certain amount of money in your golden years — to defined contribution plans, which are more subject to market ups and downs.
+                                                
+                                                So, how can you have the retirement you've always wanted? After all, retirees want to experience all the things they couldn't do when they were too busy working. Exotic travel vacations, marathon running, novel writing, spending more time with friends and family — the possibilities are almost endless. There are several steps, which we explain in this retirement guide, from budgeting and setting goals to choosing the right retirement savings account that will help you map out a plan that's right for you.
                                         </div>
                                     </div>
                                 </div>

@@ -24,6 +24,18 @@ use App\Mail\GeneralMailer;
 
 class UserController extends Controller
 {
+    public function charity(Request $request){
+        return view("home.charity");
+    }
+
+    public function children_account(Request $request){
+        return view("home.children_account");
+    }
+    
+    public function retirement_funds(Request $request){
+        return view("home.retirement_funds");
+    }
+
     public function CustomerCharity(Request $request)
     {
         if ($request->method() == "GET") {

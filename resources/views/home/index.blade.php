@@ -75,45 +75,50 @@
                                     <h2 class="title">WE ARE PROFESSIONALS</h2>
                                 </div>
                                 <div class="row">
-                                    <div class="col-md-3 col-sm-6 col-xs-6">
-                                        <blockquote class="quote"><i class="quote-icon fa fa-quote-right"></i>
-                                            <p class="quote-paragraph">Intersperse Finance is an investment focused company that helps to manage you funds, assets, cryptocurrency portfolio and many other financial assets etc</p>
-                                            <p class="quote-paragraph">Our goal is the make the highest return on investment with any kind of assets you put under our management.</p>
-                                        </blockquote>
-                                        <div class="author"><img src="assets/img/homepage/finance-signature.png"
-                                                alt="" class="signature img-responsive">
-                                            <p class="name">GELBUL&nbsp;-&nbsp;CHAIRMAN</p>
-                                        </div>
-                                    </div>
                                     <div data-wow-delay="0.2s" class="col-md-3 col-sm-6 col-xs-6 wow fadeInUp">
                                         <div class="finance-item">
-                                            <a href="javascript:void(0)" class="wp-img img-wrapper"><img
+                                            <a href="charity" class="wp-img img-wrapper"><img
                                                     src="assets/img/homepage/finance-1.jpg" alt=""
-                                                    class="img-responsive"></a><a href="javascript:void(0)"
-                                                class="title">CRYPTOCURRENCY TRADING</a>
-                                            <p class="text">We have a team of expert cryptocurrency traders that trades</p><a href="javascript:void(0)"
+                                                    class="img-responsive"></a><a href="{{route('charity')}}"
+                                                class="title">CHARITY</a>
+                                            <p class="text">We do a lot of charitable dees in uor
+                                                community to help the less privilaged</p><a href="{{route('charity')}}"
                                                 class="more">Learn more<i
                                                     class="fa fa-long-arrow-right"></i></a>
                                         </div>
                                     </div>
                                     <div data-wow-delay="0.6s" class="col-md-3 col-sm-6 col-xs-6 wow fadeInUp">
                                         <div class="finance-item">
-                                            <a href="javascript:void(0)" class="wp-img img-wrapper"><img
+                                            <a href="{{route('children_account')}}" class="wp-img img-wrapper"><img
                                                     src="assets/img/homepage/finance-2.jpg" alt=""
-                                                    class="img-responsive"></a><a href="javascript:void(0)"
-                                                class="title">REAL ESTATE INVESTMENTS</a>
-                                            <p class="text">We have a team of expert realtors that knows where and when to invest you capital in a profitable real estate</p><a href="javascript:void(0)"
-                                                class="more">Learn more<i
+                                                    class="img-responsive"></a><a href="{{route('children_account')}}"
+                                                class="title">CHILDREN ACCOUNT</a>
+                                            <p class="text">You can invest funds for your childs for a in our
+                                                childrens account package which will guarantee a better future</p><a
+                                                href="{{route('children_account')}}" class="more">Learn more<i
                                                     class="fa fa-long-arrow-right"></i></a>
                                         </div>
                                     </div>
                                     <div data-wow-delay="1s" class="col-md-3 col-sm-6 col-xs-6 wow fadeInUp">
                                         <div class="finance-item">
-                                            <a href="javascript:void(0)" class="wp-img img-wrapper"><img
+                                            <a href="{{route('personal_loan')}}" class="wp-img img-wrapper"><img
                                                     src="assets/img/homepage/finance-3.jpg" alt=""
-                                                    class="img-responsive"></a><a href="javascript:void(0)"
+                                                    class="img-responsive"></a><a href="{{route('personal_loan')}}"
+                                                class="title">Personal Loans</a>
+                                            <p class="text">Our company offers personal loans which can be
+                                                used for a variety of things</p><a href="{{route('personal_loan')}}"
+                                                class="more">Learn more<i
+                                                    class="fa fa-long-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                    <div data-wow-delay="1.4s" class="col-md-3 col-sm-6 col-xs-6 wow fadeInUp">
+                                        <div class="finance-item">
+                                            <a href="{{route('retirement_funds')}}" class="wp-img img-wrapper"><img
+                                                    src="assets/img/blog/blog-2.jpg" alt=""
+                                                    class="img-responsive"></a><a href="{{route('retirement_funds')}}"
                                                 class="title">RETIREMENT FUND</a>
-                                            <p class="text">We help you grow your retirement funds if you invest with us</p><a href="javascript:void(0)"
+                                            <p class="text">We help you grow your retirement funds if you
+                                                invest with us</p><a href="{{route('retirement_funds')}}"
                                                 class="more">Learn more<i
                                                     class="fa fa-long-arrow-right"></i></a>
                                         </div>
@@ -138,12 +143,25 @@
                                         </div>
                                         <div class="col-md-6"><a href="blog-detail.html"
                                                 class="article-title">About us</a>
-                                            
+
                                             <div class="preview">
-                                                <p class="paragraph">Intersperse Finance was established in 2003 and it initially began trading stocks, shares and bonds, it got involved in forex in 2008 and was among the pioneer traders of Cryptocurrencies in the advent of Bitcoin in 2010. Intersperse Finance is currently managed by a senior team which has extensive experience in the development and implementation of systematic investment strategies. The company emphasises strong corporate governance and the provision of first class investor service to a client base which includes many of the world’s leading institutional investors.
+                                                <p class="paragraph">Intersperse Finance was established in 2013
+                                                    and it initially began trading stocks, shares and bonds, it got
+                                                    involved in forex in 2015 and was among the pioneer traders of
+                                                    Cryptocurrencies in the advent of Bitcoin in 2014. Intersperse
+                                                    Finance is currently managed by a senior team which has extensive
+                                                    experience in the development and implementation of systematic
+                                                    investment strategies. The company emphasises strong corporate
+                                                    governance and the provision of first class investor service to a
+                                                    client base which includes many of the world’s leading institutional
+                                                    investors.
 
                                                 </p>
-                                                <p class="paragraph">At Intersperse Finance, we deliver strategic advice and solutions, including capital raising, risk management, and trade finance services to corporations, institutions and individuals, We also offer-long term and short-term investment opportunities.</p>
+                                                <p class="paragraph">At Intersperse Finance, we deliver strategic
+                                                    advice and solutions, including capital raising, risk management,
+                                                    and trade finance services to corporations, institutions and
+                                                    individuals, We also offer-long term and short-term investment
+                                                    opportunities.</p>
                                             </div><a href="javascript:void(0)" class="readmore">READ MORE<i
                                                     class="fa fa-long-arrow-right"></i></a>
                                         </div>
@@ -161,49 +179,62 @@
                                         <div data-wow-delay="0.2s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-piggy-bank"></i><a
-                                                    href="service.html" class="title">Structured Credit</a>
-                                                <p class="text">Investments in structured products, including ABS, RMBS, and CMBS, as well as related equities and derivatives.</p>
+                                                    href="service.html" class="title">Crypto Currencies</a>
+                                                <p class="text">We help you manage your cryptocurrency
+                                                    portfolio and help you grow them exponentially </p>
                                             </div>
                                         </div>
                                         <div data-wow-delay="0.5s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-tasks"></i><a
-                                                    href="service.html" class="title">Corporate Credit</a>
-                                                <p class="text">Outright credit-driven investments and capital structure arbitrage investments involving the securities of corporate issuers in developed markets.</p>
+                                                    href="service.html" class="title">Forex</a>
+                                                <p class="text">Our team of experience trader, trades you
+                                                    funds all the time thereby growing you funds dailt</p>
                                             </div>
                                         </div>
                                         <div data-wow-delay="0.8s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-lifebuoy"></i><a
-                                                    href="service.html" class="title">Emerging Markets</a>
-                                                <p class="text">Investments outside of highly-rated nations, including corporate and sovereign debt, equities, currencies and various derivatives and structured products.</p>
+                                                    href="service.html" class="title">Stocks</a>
+                                                <p class="text">Our team o experts helps in the investments
+                                                    of highly-rated company stock, including corporate and sovereign
+                                                    debt, equities, currencies and various derivatives and structured
+                                                    products.</p>
                                             </div>
                                         </div>
                                         <div data-wow-delay="1.1s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-diagram"></i><a
-                                                    href="service.html" class="title">Event-Driven Equities</a>
-                                                <p class="text">Merger arbitrage, special situations and equity intercapitalization investments across the globe, including the U.S., Europe and emerging markets.</p>
+                                                    href="service.html" class="title">Non-farm Payroll
+                                                    (NFP)</a>
+                                                <p class="text">The non-farm payroll (NFP) figure is a key
+                                                    economic indicator. It represents the number of jobs added,
+                                                    excluding farm employees, government employees, private household
+                                                    employees and employees of nonprofit organizations.
+
+                                                </p>
                                             </div>
                                         </div>
                                         <div data-wow-delay="1.4s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-calculator"></i><a
-                                                    href="service.html" class="title">Volatility</a>
-                                                <p class="text">Investments in various derivatives, focusing on volatility investments, including correlation trades and trades based on the expected volatility of individual financial instruments.</p>
+                                                    href="service.html" class="title">Real Estate</a>
+                                                <p class="text">We also run real estate fund investments
+                                                    which has proven to give the highest returns in recent times</p>
                                             </div>
                                         </div>
                                         <div data-wow-delay="1.7s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-dollar-coins"></i><a
-                                                    href="service.html" class="title">Emerging Markets</a>
-                                                <p class="text">Investments outside of highly-rated nations, including corporate and sovereign debt, equities, currencies and various derivatives and structured products.</p>
+                                                    href="service.html" class="title">Escrow Services</a>
+                                                <p class="text">We offer escrow services to our customers who
+                                                    needs to make exchanges between two parties </p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>                        
+                        </div>
 
 
                         <section class="stats padding-top padding-bottom">
@@ -236,8 +267,9 @@
                                     <div class="page-title-content">
                                         <h1 class="title">INVESTMENT PLANS</h1>
                                         <ol class="breadcrumb">
-                                            <li><a href="{{route('app.home')}}" class="link home">Home</a></li>
-                                            <li><a href="{{route('investment_plan')}}" class="link active">INVESTMENT PLANS</a>
+                                            <li><a href="{{ route('app.home') }}" class="link home">Home</a></li>
+                                            <li><a href="{{ route('investment_plan') }}"
+                                                    class="link active">INVESTMENT PLANS</a>
                                             </li>
                                         </ol>
                                     </div>
@@ -259,7 +291,7 @@
                                                         <h2>Cryptocurrencies</h2>
                                                     </div>
                                                     <div class="ptable-price">
-                                                        <h2><small>$</small>2000<span></span></h2>
+                                                        <h2><small>$</small>1000<span></span></h2>
                                                     </div>
                                                 </div>
                                                 <div class="ptable-body">
@@ -275,7 +307,7 @@
                                                 </div>
                                                 <div class="ptable-footer">
                                                     <div class="ptable-action">
-                                                        <a href="{{route('user.register')}}">GET STARTED</a>
+                                                        <a href="{{ route('user.register') }}">GET STARTED</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -288,13 +320,13 @@
                                                         <h2>Forex</h2>
                                                     </div>
                                                     <div class="ptable-price">
-                                                        <h2><small>$</small>5000<span></span></h2>
+                                                        <h2><small>$</small>3000<span></span></h2>
                                                     </div>
                                                 </div>
                                                 <div class="ptable-body">
                                                     <div class="ptable-description">
                                                         <ul>
-                                                            <li>7.0% ROI (WEEKLY)</li>
+                                                            <li>6.0% ROI (WEEKLY)</li>
                                                             <li>TRADE DURATION: 48 WEEKS</li>
                                                             <li>5% REFERAL BONUS</li>
                                                             <li>INSTANT WITHDRAWAL OF INTEREST</li>
@@ -304,99 +336,11 @@
                                                 </div>
                                                 <div class="ptable-footer">
                                                     <div class="ptable-action">
-                                                        <a href="{{route('user.register')}}">GET STARTED</a>
+                                                        <a href="{{ route('user.register') }}">GET STARTED</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-
-                                        <div class="ptable-item">
-                                            <div class="ptable-single">
-                                                <div class="ptable-header">
-                                                    <div class="ptable-title">
-                                                        <h2>Real Estate (Short term)</h2>
-                                                    </div>
-                                                    <div class="ptable-price">
-                                                        <h2><small>$</small>150,000<span></span></h2>
-                                                    </div>
-                                                </div>
-                                                <div class="ptable-body">
-                                                    <div class="ptable-description">
-                                                        <ul>
-                                                            <li>5.0% ROI (WEEKLY)</li>
-                                                            <li>TRADE DURATION: 3 MONTHS</li>
-                                                            <li>7% REFERAL BONUS</li>
-                                                            <li>INSTANT WITHDRAWAL OF INTEREST</li>
-                                                            <li>24/7 OPERATIONAL TIME</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="ptable-footer">
-                                                    <div class="ptable-action">
-                                                        <a href="{{route('user.register')}}">GET STARTED</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="ptable-item">
-                                            <div class="ptable-single">
-                                                <div class="ptable-header">
-                                                    <div class="ptable-title">
-                                                        <h2>Real Estate (Long Term)</h2>
-                                                    </div>
-                                                    <div class="ptable-price">
-                                                        <h2><small>$</small>500,000<span></span></h2>
-                                                    </div>
-                                                </div>
-                                                <div class="ptable-body">
-                                                    <div class="ptable-description">
-                                                        <ul>
-                                                            <li>5.0% ROI (MONTHLY)</li>
-                                                            <li>TRADE DURATION: 10 YEARS</li>
-                                                            <li>10% REFERAL BONUS</li>
-                                                            <li>INSTANT WITHDRAWAL OF INTEREST</li>
-                                                            <li>24/7 OPERATIONAL TIME</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="ptable-footer">
-                                                    <div class="ptable-action">
-                                                        <a href="{{route('user.register')}}">GET STARTED</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="ptable-item">
-                                            <div class="ptable-single">
-                                                <div class="ptable-header">
-                                                    <div class="ptable-title">
-                                                        <h2>NFP</h2>
-                                                    </div>
-                                                    <div class="ptable-price">
-                                                        <h2><small>$</small>50,000<span></span></h2>
-                                                    </div>
-                                                </div>
-                                                <div class="ptable-body">
-                                                    <div class="ptable-description">
-                                                        <ul>
-                                                            <li>250%(3-5DAYS)</li>
-                                                            <li>TRADE DURATION: 10 YEARS</li>
-                                                            <li>10% REFERAL BONUS</li>
-                                                            <li>INSTANT WITHDRAWAL OF INTEREST</li>
-                                                            <li>24/7 OPERATIONAL TIME</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="ptable-footer">
-                                                    <div class="ptable-action">
-                                                        <a href="{{route('user.register')}}">GET STARTED</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
                                         <div class="ptable-item">
                                             <div class="ptable-single">
                                                 <div class="ptable-header">
@@ -410,9 +354,9 @@
                                                 <div class="ptable-body">
                                                     <div class="ptable-description">
                                                         <ul>
-                                                            <li>5.0% ROI (WEEKLY)</li>
+                                                            <li>2.0% ROI (WEEKLY)</li>
                                                             <li>TRADE DURATION: 48 WEEKS</li>
-                                                            <li>10% REFERAL BONUS</li>
+                                                            <li>5% REFERAL BONUS</li>
                                                             <li>INSTANT WITHDRAWAL INTEREST</li>
                                                             <li>24/7 OPERATIONAL TIME</li>
                                                         </ul>
@@ -420,11 +364,76 @@
                                                 </div>
                                                 <div class="ptable-footer">
                                                     <div class="ptable-action">
-                                                        <a href="{{route('user.register')}}">GET STARTED</a>
+                                                        <a href="{{ route('user.register') }}">GET STARTED</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+
+                                        <div class="ptable-item">
+                                            <div class="ptable-single">
+                                                <div class="ptable-header">
+                                                    <div class="ptable-title">
+                                                        <h2>NFP</h2>
+                                                    </div>
+                                                    <div class="ptable-price">
+                                                        <h2><small>$</small>30,000<span></span></h2>
+                                                    </div>
+                                                </div>
+                                                <div class="ptable-body">
+                                                    <div class="ptable-description">
+                                                        <ul>
+                                                            <li>100% (30 DAYS)</li>
+                                                            <li>TRADE DURATION: 10 YEARS</li>
+                                                            <li>5% REFERAL BONUS</li>
+                                                            <li>INSTANT WITHDRAWAL OF INTEREST</li>
+                                                            <li>24/7 OPERATIONAL TIME</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="ptable-footer">
+                                                    <div class="ptable-action">
+                                                        <a href="{{ route('user.register') }}">GET STARTED</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+                                        <div class="ptable-item">
+                                            <div class="ptable-single">
+                                                <div class="ptable-header">
+                                                    <div class="ptable-title">
+                                                        <h2>Real Estate</h2>
+                                                    </div>
+                                                    <div class="ptable-price">
+                                                        <h2><small>$</small>50,000<span></span></h2>
+                                                    </div>
+                                                </div>
+                                                <div class="ptable-body">
+                                                    <div class="ptable-description">
+                                                        <ul>
+                                                            <li>Minimum investment $50,000</li>
+                                                            <li>250% ROI (WEEKLY)</li>
+                                                            <li>TRADE DURATION: 12 - 36 MONTHS</li>
+                                                            <li>5% REFERAL BONUS</li>
+                                                            <li>INSTANT WITHDRAWAL OF INTEREST</li>
+                                                            <li>24/7 OPERATIONAL TIME</li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="ptable-footer">
+                                                    <div class="ptable-action">
+                                                        <a href="{{ route('user.register') }}">GET STARTED</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+
+
 
                                     </div>
                                 </div>
@@ -441,7 +450,7 @@
                                 <div class="testimonial-slider">
                                     <div class="single-testimonial">
                                         <div class="content">
-                                            <div class="main-testimonial"><span class="w3-icon" >&#10077;</span>
+                                            <div class="main-testimonial"><span class="w3-icon">&#10077;</span>
                                                 <blockquote class="quote">
                                                     <p>It is a long established fact that a reader will be distracted by
                                                         the readable con tent of a page nomao when loing at its layout.
@@ -500,75 +509,24 @@
                                     <div class="col-sm-7 banner-right padding-top padding-bottom">
                                         <div class="banner-main-right">
                                             <div class="item-logo">
-                                                <a href="#" class="wrapper-img"><img
-                                                        src="assets/img/logo/achievement-logo-white-1.png"
-                                                        alt="achievement logo" class="logo-achievement"><img
-                                                        src="assets/img/logo/achievement-logo-green-1.png"
-                                                        alt="achievement logo" class="logo-achievement logo-hover"></a>
+                                                <a href="#" class="wrapper-img"><img src="assets/img/logo/comp1.jpg"
+                                                        alt="achievement logo" class="logo-achievement"></a>
                                             </div>
                                             <div class="item-logo">
-                                                <a href="#" class="wrapper-img"><img
-                                                        src="assets/img/logo/achievement-logo-white-2.png"
-                                                        alt="achievement logo" class="logo-achievement"><img
-                                                        src="assets/img/logo/achievement-logo-green-2.png"
-                                                        alt="achievement logo" class="logo-achievement logo-hover"></a>
+                                                <a href="#" class="wrapper-img"><img src="assets/img/logo/comp2.jpg"
+                                                        alt="achievement logo" class="logo-achievement"></a>
+                                            </div>
+                                            <div class="item-logo" style="margin-left: 55">
+                                                <a href="#" class="wrapper-img">
+                                                    {{-- <img src="assets/img/logo/comp3.jpg"
+                                                        alt="achievement logo" class="logo-achievement"> --}}
+                                                    </a>
                                             </div>
                                             <div class="item-logo">
-                                                <a href="#" class="wrapper-img"><img
-                                                        src="assets/img/logo/achievement-logo-white-3.png"
-                                                        alt="achievement logo" class="logo-achievement"><img
-                                                        src="assets/img/logo/achievement-logo-green-3.png"
-                                                        alt="achievement logo" class="logo-achievement logo-hover"></a>
+                                                <a href="#" class="wrapper-img"><img src="assets/img/logo/comp4.jpg"
+                                                        alt="achievement logo" class="logo-achievement"></a>
                                             </div>
-                                            <div class="item-logo">
-                                                <a href="#" class="wrapper-img"><img
-                                                        src="assets/img/logo/achievement-logo-white-4.png"
-                                                        alt="achievement logo" class="logo-achievement"><img
-                                                        src="assets/img/logo/achievement-logo-green-4.png"
-                                                        alt="achievement logo" class="logo-achievement logo-hover"></a>
-                                            </div>
-                                            <div class="item-logo">
-                                                <a href="#" class="wrapper-img"><img
-                                                        src="assets/img/logo/achievement-logo-white-5.png"
-                                                        alt="achievement logo" class="logo-achievement"><img
-                                                        src="assets/img/logo/achievement-logo-green-5.png"
-                                                        alt="achievement logo" class="logo-achievement logo-hover"></a>
-                                            </div>
-                                            <div class="item-logo">
-                                                <a href="#" class="wrapper-img"><img
-                                                        src="assets/img/logo/achievement-logo-white-1.png"
-                                                        alt="achievement logo" class="logo-achievement"><img
-                                                        src="assets/img/logo/achievement-logo-green-1.png"
-                                                        alt="achievement logo" class="logo-achievement logo-hover"></a>
-                                            </div>
-                                            <div class="item-logo">
-                                                <a href="#" class="wrapper-img"><img
-                                                        src="assets/img/logo/achievement-logo-white-2.png"
-                                                        alt="achievement logo" class="logo-achievement"><img
-                                                        src="assets/img/logo/achievement-logo-green-2.png"
-                                                        alt="achievement logo" class="logo-achievement logo-hover"></a>
-                                            </div>
-                                            <div class="item-logo">
-                                                <a href="#" class="wrapper-img"><img
-                                                        src="assets/img/logo/achievement-logo-white-3.png"
-                                                        alt="achievement logo" class="logo-achievement"><img
-                                                        src="assets/img/logo/achievement-logo-green-3.png"
-                                                        alt="achievement logo" class="logo-achievement logo-hover"></a>
-                                            </div>
-                                            <div class="item-logo">
-                                                <a href="#" class="wrapper-img"><img
-                                                        src="assets/img/logo/achievement-logo-white-4.png"
-                                                        alt="achievement logo" class="logo-achievement"><img
-                                                        src="assets/img/logo/achievement-logo-green-4.png"
-                                                        alt="achievement logo" class="logo-achievement logo-hover"></a>
-                                            </div>
-                                            <div class="item-logo">
-                                                <a href="#" class="wrapper-img"><img
-                                                        src="assets/img/logo/achievement-logo-white-5.png"
-                                                        alt="achievement logo" class="logo-achievement"><img
-                                                        src="assets/img/logo/achievement-logo-green-5.png"
-                                                        alt="achievement logo" class="logo-achievement logo-hover"></a>
-                                            </div>
+
                                         </div>
                                     </div>
                                 </div>

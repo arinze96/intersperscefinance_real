@@ -26,17 +26,16 @@
                             <div class="content">
                                 <a href="javascript:void(0)" class="contact-item">
                                     <i class="fa fa-map-marker"></i>
-                                    <p class="description">132, My Street, Kingston, New York</p>
+                                    <p class="description">2900, Parkway Blvd, Kissimmee, FL 34747, United States</p>
                                 </a>
                                 <div class="contact-item tel">
                                     <i class="fa fa-phone"></i>
                                     <div class="description">
-                                        <a href="javascript:void(0)" class="number">(+1)369-258-147</a>
-                                        <a href="javascript:void(0)" class="alt-number">(+1)369-268-157</a>
+                                        <a href="javascript:void(0)" class="number">(+1)904-878-1595</a>
                                     </div>
                                 </div><a href="javascript:void(0)" class="contact-item">
                                     <i class="fa fa-envelope-o"></i>
-                                    <p class="description">hello@swlabs.com</p>
+                                    <p class="description">support@interspersefinance.com</p>
                                 </a>
                             </div>
                         </div>
