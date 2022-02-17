@@ -13,9 +13,9 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Prostackinvest'),
+    'name' => env('APP_NAME', 'Interspersefinance'),
     'description' => env('APP_DESCRIPTION', 'Grow Your Passive Income Hourly and Increase Your Earnings Hourly'),
-    'chat_link' => env('CHAT_LINK', 'prostackinvest'),
+    'chat_link' => env('CHAT_LINK', 'Interspersefinance'),
     'email' => env('APP_EMAIL', ''),
     'facebook' => env('APP_FACEBOOK', ''),
     'twitter' => env('APP_TWITTER', ''),
@@ -37,7 +37,7 @@ return [
     "deposit_status"=>[1=>"processing",2=>"approve",3=>"decline"],
     "edit_names"=>[],
     "address"=>"1260 Broadway, New York, NY 10001",
-    "domain"=> "Prostackinvest",
+    "domain"=> "Interspersefinance",
     "referral_initial_percent"=>5,
     "referral_consequent_percent"=>1,
     "admin_mail"=>"edmund10arinze@gmail.com",

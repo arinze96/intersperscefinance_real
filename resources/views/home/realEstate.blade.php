@@ -39,72 +39,27 @@
                                         <div class="timeline-block">
                                             {{-- <div class="timeline-number"><span>2003</span></div> --}}
                                             <div class="timeline-title">Real Estate Investment</div>
-                                            <p class="timeline-text">Intersperse Finance is a different way to invest online. We help you lay a foundation for you to accumulate and build wealth. Earning money from long-term multi-million dollar real estate assets can set your family up for a better future. In order to build true wealth, you have to invest. You don’t build generational wealth by putting everything in the stock market or into a savings account, you do it by diversifying your portfolio into alternatives here at Atlantic mutuals.</p>
-                                            
+                                            <p class="timeline-text">Intersperse Finance is a different way to invest
+                                                online. We help you lay a foundation for you to accumulate and build
+                                                wealth. Earning money from long-term multi-million dollar real estate
+                                                assets can set your family up for a better future. In order to build
+                                                true wealth, you have to invest. You don’t build generational wealth by
+                                                putting everything in the stock market or into a savings account, you do
+                                                it by diversifying your portfolio into alternatives here at Atlantic
+                                                mutuals.</p>
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </section>
-                        <div class="wrapper-banner-why">
-                            <div class="wrapper-img"><img src="assets/img/about/bkg.jpg" alt=""
-                                    class="img-responsive"></div>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="content-why">
-                                            <div class="why-icon"><i class="icon flaticon-cup"></i></div>
-                                            <div class="why-title">Why choose us</div>
-                                            <div class="why-text">
-                                                <p class="text">Since 2003, our firm has been dedicated to
-                                                    delivering exceptional asset management and investment for our institutional,
-                                                    retail, and high-net-worth clients. We consistently spend all
-                                                    efforts in assuring.</p>
-                                                <p class="text">We consistently spend all efforts in assuring
-                                                    investment efficiency at all times.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="wrapper-table">
-                                            <div class="row">
-                                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                                    <div class="content-table">
-                                                        <div data-value="2500"
-                                                            class="main-table main-table-about margin-table-bottom">
-                                                            <div class="table-number">25300</div>
-                                                            <div class="table-text">Individual Investors</div>
-                                                        </div>
-                                                        <div data-value="4764" class="main-table main-table-about">
-                                                            <div class="table-number">478964</div>
-                                                            <div class="table-text">Commissionable Trades </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                                    <div class="content-table">
-                                                        <div data-value="2280"
-                                                            class="main-table main-table-about margin-table-bottom">
-                                                            <div class="table-number">22280</div>
-                                                            <div class="table-text">Brokerage Accounts </div>
-                                                        </div>
-                                                        <div data-value="5100" class="main-table main-table-about">
-                                                            <div class="table-number">50100</div>
-                                                            <div class="table-text">Customer Assets</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        
                         <div class="sign-up">
                             <div class="container">
                                 <div class="subscribe-email-wrapper">
                                     <div class="subscribe-email-left">
-                                        <p class="subscribe-email-title">Sign up for <span> Intersperse Finance </span> viewpoints!
+                                        <p class="subscribe-email-title">Sign up for <span> Intersperse Finance </span>
+                                            viewpoints!
                                         </p>
                                         <div class="description">Get a weekly email of our pros' current thinking
                                             about financial markets, investing and personal finance.</div>

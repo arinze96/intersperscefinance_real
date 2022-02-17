@@ -69,7 +69,10 @@
                                 <div class="case--study-text">
                                     <h3>Privacy</h3>
                                     <p>Respect for your personal data and information.</p>
-                                    <p>Prostackinvest, we place premium on the protection of our client's privacy and information. We are highly professional in dealing with our clients and as such, client's information cannot be shared with the public except by express permission from our clients.
+                                    <p>Prostackinvest, we place premium on the protection of our client's privacy and
+                                        information. We are highly professional in dealing with our clients and as such,
+                                        client's information cannot be shared with the public except by express
+                                        permission from our clients.
                                     </p>
                                 </div>
                                 <!-- .case-study-text end -->
@@ -80,7 +83,11 @@
                                 <div class="case--study-text">
                                     <h3>Fraud Protection</h3>
                                     <p>Safeguards to protect against unauthorized activity.</p>
-                                    <p>Prostackinvest is committed to safeguarding and protecting your account from fraud and all other unauthorized activities. Report as soon as you notice an illegal activity in your account and our company will move in swiftly to ensure you recover whatever loss that may arise as a result of such illegal activity.</p>
+                                    <p>Prostackinvest is committed to safeguarding and protecting your account from
+                                        fraud and all other unauthorized activities. Report as soon as you notice an
+                                        illegal activity in your account and our company will move in swiftly to ensure
+                                        you recover whatever loss that may arise as a result of such illegal activity.
+                                    </p>
                                 </div>
                                 <!-- .case-study-text end -->
                             </div>
@@ -89,7 +96,9 @@
                                 <div class="case--study-text">
                                     <h3>Data Security</h3>
                                     <p>Protection behind the scenes.</p>
-                                    <p>Our company uses the strongest browser encryption to protect our clients investments. We do this by ensuring that our data collection is saved on a secured server which is strong enough secure and store data.</p>
+                                    <p>Our company uses the strongest browser encryption to protect our clients
+                                        investments. We do this by ensuring that our data collection is saved on a
+                                        secured server which is strong enough secure and store data.</p>
                                 </div>
                                 <!-- .case-study-text end -->
                             </div>

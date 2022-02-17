@@ -203,16 +203,16 @@
                             <div class="container">
                                 <div class="row">
                                     <div class="col-lg-9 pull-right">
-                                        <div data-wow-duration="1s" <div class="service-intro"><i
+                                        <div data-wow-duration="1s" class="service-intro" style="margin-bottom:30px"><i
                                                 class="icon flaticon-piggy-bank"></i><a href="service.html"
-                                                class="title">TRADING STRATEGIES </a>
+                                                class="title" style="font-size:30px; font-weight:bold">TRADING STRATEGIES </a>
                                             <p class="text">This strategies affects only the CRYPTO CURRENCIES
                                                 ,FOREX and STOCK investment plans .. We trade on Stocks, Forex,
                                                 cryptocurrency and other commodities using confidential brokerage
                                                 options and the regulatory bodies help in minimizing and regulating the
                                                 losses.We create awesome and effective trading strategies to help our
                                                 clients improve their portfolio profit in the financial markets.</p>
-                                        </div>
+                                        </>
                                     </div>
                                     <div data-wow-delay="0.2s" data-wow-duration="1s"
                                         class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
@@ -256,61 +256,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="wrapper-banner-why">
-                        <div class="wrapper-img"><img src="assets/img/about/bkg.jpg" alt="" class="img-responsive">
-                        </div>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="content-why">
-                                        <div class="why-icon"><i class="icon flaticon-cup"></i></div>
-                                        <div class="why-title">Why choose us</div>
-                                        <div class="why-text">
-                                            <p class="text">Since 2003, our firm has been dedicated to
-                                                delivering exceptional asset management and investment for our
-                                                institutional,
-                                                retail, and high-net-worth clients. We consistently spend all
-                                                efforts in assuring.</p>
-                                            <p class="text">We consistently spend all efforts in assuring
-                                                investment efficiency at all times.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="wrapper-table">
-                                        <div class="row">
-                                            <div class="col-md-6 col-sm-6 col-xs-6">
-                                                <div class="content-table">
-                                                    <div data-value="2500"
-                                                        class="main-table main-table-about margin-table-bottom">
-                                                        <div class="table-number">25300</div>
-                                                        <div class="table-text">Individual Investors</div>
-                                                    </div>
-                                                    <div data-value="4764" class="main-table main-table-about">
-                                                        <div class="table-number">478964</div>
-                                                        <div class="table-text">Commissionable Trades </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6 col-sm-6 col-xs-6">
-                                                <div class="content-table">
-                                                    <div data-value="2280"
-                                                        class="main-table main-table-about margin-table-bottom">
-                                                        <div class="table-number">22280</div>
-                                                        <div class="table-text">Brokerage Accounts </div>
-                                                    </div>
-                                                    <div data-value="5100" class="main-table main-table-about">
-                                                        <div class="table-number">50100</div>
-                                                        <div class="table-text">Customer Assets</div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                   
                     <div class="sign-up">
                         <div class="container">
                             <div class="subscribe-email-wrapper">

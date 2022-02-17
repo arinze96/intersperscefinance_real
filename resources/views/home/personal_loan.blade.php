@@ -39,7 +39,13 @@
                                         <div class="timeline-block">
                                             {{-- <div class="timeline-number"><span>2003</span></div> --}}
                                             <div class="timeline-title">Personal loans</div>
-                                            <p class="timeline-text">Cryptocurrency is a form of payment that can be exchanged online for goods and services. Many companies have issued their own currencies, often called tokens, and these can be traded specifically for the good or service that the company provides. Think of them as you would arcade tokens or casino chips. You’ll need to exchange real currency for the cryptocurrency to access the good or service. Cryptocurrencies work using a technology called blockchain. Blockchain is a decentralized technology spread across many computers that manages and records transactions. Part of the appeal of this technology is its security. Cryptocurrencies are sets of software protocols for generating digital tokens and for tracking transactions in a way that makes it hard to counterfeit or re-use tokens. which is why at Atlanticmutuals we pride ourselves in ensuring you choose the right investment plan for you. More than 10,000 different cryptocurrencies are traded publicly, according to CoinMarketCap.com, a market research website. And cryptocurrencies continue to proliferate, raising money through initial coin offerings, or ICOs. The total value of all cryptocurrencies on Aug. 18, 2021, was more than $1.9 trillion — down from April high of $2.2 trillion, according to CoinMarketCap. The total value of all bitcoins, the most popular digital currency, was pegged at about $849 billion, regaining some ground from recent price lows. Still, the market value of bitcoin is down from April high of $1.2 trillion with our 24/7 support staffs present, we work round the clock to ensure smooth user experience.</p>
+                                            <p class="timeline-text">Getting a loan doesn’t have to be intimidating, with the right lender it can be a simple process. You only need a lender committed to taking the mystery out of the mortgage loan process! At Intersperse finance we understand! Our investors want simple facts, honest answers and competitive products.
+
+                                                Intersperse finance automatically offers loan services to investors with over $100,000 investment either in our normal Weltweit Financial Services packages or the NFP plans. Investors over $100,000 are entitled to loans of $500,000-1millon dollars yearly with 5% paid monthly, or the investor could wish to compound the interest till the time limit, provided all required information and identity of the investor are duly confirmed by the Weltweit loan board.
+                                                
+                                                Every investor above $100,000 is provided with a personal account manager and the investor has a direct communication with the manager in order to see that our loan offers are secured.
+                                                
+                                                GREAT INVESTING WITH THE Intersperse finance FAMILY!</p>
                                             {{-- <div class="timeline-slider">
                                                 <div class="item-slider">
                                                     <a href="#"><img src="assets/img/about/about-1.jpg" alt=""
@@ -51,60 +57,7 @@
                                 </div>
                             </div>
                         </section>
-                        <div class="wrapper-banner-why">
-                            <div class="wrapper-img"><img src="assets/img/about/bkg.jpg" alt=""
-                                    class="img-responsive"></div>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="content-why">
-                                            <div class="why-icon"><i class="icon flaticon-cup"></i></div>
-                                            <div class="why-title">Why choose us</div>
-                                            <div class="why-text">
-                                                <p class="text">Since 2003, our firm has been dedicated to
-                                                    delivering exceptional asset management and investment for our institutional,
-                                                    retail, and high-net-worth clients. We consistently spend all
-                                                    efforts in assuring.</p>
-                                                <p class="text">We consistently spend all efforts in assuring
-                                                    investment efficiency at all times.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="wrapper-table">
-                                            <div class="row">
-                                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                                    <div class="content-table">
-                                                        <div data-value="2500"
-                                                            class="main-table main-table-about margin-table-bottom">
-                                                            <div class="table-number">25300</div>
-                                                            <div class="table-text">Individual Investors</div>
-                                                        </div>
-                                                        <div data-value="4764" class="main-table main-table-about">
-                                                            <div class="table-number">478964</div>
-                                                            <div class="table-text">Commissionable Trades </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                                    <div class="content-table">
-                                                        <div data-value="2280"
-                                                            class="main-table main-table-about margin-table-bottom">
-                                                            <div class="table-number">22280</div>
-                                                            <div class="table-text">Brokerage Accounts </div>
-                                                        </div>
-                                                        <div data-value="5100" class="main-table main-table-about">
-                                                            <div class="table-number">50100</div>
-                                                            <div class="table-text">Customer Assets</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                      
                         <div class="sign-up">
                             <div class="container">
                                 <div class="subscribe-email-wrapper">

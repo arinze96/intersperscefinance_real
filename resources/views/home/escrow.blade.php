@@ -61,60 +61,7 @@
                                 </div>
                             </div>
                         </section>
-                        <div class="wrapper-banner-why">
-                            <div class="wrapper-img"><img src="assets/img/about/bkg.jpg" alt=""
-                                    class="img-responsive"></div>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="content-why">
-                                            <div class="why-icon"><i class="icon flaticon-cup"></i></div>
-                                            <div class="why-title">Why choose us</div>
-                                            <div class="why-text">
-                                                <p class="text">Since 2003, our firm has been dedicated to
-                                                    delivering exceptional asset management and investment for our institutional,
-                                                    retail, and high-net-worth clients. We consistently spend all
-                                                    efforts in assuring.</p>
-                                                <p class="text">We consistently spend all efforts in assuring
-                                                    investment efficiency at all times.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="wrapper-table">
-                                            <div class="row">
-                                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                                    <div class="content-table">
-                                                        <div data-value="2500"
-                                                            class="main-table main-table-about margin-table-bottom">
-                                                            <div class="table-number">25300</div>
-                                                            <div class="table-text">Individual Investors</div>
-                                                        </div>
-                                                        <div data-value="4764" class="main-table main-table-about">
-                                                            <div class="table-number">478964</div>
-                                                            <div class="table-text">Commissionable Trades </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                                    <div class="content-table">
-                                                        <div data-value="2280"
-                                                            class="main-table main-table-about margin-table-bottom">
-                                                            <div class="table-number">22280</div>
-                                                            <div class="table-text">Brokerage Accounts </div>
-                                                        </div>
-                                                        <div data-value="5100" class="main-table main-table-about">
-                                                            <div class="table-number">50100</div>
-                                                            <div class="table-text">Customer Assets</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        
                         <div class="sign-up">
                             <div class="container">
                                 <div class="subscribe-email-wrapper">

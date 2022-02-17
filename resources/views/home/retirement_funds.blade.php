@@ -25,7 +25,8 @@
                                         <h1 class="title">RETIREMENT FUNDS</h1>
                                         <ol class="breadcrumb">
                                             <li><a {{-- href="{{route('home')}}" --}} class="link home">Home</a></li>
-                                            <li><a {{-- href="{{route('about')}}" --}} class="link active">RETIREMENT FUNDS</a></li>
+                                            <li><a {{-- href="{{route('about')}}" --}} class="link active">RETIREMENT FUNDS</a>
+                                            </li>
                                         </ol>
                                     </div>
                                 </div>
@@ -40,77 +41,42 @@
                                             {{-- <div class="timeline-number"><span>2003</span></div> --}}
                                             <div class="timeline-title">RETIREMENT FUNDS</div>
                                             <p class="timeline-text">
-                                                On the surface, retirement planning hasn't changed all that much over the years. You work, you save and then you retire. But while the mechanics may be the same, today's savers are facing some challenges that previous generations didn't have to worry about.
-                                                
-                                                 First of all, life expectancy is longer, which means you'll need your money to last longer – potentially into your 90s. Bond yields are also much lower than they used to be, which means you can't buy a few fixed income instruments and earn a double-digit return. Then there is the health crisis due to the coronavirus pandemic.
-                                                
-                                                 This is compounded by the fact that more companies are moving away from defined benefit pensions —which guaranteed you a certain amount of money in your golden years — to defined contribution plans, which are more subject to market ups and downs.
-                                                
-                                                So, how can you have the retirement you've always wanted? After all, retirees want to experience all the things they couldn't do when they were too busy working. Exotic travel vacations, marathon running, novel writing, spending more time with friends and family — the possibilities are almost endless. There are several steps, which we explain in this retirement guide, from budgeting and setting goals to choosing the right retirement savings account that will help you map out a plan that's right for you.
+                                                On the surface, retirement planning hasn't changed all that much over
+                                                the years. You work, you save and then you retire. But while the
+                                                mechanics may be the same, today's savers are facing some challenges
+                                                that previous generations didn't have to worry about.
+
+                                                First of all, life expectancy is longer, which means you'll need your
+                                                money to last longer – potentially into your 90s. Bond yields are also
+                                                much lower than they used to be, which means you can't buy a few fixed
+                                                income instruments and earn a double-digit return. Then there is the
+                                                health crisis due to the coronavirus pandemic.
+
+                                                This is compounded by the fact that more companies are moving away from
+                                                defined benefit pensions —which guaranteed you a certain amount of money
+                                                in your golden years — to defined contribution plans, which are more
+                                                subject to market ups and downs.
+
+                                                So, how can you have the retirement you've always wanted? After all,
+                                                retirees want to experience all the things they couldn't do when they
+                                                were too busy working. Exotic travel vacations, marathon running, novel
+                                                writing, spending more time with friends and family — the possibilities
+                                                are almost endless. There are several steps, which we explain in this
+                                                retirement guide, from budgeting and setting goals to choosing the right
+                                                retirement savings account that will help you map out a plan that's
+                                                right for you.
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </section>
-                        <div class="wrapper-banner-why">
-                            <div class="wrapper-img"><img src="assets/img/about/bkg.jpg" alt=""
-                                    class="img-responsive"></div>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="content-why">
-                                            <div class="why-icon"><i class="icon flaticon-cup"></i></div>
-                                            <div class="why-title">Why choose us</div>
-                                            <div class="why-text">
-                                                <p class="text">Since 2003, our firm has been dedicated to
-                                                    delivering exceptional asset management and investment for our institutional,
-                                                    retail, and high-net-worth clients. We consistently spend all
-                                                    efforts in assuring.</p>
-                                                <p class="text">We consistently spend all efforts in assuring
-                                                    investment efficiency at all times.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="wrapper-table">
-                                            <div class="row">
-                                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                                    <div class="content-table">
-                                                        <div data-value="2500"
-                                                            class="main-table main-table-about margin-table-bottom">
-                                                            <div class="table-number">25300</div>
-                                                            <div class="table-text">Individual Investors</div>
-                                                        </div>
-                                                        <div data-value="4764" class="main-table main-table-about">
-                                                            <div class="table-number">478964</div>
-                                                            <div class="table-text">Commissionable Trades </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                                    <div class="content-table">
-                                                        <div data-value="2280"
-                                                            class="main-table main-table-about margin-table-bottom">
-                                                            <div class="table-number">22280</div>
-                                                            <div class="table-text">Brokerage Accounts </div>
-                                                        </div>
-                                                        <div data-value="5100" class="main-table main-table-about">
-                                                            <div class="table-number">50100</div>
-                                                            <div class="table-text">Customer Assets</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                      
                         <div class="sign-up">
                             <div class="container">
                                 <div class="subscribe-email-wrapper">
                                     <div class="subscribe-email-left">
-                                        <p class="subscribe-email-title">Sign up for <span> Intersperse Finance </span> viewpoints!
+                                        <p class="subscribe-email-title">Sign up for <span> Intersperse Finance </span>
+                                            viewpoints!
                                         </p>
                                         <div class="description">Get a weekly email of our pros' current thinking
                                             about financial markets, investing and personal finance.</div>

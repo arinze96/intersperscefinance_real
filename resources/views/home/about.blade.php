@@ -42,9 +42,20 @@
                                         <div class="timeline-block">
                                             <div class="timeline-number"><span>2003</span></div>
                                             <div class="timeline-title">Intersperse Finance were born</div>
-                                            <p class="timeline-text">Intersperse Finance was established in 2003 and it initially began trading stocks, shares and bonds, it got involved in forex in 2008 and was among the pioneer traders of Cryptocurrencies in the advent of Bitcoin in 2010. Intersperse Finance is currently managed by a senior team which has extensive experience in the development and implementation of systematic investment strategies. The company emphasises strong corporate governance and the provision of first class investor service to a client base which includes many of the world’s leading institutional investors.
+                                            <p class="timeline-text">Intersperse Finance was established in 2003 and it
+                                                initially began trading stocks, shares and bonds, it got involved in
+                                                forex in 2008 and was among the pioneer traders of Cryptocurrencies in
+                                                the advent of Bitcoin in 2010. Intersperse Finance is currently managed
+                                                by a senior team which has extensive experience in the development and
+                                                implementation of systematic investment strategies. The company
+                                                emphasises strong corporate governance and the provision of first class
+                                                investor service to a client base which includes many of the world’s
+                                                leading institutional investors.
 
-                                                At Intersperse Finance, we deliver strategic advice and solutions, including capital raising, risk management, and trade finance services to corporations, institutions and individuals, We also offer-long term and short-term investment opportunities.</p>
+                                                At Intersperse Finance, we deliver strategic advice and solutions,
+                                                including capital raising, risk management, and trade finance services
+                                                to corporations, institutions and individuals, We also offer-long term
+                                                and short-term investment opportunities.</p>
                                             {{-- <div class="timeline-slider">
                                                 <div class="item-slider">
                                                     <a href="#"><img src="assets/img/about/about-1.jpg" alt=""
@@ -56,65 +67,13 @@
                                 </div>
                             </div>
                         </section>
-                        <div class="wrapper-banner-why">
-                            <div class="wrapper-img"><img src="assets/img/about/banner-why-1.png" alt=""
-                                    class="img-responsive"></div>
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="content-why">
-                                            <div class="why-icon"><i class="icon flaticon-cup"></i></div>
-                                            <div class="why-title">Why choose us</div>
-                                            <div class="why-text">
-                                                <p class="text">Since 2003, our firm has been dedicated to
-                                                    delivering exceptional asset management and investment for our institutional,
-                                                    retail, and high-net-worth clients. We consistently spend all
-                                                    efforts in assuring.</p>
-                                                <p class="text">We consistently spend all efforts in assuring
-                                                    investment efficiency at all times.</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="wrapper-table">
-                                            <div class="row">
-                                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                                    <div class="content-table">
-                                                        <div data-value="2500"
-                                                            class="main-table main-table-about margin-table-bottom">
-                                                            <div class="table-number">25300</div>
-                                                            <div class="table-text">Individual Investors</div>
-                                                        </div>
-                                                        <div data-value="4764" class="main-table main-table-about">
-                                                            <div class="table-number">478964</div>
-                                                            <div class="table-text">Commissionable Trades </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 col-sm-6 col-xs-6">
-                                                    <div class="content-table">
-                                                        <div data-value="2280"
-                                                            class="main-table main-table-about margin-table-bottom">
-                                                            <div class="table-number">22280</div>
-                                                            <div class="table-text">Brokerage Accounts </div>
-                                                        </div>
-                                                        <div data-value="5100" class="main-table main-table-about">
-                                                            <div class="table-number">50100</div>
-                                                            <div class="table-text">Customer Assets</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                       
                         <div class="sign-up">
                             <div class="container">
                                 <div class="subscribe-email-wrapper">
                                     <div class="subscribe-email-left">
-                                        <p class="subscribe-email-title">Sign up for <span> Intersperse Finance </span> viewpoints!
+                                        <p class="subscribe-email-title">Sign up for <span> Intersperse Finance </span>
+                                            viewpoints!
                                         </p>
                                         <div class="description">Get a weekly email of our pros' current thinking
                                             about financial markets, investing and personal finance.</div>

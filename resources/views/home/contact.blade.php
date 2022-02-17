@@ -3,7 +3,7 @@
 
 
 <head>
-@include('includes.home_css')
+@include('include.home_css')
     
 </head>
 
@@ -11,7 +11,7 @@
     <div class="body-wrapper-content">
         <div class="sidenav-overlay"></div>
         <!-- HEADER-->
-        @include('includes.home_header')
+        @include('include.home_header')
         <!-- WRAPPER-->
         <div id="wrapper-content">
             <!-- PAGE WRAPPER-->
@@ -160,10 +160,10 @@
             <div id="back-top"><a href="#top" class="link"><i class="fa fa-angle-double-up"></i></a></div>
         </div>
         <!-- FOOTER-->
-        @include('includes.home_footer')
+        @include('include.home_footer')
     </div>
     <!-- LIBRARY JS-->
-    @include('includes.home_script')
+    @include('include.home_script')
 </body>
 
 

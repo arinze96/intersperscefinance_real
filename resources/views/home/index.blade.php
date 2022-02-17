@@ -2,7 +2,6 @@
 <html lang="en">
 
 @include('include.home_css')
-<!-- Mirrored from swlabs.co/goahead/html/ by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 07 Jan 2022 02:40:44 GMT -->
 
 <head>
     <title>Intersperce Finance | Home</title>
@@ -34,7 +33,7 @@
                                         <p class="text">
                                             24/7 monitoring of your investment is assured</p>
                                         <a href="{{ route('user.register') }}" class="button btn-main">GET STARTED</a>
-                                        <a href="{{ route('nonfarmpayroll') }}" role="button"
+                                        <a href="{{ route('investment_plan') }}" role="button"
                                             class="button btn-light">OUR PLANS</a>
                                     </div>
                                 </div>
@@ -47,7 +46,7 @@
                                         <p class="text">More Convenient Than Others
                                             Invest with us today. Let your money do the hardwork.</p>
                                         <a href="{{ route('user.register') }}" class="button btn-main">GET STARTED</a>
-                                        <a href="{{ route('nonfarmpayroll') }}" role="button"
+                                        <a href="{{ route('investment_plan') }}" role="button"
                                             class="button btn-light">OUR PLANS</a>
                                     </div>
                                 </div>
@@ -79,46 +78,48 @@
                                         <div class="finance-item">
                                             <a href="charity" class="wp-img img-wrapper"><img
                                                     src="assets/img/homepage/finance-1.jpg" alt=""
-                                                    class="img-responsive"></a><a href="{{route('charity')}}"
+                                                    class="img-responsive"></a><a href="{{ route('charity') }}"
                                                 class="title">CHARITY</a>
                                             <p class="text">We do a lot of charitable dees in uor
-                                                community to help the less privilaged</p><a href="{{route('charity')}}"
-                                                class="more">Learn more<i
+                                                community to help the less privilaged</p><a
+                                                href="{{ route('charity') }}" class="more">Learn more<i
                                                     class="fa fa-long-arrow-right"></i></a>
                                         </div>
                                     </div>
                                     <div data-wow-delay="0.6s" class="col-md-3 col-sm-6 col-xs-6 wow fadeInUp">
                                         <div class="finance-item">
-                                            <a href="{{route('children_account')}}" class="wp-img img-wrapper"><img
+                                            <a href="{{ route('children_account') }}" class="wp-img img-wrapper"><img
                                                     src="assets/img/homepage/finance-2.jpg" alt=""
-                                                    class="img-responsive"></a><a href="{{route('children_account')}}"
-                                                class="title">CHILDREN ACCOUNT</a>
+                                                    class="img-responsive"></a><a
+                                                href="{{ route('children_account') }}" class="title">CHILDREN
+                                                ACCOUNT</a>
                                             <p class="text">You can invest funds for your childs for a in our
                                                 childrens account package which will guarantee a better future</p><a
-                                                href="{{route('children_account')}}" class="more">Learn more<i
-                                                    class="fa fa-long-arrow-right"></i></a>
+                                                href="{{ route('children_account') }}" class="more">Learn
+                                                more<i class="fa fa-long-arrow-right"></i></a>
                                         </div>
                                     </div>
                                     <div data-wow-delay="1s" class="col-md-3 col-sm-6 col-xs-6 wow fadeInUp">
                                         <div class="finance-item">
-                                            <a href="{{route('personal_loan')}}" class="wp-img img-wrapper"><img
+                                            <a href="{{ route('personal_loan') }}" class="wp-img img-wrapper"><img
                                                     src="assets/img/homepage/finance-3.jpg" alt=""
-                                                    class="img-responsive"></a><a href="{{route('personal_loan')}}"
+                                                    class="img-responsive"></a><a href="{{ route('personal_loan') }}"
                                                 class="title">Personal Loans</a>
                                             <p class="text">Our company offers personal loans which can be
-                                                used for a variety of things</p><a href="{{route('personal_loan')}}"
-                                                class="more">Learn more<i
-                                                    class="fa fa-long-arrow-right"></i></a>
+                                                used for a variety of things</p><a
+                                                href="{{ route('personal_loan') }}" class="more">Learn
+                                                more<i class="fa fa-long-arrow-right"></i></a>
                                         </div>
                                     </div>
                                     <div data-wow-delay="1.4s" class="col-md-3 col-sm-6 col-xs-6 wow fadeInUp">
                                         <div class="finance-item">
-                                            <a href="{{route('retirement_funds')}}" class="wp-img img-wrapper"><img
+                                            <a href="{{ route('retirement_funds') }}" class="wp-img img-wrapper"><img
                                                     src="assets/img/blog/blog-2.jpg" alt=""
-                                                    class="img-responsive"></a><a href="{{route('retirement_funds')}}"
+                                                    class="img-responsive"></a><a
+                                                href="{{ route('retirement_funds') }}"
                                                 class="title">RETIREMENT FUND</a>
                                             <p class="text">We help you grow your retirement funds if you
-                                                invest with us</p><a href="{{route('retirement_funds')}}"
+                                                invest with us</p><a href="{{ route('retirement_funds') }}"
                                                 class="more">Learn more<i
                                                     class="fa fa-long-arrow-right"></i></a>
                                         </div>
@@ -179,7 +180,7 @@
                                         <div data-wow-delay="0.2s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-piggy-bank"></i><a
-                                                    href="service.html" class="title">Crypto Currencies</a>
+                                                    href="service.html" class="title" style="font-size:25; font-weight:bold">Crypto Currencies</a>
                                                 <p class="text">We help you manage your cryptocurrency
                                                     portfolio and help you grow them exponentially </p>
                                             </div>
@@ -187,7 +188,7 @@
                                         <div data-wow-delay="0.5s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-tasks"></i><a
-                                                    href="service.html" class="title">Forex</a>
+                                                    href="service.html" class="title" style="font-size:25; font-weight:bold">Forex</a>
                                                 <p class="text">Our team of experience trader, trades you
                                                     funds all the time thereby growing you funds dailt</p>
                                             </div>
@@ -195,8 +196,8 @@
                                         <div data-wow-delay="0.8s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-lifebuoy"></i><a
-                                                    href="service.html" class="title">Stocks</a>
-                                                <p class="text">Our team o experts helps in the investments
+                                                    href="service.html" class="title" style="font-size:25; font-weight:bold">Stocks</a>
+                                                <p class="text">Our team oF experts helps in the investments
                                                     of highly-rated company stock, including corporate and sovereign
                                                     debt, equities, currencies and various derivatives and structured
                                                     products.</p>
@@ -205,7 +206,7 @@
                                         <div data-wow-delay="1.1s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-diagram"></i><a
-                                                    href="service.html" class="title">Non-farm Payroll
+                                                    href="service.html" class="title" style="font-size:25; font-weight:bold">Non-farm Payroll
                                                     (NFP)</a>
                                                 <p class="text">The non-farm payroll (NFP) figure is a key
                                                     economic indicator. It represents the number of jobs added,
@@ -218,7 +219,7 @@
                                         <div data-wow-delay="1.4s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-calculator"></i><a
-                                                    href="service.html" class="title">Real Estate</a>
+                                                    href="service.html" class="title" style="font-size:25; font-weight:bold">Real Estate</a>
                                                 <p class="text">We also run real estate fund investments
                                                     which has proven to give the highest returns in recent times</p>
                                             </div>
@@ -226,7 +227,7 @@
                                         <div data-wow-delay="1.7s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-dollar-coins"></i><a
-                                                    href="service.html" class="title">Escrow Services</a>
+                                                    href="service.html" class="title" style="font-size:25; font-weight:bold">Escrow Services</a>
                                                 <p class="text">We offer escrow services to our customers who
                                                     needs to make exchanges between two parties </p>
                                             </div>
@@ -261,331 +262,370 @@
                             </div>
                         </section>
 
-                        <section class="page-banner about">
+                        <div class="service service-banner padding-top padding-bottom">
                             <div class="container">
-                                <div class="page-title-wrapper">
-                                    <div class="page-title-content">
-                                        <h1 class="title">INVESTMENT PLANS</h1>
-                                        <ol class="breadcrumb">
-                                            <li><a href="{{ route('app.home') }}" class="link home">Home</a></li>
-                                            <li><a href="{{ route('investment_plan') }}"
-                                                    class="link active">INVESTMENT PLANS</a>
-                                            </li>
-                                        </ol>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section class="about-special padding-top padding-bottom">
-                            <div class="container">
-                                <h2 class="page-title">INVESTMENT PLANS</h2>
-                                <div class="wrapper-timeline">
-                                    <h1 class="demo-title">
-                                        INVESTMENT PLANS<br> <br> <br>
-                                    </h1>
-                                    <div class="pricing-table">
-                                        <div class="ptable-item">
-                                            <div class="ptable-single">
-                                                <div class="ptable-header">
-                                                    <div class="ptable-title">
-                                                        <h2>Cryptocurrencies</h2>
-                                                    </div>
-                                                    <div class="ptable-price">
-                                                        <h2><small>$</small>1000<span></span></h2>
-                                                    </div>
-                                                </div>
-                                                <div class="ptable-body">
-                                                    <div class="ptable-description">
-                                                        <ul>
-                                                            <li>5.0% ROI (WEEKLY)</li>
-                                                            <li>TRADE DURATION: 48 WEEKS</li>
-                                                            <li>5% REFERAL BONUS</li>
-                                                            <li>INSTANT WITHDRAWAL OF INTEREST</li>
-                                                            <li>24/7 OPERATIONAL TIME</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="ptable-footer">
-                                                    <div class="ptable-action">
-                                                        <a href="{{ route('user.register') }}">GET STARTED</a>
-                                                    </div>
-                                                </div>
+                                <div class="row">
+                                    <div class="col-lg-9 pull-right">
+                                        <div data-wow-duration="1s" class="service-intro" style="margin-bottom:30px">
+                                            <i class="icon flaticon-piggy-bank"></i><a href="service.html"
+                                                class="title" style="font-size:30px; font-weight:bold">TRADING
+                                                STRATEGIES </a>
+                                            <p class="text">This strategies affects only the CRYPTO
+                                                CURRENCIES
+                                                ,FOREX and STOCK investment plans .. We trade on Stocks, Forex,
+                                                cryptocurrency and other commodities using confidential brokerage
+                                                options and the regulatory bodies help in minimizing and regulating the
+                                                losses.We create awesome and effective trading strategies to help our
+                                                clients improve their portfolio profit in the financial markets.</p>
+                                            </>
+                                        </div>
+                                        <div data-wow-delay="0.2s" data-wow-duration="1s"
+                                            class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
+                                            <div class="service-intro"><i class="icon flaticon-tasks"></i><a
+                                                    href="service.html" class="title">OPEN BALANCE
+                                                    STRATEGY</a>
+                                                <p class="text">The term open balance as used here means that
+                                                    the
+                                                    investor stands eligible to withdraw weekly from available balance.
+                                                    The
+                                                    minimum investment for this plan is $1000
+                                                    This pays 5% per week of your initial investment for a total of 52
+                                                    weeks
+                                                    (12 months ) starting from the day of investment.</p>
                                             </div>
                                         </div>
-
-                                        <div class="ptable-item">
-                                            <div class="ptable-single">
-                                                <div class="ptable-header">
-                                                    <div class="ptable-title">
-                                                        <h2>Forex</h2>
-                                                    </div>
-                                                    <div class="ptable-price">
-                                                        <h2><small>$</small>3000<span></span></h2>
-                                                    </div>
-                                                </div>
-                                                <div class="ptable-body">
-                                                    <div class="ptable-description">
-                                                        <ul>
-                                                            <li>6.0% ROI (WEEKLY)</li>
-                                                            <li>TRADE DURATION: 48 WEEKS</li>
-                                                            <li>5% REFERAL BONUS</li>
-                                                            <li>INSTANT WITHDRAWAL OF INTEREST</li>
-                                                            <li>24/7 OPERATIONAL TIME</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="ptable-footer">
-                                                    <div class="ptable-action">
-                                                        <a href="{{ route('user.register') }}">GET STARTED</a>
-                                                    </div>
-                                                </div>
+                                        <div data-wow-delay="0.5s" data-wow-duration="1s"
+                                            class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
+                                            <div class="service-intro"><i class="icon flaticon-tasks"></i><a
+                                                    href="service.html" class="title">LOCKED BALANCE
+                                                    STRATEGY</a>
+                                                <p class="text">The term “ locked balance “ as used here
+                                                    means
+                                                    that the investor do not stand eligible to withdraw weekly from
+                                                    available balance but can only withdraw Annually from your total
+                                                    available balance on the date of expiry .
+                                                    The minimum investment for this plan is $5000
+                                                    this pays 10% per week of your initial investment for a total of 52
+                                                    weeks (12 months ) starting from the day of investment.</p>
                                             </div>
                                         </div>
-                                        <div class="ptable-item">
-                                            <div class="ptable-single">
-                                                <div class="ptable-header">
-                                                    <div class="ptable-title">
-                                                        <h2>STOCKS</h2>
-                                                    </div>
-                                                    <div class="ptable-price">
-                                                        <h2><small>$</small>5,000<span></span></h2>
-                                                    </div>
-                                                </div>
-                                                <div class="ptable-body">
-                                                    <div class="ptable-description">
-                                                        <ul>
-                                                            <li>2.0% ROI (WEEKLY)</li>
-                                                            <li>TRADE DURATION: 48 WEEKS</li>
-                                                            <li>5% REFERAL BONUS</li>
-                                                            <li>INSTANT WITHDRAWAL INTEREST</li>
-                                                            <li>24/7 OPERATIONAL TIME</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="ptable-footer">
-                                                    <div class="ptable-action">
-                                                        <a href="{{ route('user.register') }}">GET STARTED</a>
-                                                    </div>
-                                                </div>
+                                        <div data-wow-delay="0.8s" data-wow-duration="1s"
+                                            class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
+                                            <div class="service-intro"><i class="icon flaticon-lifebuoy"></i><a
+                                                    href="service.html" class="title">COMPOUNDING INTEREST
+                                                    STRATEGY
+                                                </a>
+                                                <p class="text">The term compounding interest shows that your
+                                                    profits will be compounded until after 5 weeks . Then the clients
+                                                    proceed to earn 15% of investment for the remaining 48 weeks . The
+                                                    minimum investment for this Strategy is $15,000
+                                                    Here the client earns 15% of investment weekly .
+                                                    And is eligible to withdraw only 3 times until the end of the
+                                                    contract
+                                                </p>
                                             </div>
                                         </div>
-
-                                        <div class="ptable-item">
-                                            <div class="ptable-single">
-                                                <div class="ptable-header">
-                                                    <div class="ptable-title">
-                                                        <h2>NFP</h2>
-                                                    </div>
-                                                    <div class="ptable-price">
-                                                        <h2><small>$</small>30,000<span></span></h2>
-                                                    </div>
-                                                </div>
-                                                <div class="ptable-body">
-                                                    <div class="ptable-description">
-                                                        <ul>
-                                                            <li>100% (30 DAYS)</li>
-                                                            <li>TRADE DURATION: 10 YEARS</li>
-                                                            <li>5% REFERAL BONUS</li>
-                                                            <li>INSTANT WITHDRAWAL OF INTEREST</li>
-                                                            <li>24/7 OPERATIONAL TIME</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="ptable-footer">
-                                                    <div class="ptable-action">
-                                                        <a href="{{ route('user.register') }}">GET STARTED</a>
-                                                    </div>
-                                                </div>
+                                        <div data-wow-delay="0.8s" data-wow-duration="1s"
+                                            class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
+                                            <div class="service-intro"><i class="icon flaticon-lifebuoy"></i><a
+                                                    href="service.html" class="title">
+                                                </a>
+                                                <p class="text">
+                                                </p>
                                             </div>
-                                        </div>
-
-
-                                        <div class="ptable-item">
-                                            <div class="ptable-single">
-                                                <div class="ptable-header">
-                                                    <div class="ptable-title">
-                                                        <h2>Real Estate</h2>
-                                                    </div>
-                                                    <div class="ptable-price">
-                                                        <h2><small>$</small>50,000<span></span></h2>
-                                                    </div>
-                                                </div>
-                                                <div class="ptable-body">
-                                                    <div class="ptable-description">
-                                                        <ul>
-                                                            <li>Minimum investment $50,000</li>
-                                                            <li>250% ROI (WEEKLY)</li>
-                                                            <li>TRADE DURATION: 12 - 36 MONTHS</li>
-                                                            <li>5% REFERAL BONUS</li>
-                                                            <li>INSTANT WITHDRAWAL OF INTEREST</li>
-                                                            <li>24/7 OPERATIONAL TIME</li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                                <div class="ptable-footer">
-                                                    <div class="ptable-action">
-                                                        <a href="{{ route('user.register') }}">GET STARTED</a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-
-
-
-
-
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-
-
-                        <section class="testimonial padding-top padding-bottom">
-                            <div class="container">
-                                <div class="title-wrapper title-wrapper-main">
-                                    <h1 class="subtitle">SAYINGS</h1>
-                                    <h2 class="title">TESTIMONIAL</h2>
-                                </div>
-                                <div class="testimonial-slider">
-                                    <div class="single-testimonial">
-                                        <div class="content">
-                                            <div class="main-testimonial"><span class="w3-icon">&#10077;</span>
-                                                <blockquote class="quote">
-                                                    <p>It is a long established fact that a reader will be distracted by
-                                                        the readable con tent of a page nomao when loing at its layout.
-                                                        The point of using Ipsum is that it has a more-or-less normal
-                                                        distribution of letters readable content of a page.</p>
-                                                </blockquote>
-                                            </div><span class="name">Howard K. Stern</span><span
-                                                class="company">WallStreet Company</span>
-                                        </div>
-                                    </div>
-                                    <div class="single-testimonial">
-                                        <div class="content">
-                                            <div class="main-testimonial"><span class="w3-icon">&#10077;</span>
-                                                <blockquote class="quote">
-                                                    <p>The cycle for adding new features, including any refactoring, is
-                                                        roughly this: write failing test; code; get to green; make it
-                                                        right. If you’re doing it right, you’re executing a lot of unit
-                                                        tests along the way, sometimes a focused set and sometimes the
-                                                        entire suite.</p>
-                                                </blockquote>
-                                            </div><span class="name">David Doe</span><span
-                                                class="company">Apollo Company</span>
-                                        </div>
-                                    </div>
-                                    <div class="single-testimonial">
-                                        <div class="content">
-                                            <div class="main-testimonial"><span class="w3-icon">&#10077;</span>
-                                                <blockquote class="quote">
-                                                    <p>While in ES5 ‘this’ referred to the parent of the function, in
-                                                        ES6, arrow functions use lexical scoping — ‘this’ refers to it’s
-                                                        current surrounding scope and no further. Thus the inner, and
-                                                        not to the object’s method or the object itself.</p>
-                                                </blockquote>
-                                            </div><span class="name">Susan Solomon</span><span
-                                                class="company">Aurora Company</span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </section>
 
-
-                        <section class="achievement-dark achievement-dark-banner">
-                            <div class="container">
-                                <div class="row banner">
-                                    <div class="col-sm-4 banner-left padding-top padding-bottom">
-                                        <div class="banner-main-left">
-                                            <h2 class="title">You deserve the best</h2>
-                                            <p class="text">We'll help you rollover your old retirement plan
-                                                so you can enjoy our wide variety of investment options and roll your
-                                                old one-on-one guidance retirement plan.</p><a href="javascript:void(0)"
-                                                class="button btn-main">READ MORE</a>
+                            <section class="page-banner about">
+                                <div class="container">
+                                    <div class="page-title-wrapper">
+                                        <div class="page-title-content">
+                                            <h1 class="title">INVESTMENT PLANS</h1>
+                                            <ol class="breadcrumb">
+                                                <li><a href="{{ route('app.home') }}"
+                                                        class="link home">Home</a>
+                                                </li>
+                                                <li><a href="{{ route('investment_plan') }}"
+                                                        class="link active">INVESTMENT PLANS</a>
+                                                </li>
+                                            </ol>
                                         </div>
                                     </div>
-                                    <div class="col-sm-1 dummy-cell">&nbsp;</div>
-                                    <div class="col-sm-7 banner-right padding-top padding-bottom">
-                                        <div class="banner-main-right">
-                                            <div class="item-logo">
-                                                <a href="#" class="wrapper-img"><img src="assets/img/logo/comp1.jpg"
-                                                        alt="achievement logo" class="logo-achievement"></a>
+                                </div>
+                            </section>
+                            <section class="about-special padding-top padding-bottom">
+                                <div class="container">
+                                    <h2 class="page-title">INVESTMENT PLANS</h2>
+                                    <div class="wrapper-timeline">
+                                        <h1 class="demo-title">
+                                            INVESTMENT PLANS<br> <br> <br>
+                                        </h1>
+                                        <div class="pricing-table">
+                                            <div class="ptable-item">
+                                                <div class="ptable-single">
+                                                    <div class="ptable-header">
+                                                        <div class="ptable-title">
+                                                            <h2>Cryptocurrencies</h2>
+                                                        </div>
+                                                        <div class="ptable-price">
+                                                            <h2><small>$</small>1000<span></span></h2>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ptable-body">
+                                                        <div class="ptable-description">
+                                                            <ul>
+                                                                <li>Minimum investment $0,000</li>
+                                                                <li>5.0% ROI (WEEKLY)</li>
+                                                                <li>TRADE DURATION: 48 WEEKS</li>
+                                                                <li>5% REFERAL BONUS</li>
+                                                                <li>INSTANT WITHDRAWAL OF INTEREST</li>
+                                                                <li>24/7 OPERATIONAL TIME</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ptable-footer">
+                                                        <div class="ptable-action">
+                                                            <a href="{{ route('user.register') }}">GET STARTED</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="item-logo">
-                                                <a href="#" class="wrapper-img"><img src="assets/img/logo/comp2.jpg"
-                                                        alt="achievement logo" class="logo-achievement"></a>
+
+                                            <div class="ptable-item">
+                                                <div class="ptable-single">
+                                                    <div class="ptable-header">
+                                                        <div class="ptable-title">
+                                                            <h2>Forex</h2>
+                                                        </div>
+                                                        <div class="ptable-price">
+                                                            <h2><small>$</small>3000<span></span></h2>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ptable-body">
+                                                        <div class="ptable-description">
+                                                            <ul>
+                                                                <li>Minimum investment $3,000</li>
+                                                                <li>6.0% ROI (WEEKLY)</li>
+                                                                <li>TRADE DURATION: 48 WEEKS</li>
+                                                                <li>5% REFERAL BONUS</li>
+                                                                <li>INSTANT WITHDRAWAL OF INTEREST</li>
+                                                                <li>24/7 OPERATIONAL TIME</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ptable-footer">
+                                                        <div class="ptable-action">
+                                                            <a href="{{ route('user.register') }}">GET STARTED</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
-                                            <div class="item-logo" style="margin-left: 55">
-                                                <a href="#" class="wrapper-img">
-                                                    {{-- <img src="assets/img/logo/comp3.jpg"
+                                            <div class="ptable-item">
+                                                <div class="ptable-single">
+                                                    <div class="ptable-header">
+                                                        <div class="ptable-title">
+                                                            <h2>STOCKS</h2>
+                                                        </div>
+                                                        <div class="ptable-price">
+                                                            <h2><small>$</small>5,000<span></span></h2>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ptable-body">
+                                                        <div class="ptable-description">
+                                                            <ul>
+                                                                <li>Minimum investment $5,000</li>
+                                                                <li>2.0% ROI (WEEKLY)</li>
+                                                                <li>TRADE DURATION: 48 WEEKS</li>
+                                                                <li>5% REFERAL BONUS</li>
+                                                                <li>INSTANT WITHDRAWAL INTEREST</li>
+                                                                <li>24/7 OPERATIONAL TIME</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ptable-footer">
+                                                        <div class="ptable-action">
+                                                            <a href="{{ route('user.register') }}">GET STARTED</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div class="ptable-item">
+                                                <div class="ptable-single">
+                                                    <div class="ptable-header">
+                                                        <div class="ptable-title">
+                                                            <h2>NFP</h2>
+                                                        </div>
+                                                        <div class="ptable-price">
+                                                            <h2><small>$</small>30,000<span></span></h2>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ptable-body">
+                                                        <div class="ptable-description">
+                                                            <ul>
+                                                                <li>Minimum investment $30,000</li>
+                                                                <li>100% (30 DAYS)</li>
+                                                                <li>TRADE DURATION: 10 YEARS</li>
+                                                                <li>5% REFERAL BONUS</li>
+                                                                <li>INSTANT WITHDRAWAL OF INTEREST</li>
+                                                                <li>24/7 OPERATIONAL TIME</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ptable-footer">
+                                                        <div class="ptable-action">
+                                                            <a href="{{ route('user.register') }}">GET STARTED</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+                                            <div class="ptable-item">
+                                                <div class="ptable-single">
+                                                    <div class="ptable-header">
+                                                        <div class="ptable-title">
+                                                            <h2>Real Estate</h2>
+                                                        </div>
+                                                        <div class="ptable-price">
+                                                            <h2><small>$</small>50,000<span></span></h2>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ptable-body">
+                                                        <div class="ptable-description">
+                                                            <ul>
+                                                                <li>Minimum investment $50,000</li>
+                                                                <li>250% ROI (WEEKLY)</li>
+                                                                <li>TRADE DURATION: 12 - 36 MONTHS</li>
+                                                                <li>5% REFERAL BONUS</li>
+                                                                <li>INSTANT WITHDRAWAL OF INTEREST</li>
+                                                                <li>24/7 OPERATIONAL TIME</li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ptable-footer">
+                                                        <div class="ptable-action">
+                                                            <a href="{{ route('user.register') }}">GET STARTED</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+
+
+
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+
+                            <section class="testimonial padding-top padding-bottom">
+                                <div class="container">
+                                    <div class="title-wrapper title-wrapper-main">
+                                        <h1 class="subtitle">SAYINGS</h1>
+                                        <h2 class="title">TESTIMONIAL</h2>
+                                    </div>
+                                    <div class="testimonial-slider">
+                                        <div class="single-testimonial">
+                                            <div class="content">
+                                                <div class="main-testimonial"><span
+                                                        class="w3-icon">&#10077;</span>
+                                                    <blockquote class="quote">
+                                                        <p>Since i joined interspersefinance i had seen a massive returns on the investments i have made and it makes me feel good and i also encourage you to invest</p>
+                                                    </blockquote>
+                                                </div><span class="name">Howard K. Stern</span>
+                                                {{-- <span
+                                                    class="company">WallStreet Company</span> --}}
+                                            </div>
+                                        </div>
+                                        <div class="single-testimonial">
+                                            <div class="content">
+                                                <div class="main-testimonial"><span
+                                                        class="w3-icon">&#10077;</span>
+                                                    <blockquote class="quote">
+                                                        <p>
+                                                            real estate investment was the game changer for me i made thousands of dollars on a single investment
+                                                        </p>
+                                                    </blockquote>
+                                                </div><span class="name">David Doe</span>
+                                                {{-- <span
+                                                    class="company">Apollo Company</span> --}}
+                                            </div>
+                                        </div>
+                                        <div class="single-testimonial">
+                                            <div class="content">
+                                                <div class="main-testimonial"><span
+                                                        class="w3-icon">&#10077;</span>
+                                                    <blockquote class="quote">
+                                                        <p>Never think of a bigger source of passive other than intersperse finance, this company will help you reach your financial goals</p>
+                                                    </blockquote>
+                                                </div><span class="name">Susan Solomon</span><span
+                                                    class="company">Aurora Company</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+
+                            <section class="achievement-dark achievement-dark-banner">
+                                <div class="container">
+                                    <div class="row banner">
+                                        <div class="col-sm-4 banner-left padding-top padding-bottom">
+                                            <div class="banner-main-left">
+                                                <h2 class="title">You deserve the best</h2>
+                                                <p class="text">We'll help you rollover your old retirement
+                                                    plan
+                                                    so you can enjoy our wide variety of investment options and roll
+                                                    your
+                                                    old one-on-one guidance retirement plan.</p><a
+                                                    href="javascript:void(0)" class="button btn-main">READ MORE</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-1 dummy-cell">&nbsp;</div>
+                                        <div class="col-sm-7 banner-right padding-top padding-bottom">
+                                            <div class="banner-main-right">
+                                                <div class="item-logo">
+                                                    <a href="#" class="wrapper-img"><img
+                                                            src="assets/img/logo/comp1.jpg" alt="achievement logo"
+                                                            class="logo-achievement"></a>
+                                                </div>
+                                                <div class="item-logo">
+                                                    <a href="#" class="wrapper-img"><img
+                                                            src="assets/img/logo/comp2.jpg" alt="achievement logo"
+                                                            class="logo-achievement"></a>
+                                                </div>
+                                                <div class="item-logo" style="margin-left: 55">
+                                                    <a href="#" class="wrapper-img">
+                                                        {{-- <img src="assets/img/logo/comp3.jpg"
                                                         alt="achievement logo" class="logo-achievement"> --}}
                                                     </a>
-                                            </div>
-                                            <div class="item-logo">
-                                                <a href="#" class="wrapper-img"><img src="assets/img/logo/comp4.jpg"
-                                                        alt="achievement logo" class="logo-achievement"></a>
-                                            </div>
+                                                </div>
+                                                <div class="item-logo">
+                                                    <a href="#" class="wrapper-img"><img
+                                                            src="assets/img/logo/comp4.jpg" alt="achievement logo"
+                                                            class="logo-achievement"></a>
+                                                </div>
 
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                            </section>
+
+
+                            <div id="back-top"><a href="#top" class="link"><i
+                                        class="fa fa-angle-double-up"></i></a>
                             </div>
-                        </section>
-
-
-
-
-                        <section class="newsletter newsletter-banner">
-                            <div class="container">
-                                <div class="row banner">
-                                    <div class="col-sm-1 padding-top-small padding-bottom-small banner-left">
-                                        <div class="banner-main-left"><i class="fa fa-life-ring"></i></div>
-                                    </div>
-                                    <div class="col-sm-4 padding-top-small padding-bottom-small banner-middle">
-                                        <div class="banner-main-middle">
-                                            <h2 class="banner-middle-title">We're here to help you</h2>
-                                            <p class="text">No matter what financial questions you have,
-                                                we're here to work with you on your terms.</p>
-                                            <div class="service"><i class="icon fa fa-comment-o"></i>
-                                                <p class="description">Chat with a representative</p>
-                                            </div>
-                                            <div class="service"><i class="fa fa-question-circle-o"></i>
-                                                <p class="description">Do you have any questions?<span
-                                                        class="tel">800-343-3548</span></p>
-                                            </div>
-                                            <div class="service"><i class="fa fa-registered"></i>
-                                                <p class="description">Find an Investor Center</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-7 padding-top-small padding-bottom-small banner-right">
-                                        <div class="banner-main-right">
-                                            <h2 class="banner-right-title">Sign up for<span class="brand">
-                                                    Interspersefinance</span> viewpoints!</h2>
-                                            <p class="text">Get a weekly email of our pros' current thinking
-                                                about financial markets, investing egieas, and personal finance.</p>
-                                            <form class="signup">
-                                                <input type="text" placeholder="Name" class="name form-control">
-                                                <input type="text" placeholder="Email" class="email form-control">
-                                                <textarea placeholder="Message"
-                                                    class="message form-control"></textarea>
-                                                <button type="submit" class="submit">Submit Message<i
-                                                        class="fa fa-long-arrow-right"></i></button>
-                                            </form>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            </div>
-            <div id="back-top"><a href="#top" class="link"><i class="fa fa-angle-double-up"></i></a></div>
-        </div>
-        <!-- FOOTER-->
-        @include('include.home_footer')
-        <!-- LIBRARY JS-->
+                        </div>
+                        <!-- FOOTER-->
+                        @include('include.home_footer')
+                        <!-- LIBRARY JS-->
 
 </body>
 @include('include.home_script')
