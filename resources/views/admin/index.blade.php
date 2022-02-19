@@ -23,7 +23,7 @@
     <!--End of Tawk.to Script-->
 </head>
 
-<body class="nk-body bg-lighter npc-general has-sidebar ">whraaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabrsffffffffffffffffffff
+<body class="nk-body bg-lighter npc-general has-sidebar ">
     <div class="nk-app-root">
         <!-- main @s -->
         <div class="nk-main ">

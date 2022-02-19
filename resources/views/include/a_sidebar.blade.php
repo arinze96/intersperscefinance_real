@@ -3,7 +3,7 @@
         <div class="nk-sidebar-brand">
             <a href="{{ route("app.home") }}" class="logo-link nk-sidebar-logo h3 text-light">
                 
-                {{-- {{ config("app.name") }} --}}Monetarytrades
+                {{-- {{ config("app.name") }} --}}Interspersefinance
             
             </a>
         </div>

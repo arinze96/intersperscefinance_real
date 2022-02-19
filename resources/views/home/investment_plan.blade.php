@@ -54,6 +54,7 @@
                                                 <div class="ptable-body">
                                                     <div class="ptable-description">
                                                         <ul>
+                                                            <li>MINIMUM INVESTMENT $1,000</li>
                                                             <li>5.0% ROI (WEEKLY)</li>
                                                             <li>TRADE DURATION: 48 WEEKS</li>
                                                             <li>5% REFERAL BONUS</li>
@@ -83,6 +84,7 @@
                                                 <div class="ptable-body">
                                                     <div class="ptable-description">
                                                         <ul>
+                                                            <li>MINIMUM INVESTMENT $3,000</li>
                                                             <li>6.0% ROI (WEEKLY)</li>
                                                             <li>TRADE DURATION: 48 WEEKS</li>
                                                             <li>5% REFERAL BONUS</li>
@@ -111,7 +113,8 @@
                                                 <div class="ptable-body">
                                                     <div class="ptable-description">
                                                         <ul>
-                                                            <li>2.0% ROI (WEEKLY)</li>
+                                                            <li>MINIMUM INVESTMENT $5,000</li>
+                                                            <li>7.0% ROI (WEEKLY)</li>
                                                             <li>TRADE DURATION: 48 WEEKS</li>
                                                             <li>5% REFERAL BONUS</li>
                                                             <li>INSTANT WITHDRAWAL INTEREST</li>
@@ -140,8 +143,9 @@
                                                 <div class="ptable-body">
                                                     <div class="ptable-description">
                                                         <ul>
+                                                            <li>MINIMUM INVESTMENT $30,000</li>
                                                             <li>100% (30 DAYS)</li>
-                                                            <li>TRADE DURATION: 10 YEARS</li>
+                                                            <li>TRADE DURATION: 1 MONTH</li>
                                                             <li>5% REFERAL BONUS</li>
                                                             <li>INSTANT WITHDRAWAL OF INTEREST</li>
                                                             <li>24/7 OPERATIONAL TIME</li>

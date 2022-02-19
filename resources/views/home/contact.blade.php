@@ -43,13 +43,13 @@
                                             <div class="wrapper"><i class="icons fa fa-comments-o"></i>
                                                 <div class="description">
                                                     <div class="description-items"><i class="fa fa-map-marker"></i>
-                                                        <p class="text">Carly Jean Rohrig 6762 33 Ave</p>
+                                                        <p class="text">2900, Parkway Blvd, Kissimmee, FL 34747, United States </p>
                                                     </div>
                                                     <div class="description-items"><i class="fa fa-phone"></i>
-                                                        <p class="text">(+1) 369-258-147</p>
+                                                        <p class="text"> (+1)904-878-1595</p>
                                                     </div>
                                                     <div class="description-items"><i class="fa fa-envelope-o"></i>
-                                                        <p class="text">hello@swlabs.com</p>
+                                                        <p class="text">support@intersperse.com</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -100,60 +100,7 @@
                                     </div><a href="#" class="button btn-main">Submit Message </a></form>
                             </div>
                         </section>
-                        <section class="contact-map">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-6 list-places padding-top-small padding-bottom-small">
-                                        <div class="wrapper-places padding-bottom-small">
-                                            <h2 class="main-title">NY</h2>
-                                            <div class="main-content">
-                                                <div class="subtitle">new york office</div>
-                                                <div class="description-items"><i class="fa fa-map-marker"></i>
-                                                    <p class="text">Carly Jean Rohrig 6762 33 Ave</p>
-                                                </div>
-                                                <div class="description-items"><i class="fa fa-phone"></i>
-                                                    <p class="text">(+1) 369-258-147</p>
-                                                </div>
-                                                <div class="description-items"><i class="fa fa-envelope-o"></i>
-                                                    <p class="text">hello@swlabs.com</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="wrapper-places padding-bottom-small">
-                                            <h2 class="main-title">HK</h2>
-                                            <div class="main-content">
-                                                <div class="subtitle">HongKong office</div>
-                                                <div class="description-items"><i class="fa fa-map-marker"></i>
-                                                    <p class="text">Pacific Place, 88 Queensway</p>
-                                                </div>
-                                                <div class="description-items"><i class="fa fa-phone"></i>
-                                                    <p class="text">(+1) 369-258-147</p>
-                                                </div>
-                                                <div class="description-items"><i class="fa fa-envelope-o"></i>
-                                                    <p class="text">hello@swlabs.com</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="wrapper-places style-2">
-                                            <h2 class="main-title">SG</h2>
-                                            <div class="main-content">
-                                                <div class="subtitle">singapore office</div>
-                                                <div class="description-items"><i class="fa fa-map-marker"></i>
-                                                    <p class="text">Carly Jean Rohrig 6762 33 Ave</p>
-                                                </div>
-                                                <div class="description-items"><i class="fa fa-phone"></i>
-                                                    <p class="text">(+1) 369-258-147</p>
-                                                </div>
-                                                <div class="description-items"><i class="fa fa-envelope-o"></i>
-                                                    <p class="text">hello@swlabs.com</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="googleMap"></div>
-                        </section>
+                        
                     </div>
                 </div>
             </div>
