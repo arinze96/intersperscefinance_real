@@ -6,7 +6,7 @@
                     <div class="header-main-wrapper">
                         <div class="navbar-header">
                             <button type="button" data-toggle="offcanvas" class="btn-hamburger visible-tablet"><span class="icon-bar"></span></button>
-                            <a href="{{route('app.home')}}" class="header-logo"><img src="{{ asset('assets/images/logo/Intersperse_Finance_Trans_Vector_(2).png') }}" alt="Main Logo" class="logo" /></a>
+                            <a href="{{route('app.home')}}" class="header-logo"><img src="{{ asset('assets/images/logo/pici2.png') }}" alt="Main Logo" class="logo" /></a>
                         </div>
                         <nav class="navigation navbar-offcanvas pull-right">
                             <div class="nav-wrapper">

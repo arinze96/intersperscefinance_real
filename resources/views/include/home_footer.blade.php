@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-md-3 col-xs-6">
                         <div class="about-us"><img
-                                src="{{ asset('assets/images/logo/Intersperse_Finance_Trans_Vector_(4).png') }}"
+                                src="{{ asset('assets/images/logo/pici2.png') }}"
                                 alt="Main Logo" class="logo" />
                             <div class="content">
                                 <p class="text">

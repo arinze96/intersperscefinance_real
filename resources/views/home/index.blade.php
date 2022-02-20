@@ -180,33 +180,36 @@
                                         <div data-wow-delay="0.2s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-piggy-bank"></i><a
-                                                    href="service.html" class="title" style="font-size:25; font-weight:bold">Crypto Currencies</a>
+                                                     class="title" style="font-size:25; background-color:#93c23d; font-weight:bold">Crypto Currencies</a>
                                                 <p class="text">We help you manage your cryptocurrency
                                                     portfolio and help you grow them exponentially </p>
+                                                    <a href="{{ route('cryptocurrency') }}" class="more" style="color:#93c23d;">Learn more</a>
                                             </div>
                                         </div>
                                         <div data-wow-delay="0.5s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-tasks"></i><a
-                                                    href="service.html" class="title" style="font-size:25; font-weight:bold">Forex</a>
+                                                     class="title" style="font-size:25; background-color:#93c23d; font-weight:bold">Forex</a>
                                                 <p class="text">Our team of experience trader, trades you
                                                     funds all the time thereby growing you funds dailt</p>
+                                                    <a href="{{ route('forex') }}" class="more" style="color:#93c23d;">Learn more</a>
                                             </div>
                                         </div>
                                         <div data-wow-delay="0.8s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-lifebuoy"></i><a
-                                                    href="service.html" class="title" style="font-size:25; font-weight:bold">Stocks</a>
+                                                     class="title" style="font-size:25; background-color:#93c23d; font-weight:bold">Stocks</a>
                                                 <p class="text">Our team oF experts helps in the investments
                                                     of highly-rated company stock, including corporate and sovereign
                                                     debt, equities, currencies and various derivatives and structured
                                                     products.</p>
+                                                    <a href="{{ route('stocks') }}" class="more" style="color:#93c23d;">Learn more</a>
                                             </div>
                                         </div>
                                         <div data-wow-delay="1.1s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-diagram"></i><a
-                                                    href="service.html" class="title" style="font-size:25; font-weight:bold">Non-farm Payroll
+                                                     class="title" style="font-size:25; background-color:#93c23d; font-weight:bold">Non-farm Payroll
                                                     (NFP)</a>
                                                 <p class="text">The non-farm payroll (NFP) figure is a key
                                                     economic indicator. It represents the number of jobs added,
@@ -214,22 +217,25 @@
                                                     employees and employees of nonprofit organizations.
 
                                                 </p>
+                                                <a href="{{ route('nonfarmpayroll') }}" class="more" style="color:#93c23d;">Learn more</a>
                                             </div>
                                         </div>
                                         <div data-wow-delay="1.4s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-calculator"></i><a
-                                                    href="service.html" class="title" style="font-size:25; font-weight:bold">Real Estate</a>
+                                                     class="title" style="font-size:25; background-color:#93c23d; font-weight:bold">Real Estate</a>
                                                 <p class="text">We also run real estate fund investments
                                                     which has proven to give the highest returns in recent times</p>
+                                                    <a href="{{ route('realEstate') }}" class="more" style="color:#93c23d;">Learn more</a>
                                             </div>
                                         </div>
                                         <div data-wow-delay="1.7s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-dollar-coins"></i><a
-                                                    href="service.html" class="title" style="font-size:25; font-weight:bold">Escrow Services</a>
+                                                     class="title" style="font-size:25; background-color:#93c23d; font-weight:bold">Escrow Services</a>
                                                 <p class="text">We offer escrow services to our customers who
                                                     needs to make exchanges between two parties </p>
+                                                    <a href="{{ route('escrow') }}" class="more" style="color:#93c23d;">Learn more</a>
                                             </div>
                                         </div>
                                     </div>
@@ -267,7 +273,7 @@
                                 <div class="row">
                                     <div class="col-lg-9 pull-right">
                                         <div data-wow-duration="1s" class="service-intro" style="margin-bottom:30px">
-                                            <i class="icon flaticon-piggy-bank"></i><a href="service.html"
+                                            <i class="icon flaticon-piggy-bank"></i><a 
                                                 class="title" style="font-size:30px; font-weight:bold">TRADING
                                                 STRATEGIES </a>
                                             <p class="text">This strategies affects only the CRYPTO
@@ -282,7 +288,7 @@
                                         <div data-wow-delay="0.2s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-tasks"></i><a
-                                                    href="service.html" class="title">OPEN BALANCE
+                                                     class="title" style="background-color:#93c23d;">OPEN BALANCE
                                                     STRATEGY</a>
                                                 <p class="text">The term open balance as used here means that
                                                     the
@@ -297,7 +303,7 @@
                                         <div data-wow-delay="0.5s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-tasks"></i><a
-                                                    href="service.html" class="title">LOCKED BALANCE
+                                                     class="title" style="background-color:#93c23d;">LOCKED BALANCE
                                                     STRATEGY</a>
                                                 <p class="text">The term “ locked balance “ as used here
                                                     means
@@ -312,7 +318,7 @@
                                         <div data-wow-delay="0.8s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-lifebuoy"></i><a
-                                                    href="service.html" class="title">COMPOUNDING INTEREST
+                                                     class="title" style="background-color:#93c23d;">COMPOUNDING INTEREST
                                                     STRATEGY
                                                 </a>
                                                 <p class="text">The term compounding interest shows that your
@@ -328,7 +334,7 @@
                                         <div data-wow-delay="0.8s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-lifebuoy"></i><a
-                                                    href="service.html" class="title">
+                                                     class="title">
                                                 </a>
                                                 <p class="text">
                                                 </p>
@@ -377,8 +383,8 @@
                                                         <div class="ptable-description">
                                                             <ul>
                                                                 <li>Minimum investment $1,000</li>
-                                                                <li>5.0% ROI (WEEKLY)</li>
-                                                                <li>TRADE DURATION: 48 WEEKS</li>
+                                                                <li>5.0% ROI </li>
+                                                                <li>TRADE DURATION: 52 WEEKS</li>
                                                                 <li>5% REFERAL BONUS</li>
                                                                 <li>INSTANT WITHDRAWAL OF INTEREST</li>
                                                                 <li>24/7 OPERATIONAL TIME</li>
@@ -407,8 +413,8 @@
                                                         <div class="ptable-description">
                                                             <ul>
                                                                 <li>Minimum investment $3,000</li>
-                                                                <li>6.0% ROI (WEEKLY)</li>
-                                                                <li>TRADE DURATION: 48 WEEKS</li>
+                                                                <li>6.0% ROI </li>
+                                                                <li>TRADE DURATION: 52 WEEKS</li>
                                                                 <li>5% REFERAL BONUS</li>
                                                                 <li>INSTANT WITHDRAWAL OF INTEREST</li>
                                                                 <li>24/7 OPERATIONAL TIME</li>
@@ -436,8 +442,8 @@
                                                         <div class="ptable-description">
                                                             <ul>
                                                                 <li>Minimum investment $5,000</li>
-                                                                <li>7.0% ROI (WEEKLY)</li>
-                                                                <li>TRADE DURATION: 48 WEEKS</li>
+                                                                <li>7.0% ROI </li>
+                                                                <li>TRADE DURATION: 52 WEEKS</li>
                                                                 <li>5% REFERAL BONUS</li>
                                                                 <li>INSTANT WITHDRAWAL INTEREST</li>
                                                                 <li>24/7 OPERATIONAL TIME</li>
@@ -467,7 +473,7 @@
                                                             <ul>
                                                                 <li>Minimum investment $30,000</li>
                                                                 <li>100% (30 DAYS)</li>
-                                                                <li>TRADE DURATION: 10 MONTH</li>
+                                                                <li>TRADE DURATION: 1 MONTH</li>
                                                                 <li>5% REFERAL BONUS</li>
                                                                 <li>INSTANT WITHDRAWAL OF INTEREST</li>
                                                                 <li>24/7 OPERATIONAL TIME</li>
@@ -497,7 +503,7 @@
                                                         <div class="ptable-description">
                                                             <ul>
                                                                 <li>Minimum investment $50,000</li>
-                                                                <li>250% ROI (WEEKLY)</li>
+                                                                <li>250% ROI </li>
                                                                 <li>TRADE DURATION: 12 - 36 MONTHS</li>
                                                                 <li>5% REFERAL BONUS</li>
                                                                 <li>INSTANT WITHDRAWAL OF INTEREST</li>
