@@ -209,88 +209,95 @@
                                     <div class="col-lg-9 pull-right">
                                         <div data-wow-duration="1s" class="service-intro" style="margin-bottom:30px"><i
                                                 class="icon flaticon-piggy-bank"></i><a href="service.html"
-                                                class="title" style="font-size:30px; font-weight:bold">TRADING STRATEGIES </a>
+                                                class="title" style="font-size:30px; font-weight:bold">TRADING
+                                                STRATEGIES </a>
                                             <p class="text">This strategies affects only the CRYPTO CURRENCIES
                                                 ,FOREX and STOCK investment plans .. We trade on Stocks, Forex,
                                                 cryptocurrency and other commodities using confidential brokerage
                                                 options and the regulatory bodies help in minimizing and regulating the
                                                 losses.We create awesome and effective trading strategies to help our
                                                 clients improve their portfolio profit in the financial markets.</p>
-                                        </>
-                                    </div>
-                                    <div data-wow-delay="0.2s" data-wow-duration="1s"
-                                        class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
-                                        <div class="service-intro"><i class="icon flaticon-tasks"></i><a
-                                                href="service.html" class="title">OPEN BALANCE STRATEGY</a>
-                                            <p class="text">The term open balance as used here means that the
-                                                investor stands eligible to withdraw weekly from available balance. The
-                                                minimum investment for this plan is $1000
-                                                This pays 5% per week of your initial investment for a total of 52 weeks
-                                                (12 months ) starting from the day of investment.</p>
+                                            </>
                                         </div>
-                                    </div>
-                                    <div data-wow-delay="0.5s" data-wow-duration="1s"
-                                        class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
-                                        <div class="service-intro"><i class="icon flaticon-tasks"></i><a
-                                                href="service.html" class="title">LOCKED BALANCE STRATEGY</a>
-                                            <p class="text">The term “ locked balance “ as used here means
-                                                that the investor do not stand eligible to withdraw weekly from
-                                                available balance but can only withdraw Annually from your total
-                                                available balance on the date of expiry .
-                                                The minimum investment for this plan is $5000
-                                                this pays 10% per week of your initial investment for a total of 52
-                                                weeks (12 months ) starting from the day of investment.</p>
+                                        <div data-wow-delay="0.2s" data-wow-duration="1s"
+                                            class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
+                                            <div class="service-intro"><i class="icon flaticon-tasks"></i><a
+                                                    href="service.html" class="title">OPEN BALANCE STRATEGY</a>
+                                                <p class="text">The term open balance as used here means that
+                                                    the
+                                                    investor stands eligible to withdraw weekly from available balance.
+                                                    The
+                                                    minimum investment for this plan is $1000
+                                                    This pays 5% per week of your initial investment for a total of 52
+                                                    weeks
+                                                    (12 months ) starting from the day of investment.</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div data-wow-delay="0.8s" data-wow-duration="1s"
-                                        class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
-                                        <div class="service-intro"><i class="icon flaticon-lifebuoy"></i><a
-                                                href="service.html" class="title">COMPOUNDING INTEREST STRATEGY
-                                            </a>
-                                            <p class="text">The term compounding interest shows that your
-                                                profits will be compounded until after 5 weeks . Then the clients
-                                                proceed to earn 15% of investment for the remaining 48 weeks . The
-                                                minimum investment for this Strategy is $15,000
-                                                Here the client earns 15% of investment weekly .
-                                                And is eligible to withdraw only 3 times until the end of the contract
-                                            </p>
+                                        <div data-wow-delay="0.5s" data-wow-duration="1s"
+                                            class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
+                                            <div class="service-intro"><i class="icon flaticon-tasks"></i><a
+                                                    href="service.html" class="title">LOCKED BALANCE
+                                                    STRATEGY</a>
+                                                <p class="text">The term “ locked balance “ as used here means
+                                                    that the investor do not stand eligible to withdraw weekly from
+                                                    available balance but can only withdraw Annually from your total
+                                                    available balance on the date of expiry .
+                                                    The minimum investment for this plan is $5000
+                                                    this pays 10% per week of your initial investment for a total of 52
+                                                    weeks (12 months ) starting from the day of investment.</p>
+                                            </div>
+                                        </div>
+                                        <div data-wow-delay="0.8s" data-wow-duration="1s"
+                                            class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
+                                            <div class="service-intro"><i class="icon flaticon-lifebuoy"></i><a
+                                                    href="service.html" class="title">COMPOUNDING INTEREST
+                                                    STRATEGY
+                                                </a>
+                                                <p class="text">The term compounding interest shows that your
+                                                    profits will be compounded until after 5 weeks . Then the clients
+                                                    proceed to earn 15% of investment for the remaining 48 weeks . The
+                                                    minimum investment for this Strategy is $15,000
+                                                    Here the client earns 15% of investment weekly .
+                                                    And is eligible to withdraw only 3 times until the end of the
+                                                    contract
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                   
-                    <div class="sign-up">
-                        <div class="container">
-                            <div class="subscribe-email-wrapper">
-                                <div class="subscribe-email-left">
-                                    <p class="subscribe-email-title">Sign up for <span> Intersperse Finance </span>
-                                        viewpoints!
-                                    </p>
-                                    <div class="description">Get a weekly email of our pros' current thinking
-                                        about financial markets, investing and personal finance.</div>
+
+                        <div class="sign-up">
+                            <div class="container">
+                                <div class="subscribe-email-wrapper">
+                                    <div class="subscribe-email-left">
+                                        <p class="subscribe-email-title">Sign up for <span> Intersperse Finance </span>
+                                            viewpoints!
+                                        </p>
+                                        <div class="description">Get a weekly email of our pros' current thinking
+                                            about financial markets, investing and personal finance.</div>
+                                    </div>
+                                    <div class="subscribe-email-right">
+                                        <form>
+                                            <div class="input-group form-subscribe-email">
+                                                <input type="text" placeholder="Email" class="form-control"><span
+                                                    class="input-group-btn"><button type="submit"
+                                                        class="btn-view">Get viewpoint</button></span>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="clearfix"></div>
                                 </div>
-                                <div class="subscribe-email-right">
-                                    <form>
-                                        <div class="input-group form-subscribe-email">
-                                            <input type="text" placeholder="Email" class="form-control"><span
-                                                class="input-group-btn"><button type="submit"
-                                                    class="btn-view">Get viewpoint</button></span>
-                                        </div>
-                                    </form>
-                                </div>
-                                <div class="clearfix"></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div id="back-top"><a href="#top" class="link"><i class="fa fa-angle-double-up"></i></a></div>
         </div>
-        <div id="back-top"><a href="#top" class="link"><i class="fa fa-angle-double-up"></i></a></div>
-    </div>
-    <!-- FOOTER-->
-    @include('include.home_footer')
+        <!-- FOOTER-->
+        @include('include.home_footer')
     </div>
     <!-- LIBRARY JS-->
     @include('include.home_script')

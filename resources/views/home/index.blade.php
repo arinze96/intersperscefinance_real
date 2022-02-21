@@ -80,7 +80,7 @@
                                                     src="assets/img/homepage/finance-1.jpg" alt=""
                                                     class="img-responsive"></a><a href="{{ route('charity') }}"
                                                 class="title">CHARITY</a>
-                                            <p class="text">We do a lot of charitable dees in uor
+                                            <p class="text">We do a lot of charitable dees in our
                                                 community to help the less privilaged</p><a
                                                 href="{{ route('charity') }}" class="more">Learn more<i
                                                     class="fa fa-long-arrow-right"></i></a>
@@ -93,8 +93,8 @@
                                                     class="img-responsive"></a><a
                                                 href="{{ route('children_account') }}" class="title">CHILDREN
                                                 ACCOUNT</a>
-                                            <p class="text">You can invest funds for your childs for a in our
-                                                childrens account package which will guarantee a better future</p><a
+                                            <p class="text">You can invest funds for your children in our
+                                                childrens account package which will guarantee a better future for your kids</p><a
                                                 href="{{ route('children_account') }}" class="more">Learn
                                                 more<i class="fa fa-long-arrow-right"></i></a>
                                         </div>
@@ -191,7 +191,7 @@
                                             <div class="service-intro"><i class="icon flaticon-tasks"></i><a
                                                      class="title" style="font-size:25; background-color:#93c23d; font-weight:bold">Forex</a>
                                                 <p class="text">Our team of experience trader, trades you
-                                                    funds all the time thereby growing you funds dailt</p>
+                                                    funds all the time thereby growing you funds daily</p>
                                                     <a href="{{ route('forex') }}" class="more" style="color:#93c23d;">Learn more</a>
                                             </div>
                                         </div>
