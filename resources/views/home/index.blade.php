@@ -80,8 +80,8 @@
                                                     src="assets/img/homepage/finance-1.jpg" alt=""
                                                     class="img-responsive"></a><a href="{{ route('charity') }}"
                                                 class="title">CHARITY</a>
-                                            <p class="text">We do a lot of charitable dees in our
-                                                community to help the less privilaged</p><a
+                                            <p class="text">We do a lot of charitable deeds in our
+                                                community to help the less privileged</p><a
                                                 href="{{ route('charity') }}" class="more">Learn more<i
                                                     class="fa fa-long-arrow-right"></i></a>
                                         </div>
