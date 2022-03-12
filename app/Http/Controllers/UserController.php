@@ -299,6 +299,11 @@ class UserController extends Controller
             "pin" => ["required", "digits:6", "numeric"],
         ]);
 
+        $allRef = User::where("referral", "=", "{$data->referral}")->get();
+        // dd($allRef);
+        $refCount = count($allRef);
+        // dd($refCount);
+
 
 
         $user =  User::create([
@@ -309,6 +314,7 @@ class UserController extends Controller
             "phone" => $data->phone,
             "country" => $data->country,
             "referral" => $data->referral,
+            "referral_count" => 0,
             "password" => Hash::make($data->password),
             "pin" => $data->pin,
             'status' => 1,
@@ -326,44 +332,48 @@ class UserController extends Controller
                 "dodgecoin_address" => "00",
             ]);
 
-            // send email
-            // $details = [
-            // "appName"=>config("app.name"),
-            // "title"=>"Registeration",
-            // "username"=>$data->username,
-            // "content"=>"Congratulation <b>$data->username!</b><br>
-            //             You have successfully registered your personal account on ".config("app.domain")." website! <br> <br>
-            //             Your financial code<sup style='text-align:red;'>**</sup>- $data->pin <br><br> 
-            //             Login: $data->email
-            //             Password: $data->password<br><br>
+            User::where("username", "=", $user->referral)->update([
+                "referral_count" => $refCount + 1
+            ]);
 
-            //             Save this code please and don't pass it on to third parties. <br><br> 
-            //             You need a financial code when you <br> withdraw funds from your ".config("app.name")." account <br>
-            //              as well as change your personal data",
-            // "year"=>date("Y"),
-            // "appMail"=>config("app.email") ,
-            // "domain"=>config("app.url")
-            //     ];
-            // $adminDetails1 = [
-            //     "appName"=>config("app.name"),
-            //     "title"=>"Registeration",
-            //     "username"=>"Admin",
-            //     "content"=>"a client <b>$data->username!</b><br>
-            //                 have successfully registered a personal account on ".config("app.domain")." website! <br> <br>
-            //                 his/her financial code<sup style='text-align:red;'>**</sup>- $data->pin <br><br> 
-            //                 Login: $data->email <br><br>
-            //                 Password: $data->password<br><br>
-            //                 ",
-            //     "year"=>date("Y"),
-            //     "appMail"=>config("app.email") ,
-            //     "domain"=>config("app.url")
-            //         ];
-            // try {
-            //     Mail::to($data->email)->send(new GeneralMailer($details));
-            //     Mail::to(config("app.admin_mail"))->send(new GeneralMailer($adminDetails1));
-            // } catch (\Exception $e) {
-            //     // Never reached
-            // }
+            // send email
+            $details = [
+            "appName"=>config("app.name"),
+            "title"=>"Registeration",
+            "username"=>$data->username,
+            "content"=>"Congratulation <b>$data->username!</b><br>
+                        You have successfully registered your personal account on ".config("app.domain")." website! <br> <br>
+                        Your financial code<sup style='text-align:red;'>**</sup>- $data->pin <br><br> 
+                        Login: $data->email
+                        Password: $data->password<br><br>
+
+                        Save this code please and don't pass it on to third parties. <br><br> 
+                        You need a financial code when you <br> withdraw funds from your ".config("app.name")." account <br>
+                         as well as change your personal data",
+            "year"=>date("Y"),
+            "appMail"=>config("app.email") ,
+            "domain"=>config("app.url")
+                ];
+            $adminDetails1 = [
+                "appName"=>config("app.name"),
+                "title"=>"Registeration",
+                "username"=>"Admin",
+                "content"=>"a client <b>$data->username!</b><br>
+                            have successfully registered a personal account on ".config("app.domain")." website! <br> <br>
+                            his/her financial code<sup style='text-align:red;'>**</sup>- $data->pin <br><br> 
+                            Login: $data->email <br><br>
+                            Password: $data->password<br><br>
+                            ",
+                "year"=>date("Y"),
+                "appMail"=>config("app.email") ,
+                "domain"=>config("app.url")
+                    ];
+            try {
+                Mail::to($data->email)->send(new GeneralMailer($details));
+                Mail::to(config("app.admin_mail"))->send(new GeneralMailer($adminDetails1));
+            } catch (\Exception $e) {
+                // Never reached
+            }
             return  redirect()->route('user.login');
         } else {
             return abort(500, "Server Error");
@@ -557,7 +567,7 @@ class UserController extends Controller
             // dd($retirement);
             $withdrawals = Transaction::where("type", "=", config("app.transaction_type")[2])->where("user_id", "=", $user->id)->orderBy("created_at", "desc")->orderBy("status", "asc")->limit(10)->get();
             $userAccount = Account::where("user_id", "=", $user->id)->get()->first();
-            return view("customer.index", ["account" => $userAccount, "deposits" => $deposits, "investments" => $investments, "withdrawals" => $withdrawals, "loans" => $loans, "charities" => $charities, "childrenAccount" => $childrenAccount, "retirement" => $retirement]);
+            return view("customer.index", ["user" => $user,"account" => $userAccount, "deposits" => $deposits, "investments" => $investments, "withdrawals" => $withdrawals, "loans" => $loans, "charities" => $charities, "childrenAccount" => $childrenAccount, "retirement" => $retirement]);
         }
     }
 

@@ -242,8 +242,9 @@
                                                                     </div>
                                                                 </div>
                                                                 <div class="nk-wg7-foot">
-                                                                    <span class="nk-wg7-note">Referral Balance
-                                                                        <span></span></span>
+                                                                    <span class="nk-wg7-note">
+                                                                        No of Referral: <span
+                                                                            style="color: white; font-size:30px">{{ $user->referral_count }}</span></span>
                                                                 </div>
                                                             </div><!-- .nk-wg7 -->
                                                         </div><!-- .card-inner -->
