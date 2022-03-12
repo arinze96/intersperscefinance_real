@@ -285,6 +285,7 @@ class UserController extends Controller
         }
         $data = (object) $request->all();
         $data->status = 1;
+        // dd($data);
 
         $validated =  $request->validate([
             "firstname" => ["required"],
@@ -300,7 +301,6 @@ class UserController extends Controller
         ]);
 
         $allRef = User::where("referral", "=", "{$data->referral}")->get();
-        // dd($allRef);
         $refCount = count($allRef);
         // dd($refCount);
 
@@ -321,6 +321,11 @@ class UserController extends Controller
         ]);
 
         if (!empty($user)) {
+
+            User::where("username", "=", $user->referral)->update([
+                "referral_count" => $refCount + 1
+            ]); 
+
             Account::create([
                 "user_id" => $user->id,
                 "bitcoin_address" => "00",
@@ -332,9 +337,7 @@ class UserController extends Controller
                 "dodgecoin_address" => "00",
             ]);
 
-            User::where("username", "=", $user->referral)->update([
-                "referral_count" => $refCount + 1
-            ]);
+           
 
             // send email
             $details = [
@@ -567,6 +570,7 @@ class UserController extends Controller
             // dd($retirement);
             $withdrawals = Transaction::where("type", "=", config("app.transaction_type")[2])->where("user_id", "=", $user->id)->orderBy("created_at", "desc")->orderBy("status", "asc")->limit(10)->get();
             $userAccount = Account::where("user_id", "=", $user->id)->get()->first();
+            // dd($userAccount);
             return view("customer.index", ["user" => $user,"account" => $userAccount, "deposits" => $deposits, "investments" => $investments, "withdrawals" => $withdrawals, "loans" => $loans, "charities" => $charities, "childrenAccount" => $childrenAccount, "retirement" => $retirement]);
         }
     }

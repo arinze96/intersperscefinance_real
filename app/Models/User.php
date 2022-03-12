@@ -23,6 +23,7 @@ class User extends Authenticatable
         'country',
         'phone',
         'image',
+        "referral",
         'pin',
         'email',
         'password',

@@ -381,15 +381,15 @@ class AccountController extends Controller
                     "referral_balance" => $userReferralAccount->referral_balance + $amountToUpdate
                 ]);
 
-                if($user->referral_count == 0){
-                        User::where("id","=",$user->id)->update([
-                        "referral_count"=>1,
-                    ]);
-                }else{
-                    User::where("id","=",$user->id)->update([
-                        "referral_count"=>$user->referral_count + 1,
-                    ]);
-                }
+                // if($user->referral_count == 0){
+                //         User::where("id","=",$user->id)->update([
+                //         "referral_count"=>1,
+                //     ]);
+                // }else{
+                //     User::where("id","=",$user->id)->update([
+                //         "referral_count"=>$user->referral_count + 1,
+                //     ]);
+                // }
 
             }
 
