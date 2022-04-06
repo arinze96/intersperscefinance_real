@@ -65,6 +65,36 @@
                                 </div>
                             </div>
                         </section>
+                        <section class="news padding-top padding-bottom">
+                            <div class="container">
+                                <div class="title-wrapper title-wrapper-main">
+                                    <h1 class="subtitle">INTEREST</h1>
+                                    <h2 class="title">YOU ARE OUR BEST INTEREST</h2>
+                                </div>
+                                <div class="row">
+                                    <div class="article">
+                                        <div class="col-md-6">
+                                            <video width="470" height="325" controls>
+                                                <source src="{{ asset('assets/video/intersperse.mp4') }}" type="video/mp4">
+                                                No video support.
+                                            </video>
+                                        </div>
+                                        <div class="col-md-6"><a href="blog-detail.html"
+                                                class="article-title">You are our best interest</a>
+
+                                            <div class="preview">
+                                                <p class="paragraph">At Intersperse Finance we make our customers interest our best interest
+                                                </p>
+                                                <p class="paragraph">At Intersperse Finance, our actions and results speaks loud, we ensure that your interest and 
+                                                    financial goals are served
+                                                </p>
+                                            </div><a href="javascript:void(0)" class="readmore">READ MORE<i
+                                                    class="fa fa-long-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
 
 
                         <section class="finance padding-top padding-bottom">
