@@ -74,7 +74,7 @@
                                 <div class="row">
                                     <div class="article">
                                         <div class="col-md-6">
-                                            <video width="470" height="325" controls>
+                                            <video width="420" height="325" controls>
                                                 <source src="{{ asset('assets/video/intersperse.mp4') }}" type="video/mp4">
                                                 No video support.
                                             </video>
