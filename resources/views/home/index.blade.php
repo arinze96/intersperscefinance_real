@@ -68,7 +68,7 @@
                         <section class="news padding-top padding-bottom">
                             <div class="container">
                                 <div class="title-wrapper title-wrapper-main">
-                                    <h1 class="subtitle">INTEREST</h1>
+                                    {{-- <h1 class="subtitle">INTEREST</h1>  --}}
                                     <h2 class="title">YOU ARE OUR BEST INTEREST</h2>
                                 </div>
                                 <div class="row">
@@ -100,7 +100,7 @@
                         <section class="finance padding-top padding-bottom">
                             <div class="container">
                                 <div class="title-wrapper title-wrapper-main">
-                                    <h1 class="subtitle">INVESTMENT</h1>
+                                    {{-- <h1 class="subtitle">INVESTMENT</h1> --}}
                                     <h2 class="title">WE ARE PROFESSIONALS</h2>
                                 </div>
                                 <div class="row">
