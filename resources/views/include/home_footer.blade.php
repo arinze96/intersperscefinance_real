@@ -31,7 +31,8 @@
                                 <div class="contact-item tel">
                                     <i class="fa fa-phone"></i>
                                     <div class="description">
-                                        <a href="javascript:void(0)" class="number">(+1)904-878-1595</a>
+                                        <a href="javascript:void(0)" class="number">(+1)904-878-1595</a> <br> <br>
+                                        <a href="javascript:void(0)" class="number">(+1)662-771-1595</a>
                                     </div>
                                 </div><a href="javascript:void(0)" class="contact-item">
                                     <i class="fa fa-envelope-o"></i>

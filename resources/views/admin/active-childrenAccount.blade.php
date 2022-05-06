@@ -71,7 +71,7 @@
                                                                     <td>{{ date("d M,Y",strtotime($children->created_at)) }}</td>
                                                                     <td>
                                                                         <a href="{{ route("admin.child.view",["edit",$children->id]) }}"><em class="icon ni ni-edit"></em></a>
-                                                                        <a class="delete_data" href="{{ route("admin.child.view",["delete",$retire->id]) }}" data-type="request" ><em  class="icon ni ni-trash-fill "></em></a>
+                                                                        <a class="delete_data" href="{{ route("admin.child.view",["delete",$children->id]) }}" data-type="request" ><em  class="icon ni ni-trash-fill "></em></a>
                                                                         {{-- <a href="{{ route("admin.charity.view",["view",$charity->id]) }}"><em class="icon ni ni-eye-fill"></em></a> --}}
                                                                     </td>
                                                                     <td class="tb-tnx-action">

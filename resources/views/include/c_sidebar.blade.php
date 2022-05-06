@@ -36,7 +36,7 @@
                     </a>
                     <div class="nk-profile-content toggle-expand-content" data-content="sidebarProfile">
                         <ul class="link-list">
-                            <li><a href="customer/logout"><em class="icon ni ni-signout"></em><span>Sign out</span></a>
+                            <li><a href="{{ route("user.logout.view") }}"><em class="icon ni ni-signout"></em><span>Sign out</span></a>
                             </li>
                         </ul>
                     </div>
