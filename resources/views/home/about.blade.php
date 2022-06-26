@@ -40,12 +40,12 @@
                                 <div class="wrapper-timeline">
                                     <div class="content-timeline">
                                         <div class="timeline-block">
-                                            <div class="timeline-number"><span>2003</span></div>
+                                            <div class="timeline-number"><span>2013</span></div>
                                             <div class="timeline-title">Intersperse Finance were born</div>
-                                            <p class="timeline-text">Intersperse Finance was established in 2003 and it
+                                            <p class="timeline-text">Intersperse Finance was established in 2013 and it
                                                 initially began trading stocks, shares and bonds, it got involved in
-                                                forex in 2008 and was among the pioneer traders of Cryptocurrencies in
-                                                the advent of Bitcoin in 2010. Intersperse Finance is currently managed
+                                                forex in 2015 and was among the pioneer traders of Cryptocurrencies in
+                                                the advent of Bitcoin in 2014. Intersperse Finance is currently managed
                                                 by a senior team which has extensive experience in the development and
                                                 implementation of systematic investment strategies. The company
                                                 emphasises strong corporate governance and the provision of first class
