@@ -124,7 +124,7 @@ jQuery(function($) {
                 hover: {
                     "fill-opacity": 1,
                     cursor: 'pointer',
-                    fill: '#93c23d',
+                    fill: '#0033cc',
                 }
             }
         });
@@ -153,7 +153,7 @@ jQuery(function($) {
                 display: false
             },
             tooltips: {
-                backgroundColor: '#93c23d',
+                backgroundColor: '#0033cc',
                 callbacks: {
                     label: function(item) {
                         var r = item.yLabel;
@@ -176,7 +176,7 @@ jQuery(function($) {
                 display: false
             },
             tooltips: {
-                backgroundColor: '#93c23d',
+                backgroundColor: '#0033cc',
                 callbacks: {
                     label: function(item) {
                         var r = item.yLabel;

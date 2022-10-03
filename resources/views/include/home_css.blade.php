@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="Intersperscefinance">
 <link rel="shortcut icon" type="image/png"
-    href="{{ asset('assets/images/logo/pici1.png') }}" />
+    href="{{ asset('assets/img/Stancorp Finance-03.png') }}" />
 <link type="text/css" rel="stylesheet"
     href="fonts.googleapis.com/css2528.css?family=Roboto:300,400,400italic,500,700,900">
 <link type="text/css" rel="stylesheet" href="{{ asset('assets/font/font-icon/font-awesome/css/font-awesome.css') }}">
@@ -126,7 +126,7 @@
         margin: 0 30px;
         padding: 30px 0 45px 0;
         width: auto;
-        background: #93c23d;
+        background: #0033cc;
     }
 
     .pricing-table .ptable-header::before,
@@ -276,15 +276,15 @@
 </style>
 
 
-							<!-- Smartsupp Live Chat script -->
-                            <script type="text/javascript">
-                                var _smartsupp = _smartsupp || {};
-                                _smartsupp.key = '6ba180c51557e213b484bd3489130e563acee5d2';
-                                window.smartsupp||(function(d) {
-                                  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-                                  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-                                  c.type='text/javascript';c.charset='utf-8';c.async=true;
-                                  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-                                })(document);
-                                </script>
+					<!-- Smartsupp Live Chat script -->
+<script type="text/javascript">
+    var _smartsupp = _smartsupp || {};
+    _smartsupp.key = '8eca1c004ded6135101a7f300c558ee86f8b1aaf';
+    window.smartsupp||(function(d) {
+      var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+      s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+      c.type='text/javascript';c.charset='utf-8';c.async=true;
+      c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+    })(document);
+    </script>
     

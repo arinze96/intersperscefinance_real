@@ -174,7 +174,7 @@
     padding-left: 15px;
   }
   .who-alt .who-content:before {
-    background-color: rgba(147, 194, 61, 0.95);
+    background-color: #0033cc;
     left: -50%;
   }
   .who-accountant-banner .who-content:before {
@@ -441,7 +441,7 @@
   .navbar-offcanvas .dropdown-menu > li > a:focus,
   .navbar-offcanvas .dropdown-menu > li > a:hover {
     background-color: transparent;
-    color: #93c23d;
+    color: #0033cc;
   }
   .navbar-offcanvas li:hover .main-menu i {
     transform: none !important;
@@ -628,8 +628,8 @@
     width: 100%;
   }
   .testimonial-dark .slick-dots .slick-active button {
-    border-color: #93c23d;
-    color: #93c23d;
+    border-color: #0033cc;
+    color: #0033cc;
   }
   .achievement-light .banner-left .main-left {
     margin-bottom: 0;
@@ -803,14 +803,14 @@
   }
   .slick-dots li button {
     background-color: #f9f9f9;
-    color: #93c23d;
+    color: #0033cc;
     border-radius: 50%;
   }
   .slick-dots li button:before {
-    color: #93c23d;
+    color: #0033cc;
   }
   .slick-dots li.slick-active button:before {
-    color: #93c23d;
+    color: #0033cc;
   }
   /*    TEAM    */
   .section-team .main-content:hover .wrapper-social-text {
@@ -1299,7 +1299,7 @@
     background-color: #f9f9f9;
   }
   .achievement-light .banner-right {
-    background-color: #93c23d;
+    background-color: #0033cc;
   }
   .title-wrapper .subtitle:before {
     bottom: 0;

@@ -106,7 +106,7 @@ a:active,
 a:focus,
 a:hover {
   text-decoration: none;
-  color: #93c23d;
+  color: #0033cc;
 }
 /*
 ----------  0.2. Pages' Rules  ----------
@@ -304,7 +304,7 @@ a:hover {
   font-size: 1rem;
 }
 .bg-white .header-topbar a.item:hover {
-  color: #93c23d;
+  color: #0033cc;
 }
 .bg-center .header-topbar-wrapper {
   position: relative;
@@ -327,7 +327,7 @@ a:hover {
   font-size: .93rem;
 }
 .bg-center .header-topbar a.item:hover {
-  color: #93c23d;
+  color: #0033cc;
 }
 /*
 ----------  1.2. Main Header  ----------
@@ -452,7 +452,7 @@ a:hover {
 */
 ul.navbar-nav a.main-menu span.text {
   position: relative;
-  color:#93c23d;
+  color:#0066ff;
   font-weight: bolder;
 }
 ul.navbar-nav a.main-menu span.text:before {
@@ -462,7 +462,7 @@ ul.navbar-nav a.main-menu span.text:before {
   left: -7px;
   width: 2px;
   height: 0;
-  background-color: #93c23d;
+  background-color: #0033cc;
   transition: height .2s ease;
 }
 ul.navbar-nav a.main-menu:hover {
@@ -474,7 +474,7 @@ ul.navbar-nav li a.main-menu {
 }
 ul.navbar-nav > li.active > a.main-menu,
 ul.navbar-nav > li:hover > a.main-menu {
-  color: #93c23d;
+  color: #0033cc;
 }
 ul.navbar-nav > li.active > a.main-menu span.text:before,
 ul.navbar-nav > li:hover > a.main-menu span.text:before {
@@ -486,7 +486,7 @@ ul.navbar-nav > li:hover > a.main-menu span.text:before {
   float: left;
 }
 .search-btn:hover {
-  color: #93c23d;
+  color: #0033cc;
 }
 .search-btn:hover i:after {
   height: 14px;
@@ -646,7 +646,7 @@ nav.navigation a.main-menu:focus {
   text-align: left;
   padding-left: 20px;
   background-color: #fafafa;
-  border-left: 4px solid #93c23d;
+  border-left: 4px solid #0033cc;
   margin-bottom: 25px;
   text-transform: uppercase;
   display: inline-block;
@@ -671,7 +671,7 @@ nav.navigation a.main-menu:focus {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #93c23d;
+  background-color: #0033cc;
   opacity: 0.4;
   transform: scale(0);
   -webkit-transform: scale(0);
@@ -792,7 +792,7 @@ nav.navigation a.main-menu:focus {
   font-size: 14px;
 }
 .single-recent-post-widget .post-info .description:hover {
-  color: #93c23d;
+  color: #0033cc;
 }
 .single-recent-post-widget:last-child {
   margin-bottom: 0;
@@ -852,13 +852,13 @@ nav.navigation a.main-menu:focus {
   padding-bottom: 0;
 }
 .categories-widget .widget-list .single-widget-item:hover .link {
-  color: #93c23d;
+  color: #0033cc;
 }
 .categories-widget .widget-list .single-widget-item:hover .link .category {
   left: 10px;
 }
 .categories-widget .widget-list .single-widget-item:hover .link .category:before {
-  color: #93c23d;
+  color: #0033cc;
 }
 .tags-widget .tag {
   margin-right: 10px;
@@ -877,8 +877,8 @@ nav.navigation a.main-menu:focus {
   -o-transition: all 0.3s ease;
 }
 .tags-widget .tag:hover {
-  border: 1px solid #93c23d;
-  color: #93c23d;
+  border: 1px solid #0033cc;
+  color: #0033cc;
 }
 .gallery-widget ul {
   margin-bottom: 0;
@@ -910,8 +910,8 @@ nav.navigation a.main-menu:focus {
   -o-transition: all 0.3s ease;
 }
 .social-widget .social-icon:hover {
-  border-color: #93c23d;
-  color: #93c23d;
+  border-color: #0033cc;
+  color: #0033cc;
 }
 /*=================================
 =====       END WIDGET       ======
@@ -975,7 +975,7 @@ nav.navigation a.main-menu:focus {
   left: 0;
   top: 50%;
   transform: translate(0, -50%);
-  background-color: #93c23d;
+  background-color: #0033cc;
 }
 .footer-main {
   position: relative;
@@ -1009,7 +1009,7 @@ nav.navigation a.main-menu:focus {
   left: 0;
   top: 50%;
   transform: translate(0, -50%);
-  background-color: #93c23d;
+  background-color: #0033cc;
 }
 /*
 ----------  4.2. Sub Footer  ----------

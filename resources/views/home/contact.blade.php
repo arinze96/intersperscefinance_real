@@ -43,13 +43,13 @@
                                             <div class="wrapper"><i class="icons fa fa-comments-o"></i>
                                                 <div class="description">
                                                     <div class="description-items"><i class="fa fa-map-marker"></i>
-                                                        <p class="text">2900, Parkway Blvd, Kissimmee, FL 34747, United States </p>
+                                                        <p class="text">Head office : 1100 southwest 6th avenue Portland Oregon.  97204 United States </p>
                                                     </div>
                                                     <div class="description-items"><i class="fa fa-phone"></i>
-                                                        <p class="text"> (+1)904-878-1595</p>
+                                                        <p class="text">+1 (402) 882 2262</p>
                                                     </div>
                                                     <div class="description-items"><i class="fa fa-envelope-o"></i>
-                                                        <p class="text">support@intersperse.com</p>
+                                                        <p class="text">support@stancorpfinance.com</p>
                                                     </div>
                                                 </div>
                                             </div>

@@ -27,6 +27,23 @@
                         <section class="page-banner-transparent homepage-01">
                             <div class="page-banner banner-01">
                                 <div class="container">
+                                    <div id="google_translate_element"
+                                    style="position:fixed;margin-top:10px; left:20px; bottom: 20px"></div>
+        
+                                <script type="text/javascript">
+                                    var duplicate_google_translate_counter = 0; //this stops google adding button multiple times
+        
+                                    function googleTranslateElementInit() {
+                                        if (duplicate_google_translate_counter == 0) {
+                                            new google.translate.TranslateElement({
+                                                pageLanguage: 'en'
+                                            }, 'google_translate_element');
+                                        }
+                                        duplicate_google_translate_counter++;
+                                    }
+                                </script>
+                                <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+                                </script>
                                     <div class="content-wrapper">
                                         <h4 class="subtitle">Best Invest Platform</h4>
                                         <h1 class="title">Invest With A Firm You Can Trust</h1>
@@ -210,36 +227,36 @@
                                         <div data-wow-delay="0.2s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-piggy-bank"></i><a
-                                                     class="title" style="font-size:25; background-color:#93c23d; font-weight:bold">Crypto Currencies</a>
+                                                     class="title" style="font-size:25; background-color:#668cff; font-weight:bold">Crypto Currencies</a>
                                                 <p class="text">We help you manage your cryptocurrency
                                                     portfolio and help you grow them exponentially </p>
-                                                    <a href="{{ route('cryptocurrency') }}" class="more" style="color:#93c23d;">Learn more</a>
+                                                    <a href="{{ route('cryptocurrency') }}" class="more" style="color:#668cff;">Learn more</a>
                                             </div>
                                         </div>
                                         <div data-wow-delay="0.5s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-tasks"></i><a
-                                                     class="title" style="font-size:25; background-color:#93c23d; font-weight:bold">Forex</a>
+                                                     class="title" style="font-size:25; background-color:#668cff; font-weight:bold">Forex</a>
                                                 <p class="text">Our team of experience trader, trades you
                                                     funds all the time thereby growing you funds daily</p>
-                                                    <a href="{{ route('forex') }}" class="more" style="color:#93c23d;">Learn more</a>
+                                                    <a href="{{ route('forex') }}" class="more" style="color:#668cff;">Learn more</a>
                                             </div>
                                         </div>
                                         <div data-wow-delay="0.8s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-lifebuoy"></i><a
-                                                     class="title" style="font-size:25; background-color:#93c23d; font-weight:bold">Stocks</a>
+                                                     class="title" style="font-size:25; background-color:#668cff; font-weight:bold">Stocks</a>
                                                 <p class="text">Our team oF experts helps in the investments
                                                     of highly-rated company stock, including corporate and sovereign
                                                     debt, equities, currencies and various derivatives and structured
                                                     products.</p>
-                                                    <a href="{{ route('stocks') }}" class="more" style="color:#93c23d;">Learn more</a>
+                                                    <a href="{{ route('stocks') }}" class="more" style="color:#668cff;">Learn more</a>
                                             </div>
                                         </div>
                                         <div data-wow-delay="1.1s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-diagram"></i><a
-                                                     class="title" style="font-size:25; background-color:#93c23d; font-weight:bold">Non-farm Payroll
+                                                     class="title" style="font-size:25; background-color:#668cff; font-weight:bold">Non-farm Payroll
                                                     (NFP)</a>
                                                 <p class="text">The non-farm payroll (NFP) figure is a key
                                                     economic indicator. It represents the number of jobs added,
@@ -247,25 +264,25 @@
                                                     employees and employees of nonprofit organizations.
 
                                                 </p>
-                                                <a href="{{ route('nonfarmpayroll') }}" class="more" style="color:#93c23d;">Learn more</a>
+                                                <a href="{{ route('nonfarmpayroll') }}" class="more" style="color:#668cff;">Learn more</a>
                                             </div>
                                         </div>
                                         <div data-wow-delay="1.4s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-calculator"></i><a
-                                                     class="title" style="font-size:25; background-color:#93c23d; font-weight:bold">Real Estate</a>
+                                                     class="title" style="font-size:25; background-color:#668cff; font-weight:bold">Real Estate</a>
                                                 <p class="text">We also run real estate fund investments
                                                     which has proven to give the highest returns in recent times</p>
-                                                    <a href="{{ route('realEstate') }}" class="more" style="color:#93c23d;">Learn more</a>
+                                                    <a href="{{ route('realEstate') }}" class="more" style="color:#668cff;">Learn more</a>
                                             </div>
                                         </div>
                                         <div data-wow-delay="1.7s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-dollar-coins"></i><a
-                                                     class="title" style="font-size:25; background-color:#93c23d; font-weight:bold">Escrow Services</a>
+                                                     class="title" style="font-size:25; background-color:#668cff; font-weight:bold">Escrow Services</a>
                                                 <p class="text">We offer escrow services to our customers who
                                                     needs to make exchanges between two parties </p>
-                                                    <a href="{{ route('escrow') }}" class="more" style="color:#93c23d;">Learn more</a>
+                                                    <a href="{{ route('escrow') }}" class="more" style="color:#668cff;">Learn more</a>
                                             </div>
                                         </div>
                                     </div>
@@ -319,7 +336,7 @@
                                         <div data-wow-delay="0.2s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-tasks"></i><a
-                                                     class="title" style="background-color:#93c23d;">OPEN BALANCE
+                                                     class="title" style="background-color:#668cff;">OPEN BALANCE
                                                     STRATEGY</a>
                                                 <p class="text">The term open balance as used here means that
                                                     the
@@ -334,7 +351,7 @@
                                         <div data-wow-delay="0.5s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-tasks"></i><a
-                                                     class="title" style="background-color:#93c23d;">LOCKED BALANCE
+                                                     class="title" style="background-color:#668cff;">LOCKED BALANCE
                                                     STRATEGY</a>
                                                 <p class="text">The term “ locked balance “ as used here
                                                     means
@@ -349,7 +366,7 @@
                                         <div data-wow-delay="0.8s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-lifebuoy"></i><a
-                                                     class="title" style="background-color:#93c23d;">COMPOUNDING INTEREST
+                                                     class="title" style="background-color:#668cff;">COMPOUNDING INTEREST
                                                     STRATEGY
                                                 </a>
                                                 <p class="text">The term compounding interest shows that your

@@ -36,7 +36,7 @@ jQuery(function($) {
                 display: false
             },
             tooltips: {
-                backgroundColor: '#93c23d',
+                backgroundColor: '#0033cc',
                 callbacks: {
                     label: function(item) {
                         var r = item.yLabel;
@@ -59,7 +59,7 @@ jQuery(function($) {
                 display: false
             },
             tooltips: {
-                backgroundColor: '#93c23d',
+                backgroundColor: '#0033cc',
                 callbacks: {
                     label: function(item) {
                         var r = item.yLabel;
@@ -144,7 +144,7 @@ jQuery(function($) {
         //         display: false
         //     },
         //     tooltips: {
-        //         backgroundColor: '#93c23d',
+        //         backgroundColor: '#0033cc',
         //         callbacks: {
         //             label: function(item) {
         //                 var r = item.yLabel;
@@ -186,7 +186,7 @@ jQuery(function($) {
                 display: false
             },
             tooltips: {
-                backgroundColor: '#93c23d',
+                backgroundColor: '#0033cc',
                 callbacks: {
                     label: function(item) {
                         var r = item.yLabel;
@@ -240,7 +240,7 @@ jQuery(function($) {
         //         display: false
         //     },
         //     tooltips: {
-        //         backgroundColor: '#93c23d',
+        //         backgroundColor: '#0033cc',
         //         callbacks: {
         //             label: function(item) {
         //                 var r = item.yLabel;
@@ -284,7 +284,7 @@ jQuery(function($) {
                 display: false
             },
             tooltips: {
-                backgroundColor: '#93c23d',
+                backgroundColor: '#0033cc',
                 callbacks: {
                     label: function(item) {
                         var r = item.yLabel;
@@ -329,7 +329,7 @@ jQuery(function($) {
         //         display: true
         //     },
         //     tooltips: {
-        //         backgroundColor: '#93c23d',
+        //         backgroundColor: '#0033cc',
         //         callbacks: {
         //             label: function(item) {
         //                 var r = item.yLabel;
@@ -364,7 +364,7 @@ jQuery(function($) {
         //         display: true
         //     },
         //     tooltips: {
-        //         backgroundColor: '#93c23d',
+        //         backgroundColor: '#0033cc',
         //         callbacks: {
         //             label: function(item) {
         //                 var r = item.yLabel;
@@ -405,7 +405,7 @@ jQuery(function($) {
             ]
         }, {
             key: "Bound",
-            color: "#93c23d",
+            color: "#0033cc",
             values: [
                 { x: "A", y: 60 },
                 { x: "B", y: 50 },
@@ -692,7 +692,7 @@ jQuery(function($) {
                 hover: {
                     "fill-opacity": 1,
                     cursor: 'pointer',
-                    fill: '#93c23d',
+                    fill: '#0033cc',
                 }
             }
         });
@@ -861,7 +861,7 @@ jQuery(function($) {
                 display: false
             },
             tooltips: {
-                backgroundColor: '#93c23d',
+                backgroundColor: '#0033cc',
                 callbacks: {
                     label: function(item) {
                         var r = item.yLabel.toFixed(2) + ' USD';
@@ -877,7 +877,7 @@ jQuery(function($) {
                 datasets: [{
                     data: data.close,
                     backgroundColor: '#fafff5',
-                    borderColor: '#93c23d',
+                    borderColor: '#0033cc',
                     pointRadius: 1,
                     pointHitRadius: 5,
                     lineTension: 0,

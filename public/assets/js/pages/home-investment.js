@@ -390,7 +390,7 @@ jQuery(function($) {
                 display: false
             },
             tooltips: {
-                backgroundColor: '#93c23d',
+                backgroundColor: '#0033cc',
                 callbacks: {
                     label: function(item) {
                         var r = item.yLabel.toFixed(2) + ' USD';
@@ -406,7 +406,7 @@ jQuery(function($) {
                 datasets: [{
                     data: data.close,
                     backgroundColor: '#fafff5',
-                    borderColor: '#93c23d',
+                    borderColor: '#0033cc',
                     pointRadius: 1,
                     pointHitRadius: 5,
                     lineTension: 0,
@@ -431,7 +431,7 @@ jQuery(function($) {
                 display: false
             },
             tooltips: {
-                backgroundColor: '#93c23d',
+                backgroundColor: '#0033cc',
                 callbacks: {
                     label: function(item) {
                         var r = item.yLabel;
@@ -488,7 +488,7 @@ jQuery(function($) {
                 display: false
             },
             tooltips: {
-                backgroundColor: '#93c23d',
+                backgroundColor: '#0033cc',
                 callbacks: {
                     label: function(item) {
                         var r = item.yLabel;

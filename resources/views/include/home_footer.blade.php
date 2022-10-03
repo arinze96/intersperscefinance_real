@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-md-3 col-xs-6">
                         <div class="about-us"><img
-                                src="{{ asset('assets/images/logo/pici2.png') }}"
+                                src="{{ asset('assets/img/Stancorp Finance-02.png') }}"
                                 alt="Main Logo" class="logo" />
                             <div class="content">
                                 <p class="text">
@@ -26,17 +26,21 @@
                             <div class="content">
                                 <a href="javascript:void(0)" class="contact-item">
                                     <i class="fa fa-map-marker"></i>
-                                    <p class="description">2900, Parkway Blvd, Kissimmee, FL 34747, United States</p>
+                                    <p class="description">Head office : 1100 southwest 6th avenue Portland Oregon.  97204 United States</p>
+                                </a>
+                                <a href="javascript:void(0)" class="contact-item">
+                                    <i class="fa fa-map-marker"></i>
+                                    <p class="description">Branch office : stahlgruberring 4, 81829 Munchen, Germany</p>
                                 </a>
                                 <div class="contact-item tel">
                                     <i class="fa fa-phone"></i>
                                     <div class="description">
-                                        <a href="javascript:void(0)" class="number">(+1)904-878-1595</a> <br> <br>
-                                        <a href="javascript:void(0)" class="number">(+1)662-771-1595</a>
+                                        <a href="javascript:void(0)" class="number">+1 (402) 882 2262</a> <br> <br>
+                                        {{-- <a href="javascript:void(0)" class="number">(+1)662-771-1595</a> --}}
                                     </div>
                                 </div><a href="javascript:void(0)" class="contact-item">
                                     <i class="fa fa-envelope-o"></i>
-                                    <p class="description">support@interspersefinance.com</p>
+                                    <p class="description">support@stancorpfinance.com</p>
                                 </a>
                             </div>
                         </div>

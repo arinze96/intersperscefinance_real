@@ -179,7 +179,7 @@ jQuery(function($) {
                 display: false
             },
             tooltips: {
-                backgroundColor: '#93c23d',
+                backgroundColor: '#0033cc',
                 callbacks: {
                     label: function(item) {
                         var r = item.yLabel;

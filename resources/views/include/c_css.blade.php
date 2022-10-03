@@ -3,7 +3,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="">
-<link rel="shortcut icon" type="image/png"     href="{{ asset('assets/images/logo/pici1.png') }}" />
+<link rel="shortcut icon" type="image/png"
+    href="{{ asset('assets/img/Stancorp Finance-03.png') }}" />
 <link rel="stylesheet" href="{{ asset("assets/css/dashboard/dashlite.css") }}">
 <link id="skin-default" rel="stylesheet" href="{{ asset("assets/css/dashboard/theme.css") }}">
 {{-- <link rel="shortcut icon" type="image/png" href="{{ asset("assets/images/home/logo/ProStack_favicon.png") }}"/> --}}
@@ -29,15 +30,15 @@
   </style>
 
 
-							<!-- Smartsupp Live Chat script -->
-              <script type="text/javascript">
-                var _smartsupp = _smartsupp || {};
-                _smartsupp.key = '6ba180c51557e213b484bd3489130e563acee5d2';
-                window.smartsupp||(function(d) {
-                  var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-                  s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-                  c.type='text/javascript';c.charset='utf-8';c.async=true;
-                  c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-                })(document);
-                </script>
+	<!-- Smartsupp Live Chat script -->
+<script type="text/javascript">
+  var _smartsupp = _smartsupp || {};
+  _smartsupp.key = '8eca1c004ded6135101a7f300c558ee86f8b1aaf';
+  window.smartsupp||(function(d) {
+    var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+    s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+    c.type='text/javascript';c.charset='utf-8';c.async=true;
+    c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+  })(document);
+  </script>
   
