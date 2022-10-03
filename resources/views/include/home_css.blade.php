@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta name="description" content="Intersperscefinance">
 <link rel="shortcut icon" type="image/png"
-    href="{{ asset('assets/img/  Finance-03.png') }}" />
+    href="{{ asset('assets/img/Stancorp03.png') }}" />
 <link type="text/css" rel="stylesheet"
     href="fonts.googleapis.com/css2528.css?family=Roboto:300,400,400italic,500,700,900">
 <link type="text/css" rel="stylesheet" href="{{ asset('assets/font/font-icon/font-awesome/css/font-awesome.css') }}">

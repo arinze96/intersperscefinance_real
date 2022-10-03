@@ -5,7 +5,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="{{ asset("assets/images/icons/favicon.ico") }}"/>
+<link rel="shortcut icon" type="image/png"
+href="{{ asset('assets/img/Stancorp03.png') }}" />
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="{{ asset("assets/vendor/bootstrap/css/bootstrap.min.css") }}">
 <!--===============================================================================================-->
