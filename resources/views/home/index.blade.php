@@ -4,7 +4,7 @@
 @include('include.home_css')
 
 <head>
-    <title>Intersperce Finance | Home</title>
+    <title>Stancorp Finance | Home</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- FONT CSS-->
@@ -100,9 +100,9 @@
                                                 class="article-title">You are our best interest</a>
 
                                             <div class="preview">
-                                                <p class="paragraph">At Intersperse Finance we make our customers interest our best interest
+                                                <p class="paragraph">At Stancorp  Finance we make our customers interest our best interest
                                                 </p>
-                                                <p class="paragraph">At Intersperse Finance, our actions and results speaks loud, we ensure that your interest and 
+                                                <p class="paragraph">At Stancorp  Finance, our actions and results speaks loud, we ensure that your interest and 
                                                     financial goals are served
                                                 </p>
                                             </div><a href="javascript:void(0)" class="readmore">READ MORE<i
@@ -193,10 +193,10 @@
                                                 class="article-title">About us</a>
 
                                             <div class="preview">
-                                                <p class="paragraph">Intersperse Finance was established in 2013
+                                                <p class="paragraph">Stancorp Finance was established in 2013
                                                     and it initially began trading stocks, shares and bonds, it got
                                                     involved in forex in 2015 and was among the pioneer traders of
-                                                    Cryptocurrencies in the advent of Bitcoin in 2014. Intersperse
+                                                    Cryptocurrencies in the advent of Bitcoin in 2014. Stancorp
                                                     Finance is currently managed by a senior team which has extensive
                                                     experience in the development and implementation of systematic
                                                     investment strategies. The company emphasises strong corporate
@@ -205,7 +205,7 @@
                                                     investors.
 
                                                 </p>
-                                                <p class="paragraph">At Intersperse Finance, we deliver strategic
+                                                <p class="paragraph">At Stancorp  Finance, we deliver strategic
                                                     advice and solutions, including capital raising, risk management,
                                                     and trade finance services to corporations, institutions and
                                                     individuals, We also offer-long term and short-term investment
@@ -590,7 +590,7 @@
                                                 <div class="main-testimonial"><span
                                                         class="w3-icon">&#10077;</span>
                                                     <blockquote class="quote">
-                                                        <p>Since i joined interspersefinance i had seen a massive returns on the investments i have made and it makes me feel good and i also encourage you to invest</p>
+                                                        <p>Since i joined Stancorpfinance i had seen a massive returns on the investments i have made and it makes me feel good and i also encourage you to invest</p>
                                                     </blockquote>
                                                 </div><span class="name">Howard K. Stern</span>
                                                 {{-- <span
@@ -616,7 +616,7 @@
                                                 <div class="main-testimonial"><span
                                                         class="w3-icon">&#10077;</span>
                                                     <blockquote class="quote">
-                                                        <p>Never think of a bigger source of passive other than intersperse finance, this company will help you reach your financial goals</p>
+                                                        <p>Never think of a bigger source of passive other than Stancorp  Finance, this company will help you reach your financial goals</p>
                                                     </blockquote>
                                                 </div><span class="name">Susan Solomon</span><span
                                                     class="company">Aurora Company</span>

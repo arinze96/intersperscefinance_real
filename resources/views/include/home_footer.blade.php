@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-md-3 col-xs-6">
                         <div class="about-us"><img
-                                src="{{ asset('assets/img/Stancorp Finance-02.png') }}"
+                                src="{{ asset('assets/img/  Finance-02.png') }}"
                                 alt="Main Logo" class="logo" />
                             <div class="content">
                                 <p class="text">
@@ -40,7 +40,7 @@
                                     </div>
                                 </div><a href="javascript:void(0)" class="contact-item">
                                     <i class="fa fa-envelope-o"></i>
-                                    <p class="description">support@stancorpfinance.com</p>
+                                    <p class="description">support@ finance.com</p>
                                 </a>
                             </div>
                         </div>

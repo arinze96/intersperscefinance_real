@@ -46,7 +46,7 @@
                                                 <p class="paragraph">As a parent, We want the best for our kids. We
                                                     want to do everything Possible to set them up for success.
 
-                                                    We at Intersperse Finance have spoken with many parents and
+                                                    We at  Finance have spoken with many parents and
                                                     grandparents who have one simple question: How can I invest in my
                                                     child or grandchild’s future? Knowing the power of compound
                                                     interest, some couple wrote us that they wanted to kick-start their
@@ -145,7 +145,7 @@
                             <div class="container">
                                 <div class="subscribe-email-wrapper">
                                     <div class="subscribe-email-left">
-                                        <p class="subscribe-email-title">Sign up for <span> Intersperse Finance </span>
+                                        <p class="subscribe-email-title">Sign up for <span>Stancorp  Finance </span>
                                             viewpoints!
                                         </p>
                                         <div class="description">Get a weekly email of our pros' current thinking

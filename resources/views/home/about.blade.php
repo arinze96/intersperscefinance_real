@@ -41,19 +41,19 @@
                                     <div class="content-timeline">
                                         <div class="timeline-block">
                                             <div class="timeline-number"><span>2013</span></div>
-                                            <div class="timeline-title">Intersperse Finance were born</div>
-                                            <p class="timeline-text">Intersperse Finance was established in 2013 and it
+                                            <div class="timeline-title"> Stancorp Finance were born</div>
+                                            <p class="timeline-text"> Stancorp Finance was established in 2013 and it
                                                 initially began trading stocks, shares and bonds, it got involved in
                                                 forex in 2015 and was among the pioneer traders of Cryptocurrencies in
-                                                the advent of Bitcoin in 2014. Intersperse Finance is currently managed
+                                                the advent of Bitcoin in 2014.  Stancorp Finance is currently managed
                                                 by a senior team which has extensive experience in the development and
                                                 implementation of systematic investment strategies. The company
                                                 emphasises strong corporate governance and the provision of first class
                                                 investor service to a client base which includes many of the world’s
                                                 leading institutional investors.
 
-                                                At Intersperse Finance, we deliver strategic advice and solutions,
-                                                including capital raising, risk management, and trade finance services
+                                                At  Stancorp Finance, we deliver strategic advice and solutions,
+                                                including capital raising, risk management, and trade Stancorp finance services
                                                 to corporations, institutions and individuals, We also offer-long term
                                                 and short-term investment opportunities.</p>
                                             {{-- <div class="timeline-slider">
@@ -72,11 +72,11 @@
                             <div class="container">
                                 <div class="subscribe-email-wrapper">
                                     <div class="subscribe-email-left">
-                                        <p class="subscribe-email-title">Sign up for <span> Intersperse Finance </span>
+                                        <p class="subscribe-email-title">Sign up for <span>  Stancorp Finance </span>
                                             viewpoints!
                                         </p>
                                         <div class="description">Get a weekly email of our pros' current thinking
-                                            about financial markets, investing and personal finance.</div>
+                                            about financial markets, investing and personal Stancorp finance.</div>
                                     </div>
                                     <div class="subscribe-email-right">
                                         <form>
