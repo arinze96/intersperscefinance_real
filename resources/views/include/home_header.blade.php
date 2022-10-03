@@ -6,7 +6,7 @@
                     <div class="header-main-wrapper">
                         <div class="navbar-header">
                             <button type="button" data-toggle="offcanvas" class="btn-hamburger visible-tablet"><span class="icon-bar"></span></button>
-                            <a href="{{route('app.home')}}" class="header-logo"><img src="{{ asset('assets/img/stancorp12.jpg') }}" height="100px" width="50px" alt="Main Logo" class="logo" /></a>
+                            <a href="{{route('app.home')}}" class="header-logo"><img src="{{ asset('assets/img/stancorp121.jpg') }}" height="100px" width="50px" alt="Main Logo" class="logo" /></a>
                         </div>
                         <nav class="navigation navbar-offcanvas pull-right">
                             <div class="nav-wrapper">
