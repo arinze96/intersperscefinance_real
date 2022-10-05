@@ -45,7 +45,7 @@
                                 <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
                                 </script>
                                     <div class="content-wrapper">
-                                        <h4 class="subtitle">Best Invest Platform</h4>
+                                        {{-- <h4 class="subtitle">Best Invest Platform</h4> --}}
                                         <h1 class="title">Invest With A Firm You Can Trust</h1>
                                         <p class="text">
                                             24/7 monitoring of your investment is assured</p>

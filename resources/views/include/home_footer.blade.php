@@ -5,11 +5,11 @@
                 <div class="row">
                     <div class="col-md-3 col-xs-6">
                         <div class="about-us"><img
-                                src="{{ asset('assets/img/  Finance-02.png') }}"
+                                src="{{ asset('assets/img/background/stan.png') }}"
                                 alt="Main Logo" class="logo" />
                             <div class="content">
                                 <p class="text">
-                                    Signup on the best plartform for for investments, cryptocurrency trading, real estate investment etc
+                                    Signup on the best plartform for investments, cryptocurrency trading, real estate investment etc
                                 </p>
                                 <ul class="list-inline list-unstyled social-list">
                                     <li><a href="#" class="link facebook"><i class="fa fa-facebook"></i></a></li>
@@ -40,7 +40,7 @@
                                     </div>
                                 </div><a href="javascript:void(0)" class="contact-item">
                                     <i class="fa fa-envelope-o"></i>
-                                    <p class="description">support@ finance.com</p>
+                                    <p class="description">support@stancorpfinance.com</p>
                                 </a>
                             </div>
                         </div>
