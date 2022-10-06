@@ -210,7 +210,7 @@
                                                     and trade finance services to corporations, institutions and
                                                     individuals, We also offer-long term and short-term investment
                                                     opportunities.</p>
-                                            </div><a href="javascript:void(0)" class="readmore">READ MORE<i
+                                            </div><a href="{{route('about')}}" class="readmore">READ MORE<i
                                                     class="fa fa-long-arrow-right"></i></a>
                                         </div>
                                     </div>
