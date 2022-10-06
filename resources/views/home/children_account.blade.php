@@ -24,7 +24,7 @@
                                     <div class="page-title-content">
                                         <h1 class="title">CHILDREN ACCOUNT</h1>
                                         <ol class="breadcrumb">
-                                            <li><a {{-- href="{{route('home')}}" --}} class="link home">Home</a></li>
+                                            <li><a href="{{ route('app.home') }}" class="link home">Home</a></li>
                                             <li><a {{-- href="{{route('about')}}" --}} class="link active">CHILDREN ACCOUNT</a>
                                             </li>
                                         </ol>
@@ -58,7 +58,7 @@
                                                     yourself a high five! Whether “Junior” is still crawling around the
                                                     living room floor or getting ready to graduate from high school, we
                                                     got you covered, you can secure and invest in their future. The
-                                                    Monetary Trades Children’s Account is a unique investments account
+                                                     Stancorp Finance Children’s Account is a unique investments account
                                                     designed to allow parents invest then save for their children’s
                                                     future and teach them about savings/investments from a tender age.
                                                     The account is modeled in two tiers for young children and teens

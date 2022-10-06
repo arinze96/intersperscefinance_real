@@ -26,7 +26,7 @@
                                     <div class="page-title-content">
                                         <h1 class="title">contact</h1>
                                         <ol class="breadcrumb">
-                                            <li><a href="index-2.html" class="link home">Home</a></li>
+                                            <li><a href="{{ route('app.home') }}" class="link home">Home</a></li>
                                             <li><a href="#" class="link active">contact</a></li>
                                         </ol>
                                     </div>

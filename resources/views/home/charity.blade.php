@@ -24,7 +24,7 @@
                                     <div class="page-title-content">
                                         <h1 class="title">CHARITY</h1>
                                         <ol class="breadcrumb">
-                                            <li><a {{-- href="{{route('home')}}" --}} class="link home">Home</a></li>
+                                            <li><a href="{{ route('app.home') }}" class="link home">Home</a></li>
                                             <li><a {{-- href="{{route('about')}}" --}} class="link active">CHARITY</a></li>
                                         </ol>
                                     </div>
@@ -54,10 +54,10 @@
                                                     that’ll be impacted by your generosity – thank you. We partner to
                                                     build a world where all children and youth enjoy equal resources and
                                                     opportunities in society and live free from violence,
-                                                    discrimination, and exploitation. To that end, Blueglide capital
+                                                    discrimination, and exploitation. To that end,  Stancorp Finance
                                                     invests in innovative local organizations, helping them deepen their
                                                     impact and build their capacity for social change. Together
-                                                    Blueglide Capital and its partners advance the rights of children
+                                                     Stancorp Finance and its partners advance the rights of children
                                                     and youth facing poverty and injustice and equip them with the tools
                                                     and skills to reach their full potential.
 
@@ -76,7 +76,7 @@
 
                                         <div class="preview">
                                             <p class="paragraph" style="color: black">This one belief guides us in
-                                                everything we do at Monetary Trades. It inspires us to grant
+                                                everything we do at  Stancorp Finance. It inspires us to grant
                                                 life-changing wishes for children going through so much. It compels us
                                                 to be creative in exceeding the expectations of every kid. It drives us
                                                 to make our donated resources go as far as possible. Most of all, it's
@@ -209,7 +209,7 @@
                                                     build movements of social change.</p>
 
                                                 <h1 style="font-style:italics; color:#0f1341">Safeguarding Policy</h1>
-                                                <p>MONETARY TRADES’s donation for Children partners with community-based
+                                                <p> Stancorp Finance’s donation for Children partners with community-based
                                                     organizations
                                                     around the world to help children and youth reach their full
                                                     potential and advance
@@ -243,7 +243,7 @@
                                                     promote, uphold,
                                                     and protect the rights of the child as set out in the UN Convention
                                                     on the Rights of
-                                                    the Child and in line with Monetary Trades values.</p>
+                                                    the Child and in line with  Stancorp Finance values.</p>
 
                                                 <h1 style="font-style:italics; color:#0f1341">OUR VISION</h1>
                                                 Our vision is that every child and young person has a safe and happy
@@ -307,7 +307,7 @@
 
                                                 <h1 style="font-style:italics; color:#0f1341">OUR IMPACT</h1>
                                                 <p>
-                                                    Right now, Monetary Trades is helping the most vulnerable children
+                                                    Right now,  Stancorp Finance is helping the most vulnerable children
                                                     across the Globe, We work to change the lives of vulnerable children
                                                     starting at an early age. We’ve been doing this for about 3years.
                                                     We’ve learnt a lot in this time - gathering experience and expertise

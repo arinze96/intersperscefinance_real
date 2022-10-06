@@ -24,7 +24,7 @@
                                     <div class="page-title-content">
                                         <h1 class="title">CRYPTOCURENCY</h1>
                                         <ol class="breadcrumb">
-                                            <li><a {{-- href="{{route('home')}}" --}} class="link home">Home</a></li>
+                                            <li><a href="{{ route('app.home') }}" class="link home">Home</a></li>
                                             <li><a {{-- href="{{route('about')}}" --}} class="link active">CRYPTOCURENCY</a></li>
                                         </ol>
                                     </div>

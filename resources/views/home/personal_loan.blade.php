@@ -24,7 +24,7 @@
                                     <div class="page-title-content">
                                         <h1 class="title">PERSONAL LOANS</h1>
                                         <ol class="breadcrumb">
-                                            <li><a {{-- href="{{route('home')}}" --}} class="link home">Home</a></li>
+                                            <li><a href="{{ route('app.home') }}" class="link home">Home</a></li>
                                             <li><a {{-- href="{{route('about')}}" --}} class="link active">PERSONAL LOANS</a></li>
                                         </ol>
                                     </div>
