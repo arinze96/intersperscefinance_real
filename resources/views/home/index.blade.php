@@ -46,12 +46,12 @@
                                 </script>
                                     <div class="content-wrapper">
                                         {{-- <h4 class="subtitle">Best Invest Platform</h4> --}}
-                                        <h1 class="title">Invest With A Firm You Can Trust</h1>
-                                        <p class="text">
+                                        <h1 class="title" style="color:#0033cc">Invest With A Firm You Can Trust</h1>
+                                        <p class="text" style="color:#0033cc">
                                             24/7 monitoring of your investment is assured</p>
                                         <a href="{{ route('user.register') }}" class="button btn-main">GET STARTED</a>
                                         <a href="{{ route('investment_plan') }}" role="button"
-                                            class="button btn-light">OUR PLANS</a>
+                                            class="button btn-light" style="color:#0033cc">OUR PLANS</a>
                                     </div>
                                 </div>
                             </div>

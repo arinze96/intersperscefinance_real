@@ -754,7 +754,7 @@ ul.nav-tabs > li.active > a:focus {
 ----------  2.1. About  ----------
 */
 section.page-banner.about {
-  background-image: url('../img/background/BG23.jpg');
+  background-image: url('../img/mybg1.jpg');
   background-position: right bottom 100px;
 }
 .page-title-wrapper {
@@ -782,9 +782,11 @@ section.page-banner.about {
 }
 .page-title-wrapper li {
   display: inline-block;
+  color: #fff;
+
 }
 .page-title-wrapper li .link {
-  color: #999;
+  color: #fff;
   text-transform: capitalize;
 }
 .page-title-wrapper li .link:hover {
@@ -3241,7 +3243,8 @@ textarea.form-textarea {
 }
 .page-title-wrapper .title {
   font-size: 50px;
-  color: #555;
+  /* color: #555; */
+  color: #0033cc;
   text-transform: uppercase;
   font-weight: 900;
 }

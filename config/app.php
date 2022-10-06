@@ -13,9 +13,9 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Interspersefinance'),
+    'name' => env('APP_NAME', 'Stancorpfinance'),
     'description' => env('APP_DESCRIPTION', 'Grow Your Passive Income Hourly and Increase Your Earnings Hourly'),
-    'chat_link' => env('CHAT_LINK', 'Interspersefinance'),
+    'chat_link' => env('CHAT_LINK', 'Stancorpfinance'),
     'email' => env('APP_EMAIL', ''),
     'facebook' => env('APP_FACEBOOK', ''),
     'twitter' => env('APP_TWITTER', ''),
@@ -37,10 +37,10 @@ return [
     "deposit_status"=>[1=>"processing",2=>"approve",3=>"decline"],
     "edit_names"=>[],
     "address"=>"1260 Broadway, New York, NY 10001",
-    "domain"=> "Interspersefinance",
+    "domain"=> "Stancorpfinance",
     "referral_initial_percent"=>5,
     "referral_consequent_percent"=>1,
-    "admin_mail"=>"support@interspersefinance.com",
+    "admin_mail"=>"support@Stancorpfinance.com",
 
 
 

@@ -91,7 +91,7 @@
     </div>
     <div class="footer-sub padding-top-xs padding-bottom-xs">
         <div class="container">
-            <div class="name-company">All Rights Reserved &copy;2022 interspersefinance.com</div>
+            <div class="name-company">All Rights Reserved &copy;2022 Transcorpfinance.com</div>
           
         </div>
     </div>
