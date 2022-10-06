@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="x-apple-disable-message-reformatting">
-    <title>{{ $data["appName"] }}</title>
+    <title>Stancorpfinance</title>
     
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,600" rel="stylesheet" type="text/css">
     <style>
@@ -64,7 +64,7 @@
                                 <td style="text-align: center; padding-bottom:25px">
                                   <h2>
                                   <a href="{{ $data["domain"] }}">
-                                     {{ $data["appName"] }}
+                                     Stancorpfinance
                                     </a>
                                   </h2>
                                 </td>
@@ -96,7 +96,7 @@
                         <tbody>
                             <tr>
                                 <td style="text-align: center; padding:25px 20px 0;">
-                                    <p style="font-size: 13px;">Copyright © {{ $data['year'] }} {{ $data["appName"] }}. All rights reserved. <br> .</p>
+                                    <p style="font-size: 13px;">Copyright © {{ $data['year'] }} Stancorpfinance. All rights reserved. <br> .</p>
                                     
                                 </td>
                             </tr>
