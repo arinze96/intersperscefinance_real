@@ -630,27 +630,29 @@
                                 <div class="container">
                                     <div class="title-wrapper title-wrapper-main">
                                         {{-- <h1 class="subtitle">INTEREST</h1>  --}}
-                                        <h2 class="title">YOU ARE OUR BEST INTEREST</h2>
+                                        <h2 class="title">STANCORPFINANCE IS DEDICATED TO GROWING YOUR FINANCE</h2>
                                     </div>
                                     <div class="row">
                                         <div class="article">
+                                            
+                                            <div class="col-md-6"><a href="blog-detail.html"
+                                                    class="article-title">e are dedicated to serve you</a>
+    
+                                                <div class="preview">
+                                                    <p class="paragraph">At Stancorp Finance we employ every tool we have to maximize profit for our customers
+                                                    </p>
+                                                    <p class="paragraph">At Stancorp  Finance, investment and
+                                                        crypto trading is unmatched. if you are seeking financial freedom this is the best platform for
+                                                        you
+                                                    </p>
+                                                </div><a href="{{route('about')}} class="readmore">READ MORE<i
+                                                        class="fa fa-long-arrow-right"></i></a>
+                                            </div>
                                             <div class="col-md-6">
                                                 <video width="100%" height="325" controls>
                                                     <source src="{{ asset('assets/video/vid1.mp4') }}" type="video/mp4">
                                                     No video support.
                                                 </video>
-                                            </div>
-                                            <div class="col-md-6"><a href="blog-detail.html"
-                                                    class="article-title">You are our best interest</a>
-    
-                                                <div class="preview">
-                                                    <p class="paragraph">At Stancorp  Finance we make our customers interest our best interest
-                                                    </p>
-                                                    <p class="paragraph">At Stancorp  Finance, our actions and results speaks loud, we ensure that your interest and 
-                                                        financial goals are served
-                                                    </p>
-                                                </div><a href="{{route('about')}} class="readmore">READ MORE<i
-                                                        class="fa fa-long-arrow-right"></i></a>
                                             </div>
                                         </div>
                                     </div>
