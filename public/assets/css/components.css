@@ -1116,7 +1116,7 @@ section.page-banner.about {
 ----------  2.2. Service  ----------
 */
 section.page-banner.page-service {
-  background-image: url('../img/background/homepage-banner-03.jpg');
+  background-image: url('../img/background/bg-service.jpg');
   background-position: right;
 }
 .content-our-service .col-md-4:nth-last-child(-n+3) .main-our-service {
