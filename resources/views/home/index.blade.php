@@ -671,7 +671,7 @@
                                                     so you can enjoy our wide variety of investment options and roll
                                                     your
                                                     old one-on-one guidance retirement plan.</p><a
-                                                    href="javascript:void(0)" class="button btn-main">READ MORE</a>
+                                                    href="{{route('about')}} class="button btn-main">READ MORE</a>
                                             </div>
                                         </div>
                                         <div class="col-sm-1 dummy-cell">&nbsp;</div>
