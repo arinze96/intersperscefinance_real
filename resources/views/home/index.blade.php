@@ -105,7 +105,7 @@
                                                 <p class="paragraph">At Stancorp  Finance, our actions and results speaks loud, we ensure that your interest and 
                                                     financial goals are served
                                                 </p>
-                                            </div><a href="{{route('about')}} class="readmore">READ MORE<i
+                                            </div><a href="{{route('about')}}" class="readmore">READ MORE<i
                                                     class="fa fa-long-arrow-right"></i></a>
                                         </div>
                                     </div>
@@ -645,7 +645,7 @@
                                                         crypto trading is unmatched. if you are seeking financial freedom this is the best platform for
                                                         you
                                                     </p>
-                                                </div><a href="{{route('about')}} class="readmore">READ MORE<i
+                                                </div><a href="{{route('about')}}" class="readmore">READ MORE<i
                                                         class="fa fa-long-arrow-right"></i></a>
                                             </div>
                                             <div class="col-md-6">
@@ -671,7 +671,7 @@
                                                     so you can enjoy our wide variety of investment options and roll
                                                     your
                                                     old one-on-one guidance retirement plan.</p><a
-                                                    href="{{route('about')}} class="button btn-main">READ MORE</a>
+                                                    href="{{route('about')}}" class="button btn-main">READ MORE</a>
                                             </div>
                                         </div>
                                         <div class="col-sm-1 dummy-cell">&nbsp;</div>
