@@ -12,7 +12,7 @@
   <meta name="keywords" content="">
   <meta name="csrf-token" content="{{ csrf_token() }}" />
 
- 
+ {{-- ssrgdmldggdgl;bl;mdgbdml;g --}}
   
 
   <style>
