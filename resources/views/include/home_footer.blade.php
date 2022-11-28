@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-md-3 col-xs-6">
                         <div class="about-us"><img
-                                src="{{ asset('assets/img/background/stan.png') }}"
+                                src="{{ asset('assets/img/003.png') }}"
                                 alt="Main Logo" class="logo" />
                             <div class="content">
                                 <p class="text">
