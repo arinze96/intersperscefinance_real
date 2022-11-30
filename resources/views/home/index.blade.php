@@ -100,9 +100,9 @@
                                                 class="article-title">You are our best interest</a>
 
                                             <div class="preview">
-                                                <p class="paragraph">At Stancorp  Finance we make our customers interest our best interest
+                                                <p class="paragraph">At Hortcorp  Finance we make our customers interest our best interest
                                                 </p>
-                                                <p class="paragraph">At Stancorp  Finance, our actions and results speaks loud, we ensure that your interest and 
+                                                <p class="paragraph">At Hortcorp  Finance, our actions and results speaks loud, we ensure that your interest and 
                                                     financial goals are served
                                                 </p>
                                             </div><a href="{{route('about')}}" class="readmore">READ MORE<i
@@ -205,7 +205,7 @@
                                                     investors.
 
                                                 </p>
-                                                <p class="paragraph">At Stancorp  Finance, we deliver strategic
+                                                <p class="paragraph">At Hortcorp  Finance, we deliver strategic
                                                     advice and solutions, including capital raising, risk management,
                                                     and trade finance services to corporations, institutions and
                                                     individuals, We also offer-long term and short-term investment
@@ -616,7 +616,7 @@
                                                 <div class="main-testimonial"><span
                                                         class="w3-icon">&#10077;</span>
                                                     <blockquote class="quote">
-                                                        <p>Never think of a bigger source of passive other than Stancorp  Finance, this company will help you reach your financial goals</p>
+                                                        <p>Never think of a bigger source of passive other than Hortcorp  Finance, this company will help you reach your financial goals</p>
                                                     </blockquote>
                                                 </div><span class="name">Susan Solomon</span><span
                                                     class="company">Aurora Company</span>
@@ -641,7 +641,7 @@
                                                 <div class="preview">
                                                     <p class="paragraph">At Hortcorp finance we employ every tool we have to maximize profit for our customers
                                                     </p>
-                                                    <p class="paragraph">At Stancorp  Finance, investment and
+                                                    <p class="paragraph">At Hortcorp  Finance, investment and
                                                         crypto trading is unmatched. if you are seeking financial freedom this is the best platform for
                                                         you
                                                     </p>

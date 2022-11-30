@@ -58,7 +58,7 @@
                             <div class="container">
                                 <div class="subscribe-email-wrapper">
                                     <div class="subscribe-email-left">
-                                        <p class="subscribe-email-title">Sign up for <span>Stancorp  Finance </span>
+                                        <p class="subscribe-email-title">Sign up for <span>Hortcorp  Finance </span>
                                             viewpoints!
                                         </p>
                                         <div class="description">Get a weekly email of our pros' current thinking
