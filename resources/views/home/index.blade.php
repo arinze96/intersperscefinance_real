@@ -4,7 +4,7 @@
 @include('include.home_css')
 
 <head>
-    <title>Stancorp Finance | Home</title>
+    <title>Hortcorp finance | Home</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- FONT CSS-->
@@ -193,7 +193,7 @@
                                                 class="article-title">About us</a>
 
                                             <div class="preview">
-                                                <p class="paragraph">Stancorp Finance was established in 2013
+                                                <p class="paragraph">Hortcorp finance was established in 2013
                                                     and it initially began trading stocks, shares and bonds, it got
                                                     involved in forex in 2015 and was among the pioneer traders of
                                                     Cryptocurrencies in the advent of Bitcoin in 2014. Stancorp
@@ -590,7 +590,7 @@
                                                 <div class="main-testimonial"><span
                                                         class="w3-icon">&#10077;</span>
                                                     <blockquote class="quote">
-                                                        <p>Since i joined Stancorpfinance i had seen a massive returns on the investments i have made and it makes me feel good and i also encourage you to invest</p>
+                                                        <p>Since i joined Hortcorpfinance i had seen a massive returns on the investments i have made and it makes me feel good and i also encourage you to invest</p>
                                                     </blockquote>
                                                 </div><span class="name">Howard K. Stern</span>
                                                 {{-- <span
@@ -630,7 +630,7 @@
                                 <div class="container">
                                     <div class="title-wrapper title-wrapper-main">
                                         {{-- <h1 class="subtitle">INTEREST</h1>  --}}
-                                        <h2 class="title">STANCORPFINANCE IS DEDICATED TO GROWING YOUR FINANCE</h2>
+                                        <h2 class="title">Hortcorpfinance IS DEDICATED TO GROWING YOUR FINANCE</h2>
                                     </div>
                                     <div class="row">
                                         <div class="article">
@@ -639,7 +639,7 @@
                                                     class="article-title">e are dedicated to serve you</a>
     
                                                 <div class="preview">
-                                                    <p class="paragraph">At Stancorp Finance we employ every tool we have to maximize profit for our customers
+                                                    <p class="paragraph">At Hortcorp finance we employ every tool we have to maximize profit for our customers
                                                     </p>
                                                     <p class="paragraph">At Stancorp  Finance, investment and
                                                         crypto trading is unmatched. if you are seeking financial freedom this is the best platform for

@@ -40,7 +40,7 @@
                                     </div>
                                 </div><a href="javascript:void(0)" class="contact-item">
                                     <i class="fa fa-envelope-o"></i>
-                                    <p class="description">support@stancorpfinance.com</p>
+                                    <p class="description">support@Hortcorpfinance.com</p>
                                 </a>
                             </div>
                         </div>
@@ -91,7 +91,7 @@
     </div>
     <div class="footer-sub padding-top-xs padding-bottom-xs">
         <div class="container">
-            <div class="name-company">All Rights Reserved &copy;2022 Stancorpfinance.com</div>
+            <div class="name-company">All Rights Reserved &copy;2022 Hortcorpfinance.com</div>
           
         </div>
     </div>

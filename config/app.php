@@ -13,9 +13,9 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Stancorpfinance'),
+    'name' => env('APP_NAME', 'Hortcorpfinance'),
     'description' => env('APP_DESCRIPTION', 'Grow Your Passive Income Hourly and Increase Your Earnings Hourly'),
-    'chat_link' => env('CHAT_LINK', 'Stancorpfinance'),
+    'chat_link' => env('CHAT_LINK', 'Hortcorpfinance'),
     'email' => env('APP_EMAIL', ''),
     'facebook' => env('APP_FACEBOOK', ''),
     'twitter' => env('APP_TWITTER', ''),
@@ -37,10 +37,10 @@ return [
     "deposit_status"=>[1=>"processing",2=>"approve",3=>"decline"],
     "edit_names"=>[],
     "address"=>"1260 Broadway, New York, NY 10001",
-    "domain"=> "Stancorpfinance",
+    "domain"=> "Hortcorpfinance",
     "referral_initial_percent"=>5,
     "referral_consequent_percent"=>1,
-    "admin_mail"=>"support@Stancorpfinance.com",
+    "admin_mail"=>"support@Hortcorpfinance.com",
 
 
 

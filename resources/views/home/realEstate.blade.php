@@ -39,7 +39,7 @@
                                         <div class="timeline-block">
                                             {{-- <div class="timeline-number"><span>2003</span></div> --}}
                                             <div class="timeline-title">Real Estate Investment</div>
-                                            <p class="timeline-text">Stancorp Finance is a different way to invest
+                                            <p class="timeline-text">Hortcorp finance is a different way to invest
                                                 online. We help you lay a foundation for you to accumulate and build
                                                 wealth. Earning money from long-term multi-million dollar real estate
                                                 assets can set your family up for a better future. In order to build

@@ -58,7 +58,7 @@
                                                     yourself a high five! Whether “Junior” is still crawling around the
                                                     living room floor or getting ready to graduate from high school, we
                                                     got you covered, you can secure and invest in their future. The
-                                                     Stancorp Finance Children’s Account is a unique investments account
+                                                     Hortcorp finance Children’s Account is a unique investments account
                                                     designed to allow parents invest then save for their children’s
                                                     future and teach them about savings/investments from a tender age.
                                                     The account is modeled in two tiers for young children and teens

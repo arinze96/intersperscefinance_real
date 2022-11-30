@@ -49,7 +49,7 @@
                                                         <p class="text">+1 (402) 882 2262</p>
                                                     </div>
                                                     <div class="description-items"><i class="fa fa-envelope-o"></i>
-                                                        <p class="text">support@stancorpfinance.com</p>
+                                                        <p class="text">support@Hortcorpfinance.com</p>
                                                     </div>
                                                 </div>
                                             </div>

@@ -41,11 +41,11 @@
                                             <div class="timeline-title">Personal loans</div>
                                             <p class="timeline-text">Getting a loan doesn’t have to be intimidating, with the right lender it can be a simple process. You only need a lender committed to taking the mystery out of the mortgage loan process! At Stancorp  finance we understand! Our investors want simple facts, honest answers and competitive products.
 
-                                                Stancorp finance automatically offers loan services to investors with over $100,000 investment either in our normal Weltweit Financial Services packages or the NFP plans. Investors over $100,000 are entitled to loans of $500,000-1millon dollars yearly with 5% paid monthly, or the investor could wish to compound the interest till the time limit, provided all required information and identity of the investor are duly confirmed by the Weltweit loan board.
+                                                Hortcorp finance automatically offers loan services to investors with over $100,000 investment either in our normal Weltweit Financial Services packages or the NFP plans. Investors over $100,000 are entitled to loans of $500,000-1millon dollars yearly with 5% paid monthly, or the investor could wish to compound the interest till the time limit, provided all required information and identity of the investor are duly confirmed by the Weltweit loan board.
                                                 
                                                 Every investor above $100,000 is provided with a personal account manager and the investor has a direct communication with the manager in order to see that our loan offers are secured.
                                                 
-                                                GREAT INVESTING WITH THE Stancorp finance FAMILY!</p>
+                                                GREAT INVESTING WITH THE Hortcorp finance FAMILY!</p>
                                             {{-- <div class="timeline-slider">
                                                 <div class="item-slider">
                                                     <a href="#"><img src="assets/img/about/about-1.jpg" alt=""
@@ -62,7 +62,7 @@
                             <div class="container">
                                 <div class="subscribe-email-wrapper">
                                     <div class="subscribe-email-left">
-                                        <p class="subscribe-email-title">Sign up for <span> Stancorp Finance </span> viewpoints!
+                                        <p class="subscribe-email-title">Sign up for <span> Hortcorp finance </span> viewpoints!
                                         </p>
                                         <div class="description">Get a weekly email of our pros' current thinking
                                             about financial markets, investing and personal finance.</div>
