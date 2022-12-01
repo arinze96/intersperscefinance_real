@@ -650,7 +650,7 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <video width="100%" height="325" controls>
-                                                    <source src="{{ asset('assets/video/vid1.mp4') }}" type="video/mp4">
+                                                    <source src="{{ asset('assets/video/Hortcorp2.mp4') }}" type="video/mp4">
                                                     No video support.
                                                 </video>
                                             </div>
