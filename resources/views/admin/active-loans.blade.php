@@ -4,7 +4,7 @@
 <head>
     @include('include.a_css')
     <!-- Page Title  -->
-    <title>{{ config("app.name") }} Admin</title>
+    <title>{{ config('app.name') }} Admin</title>
 </head>
 
 <body class="nk-body bg-lighter npc-general has-sidebar ">
@@ -42,51 +42,70 @@
                                                 <div class="card-inner">
                                                     <div class="table-responsive">
                                                         @if (!$loans->isEmpty())
-                                                        <table class="table">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th scope="col">#</th>
-                                                                    <th scope="col">Fullname</th>
-                                                                    <th scope="col">Currency</th>
-                                                                    <th scope="col">Amount</th>
-                                                                    <th scope="col">Status</th>
-                                                                    <th scope="col">Date</th>
-                                                                    <th scope="col">Action</th>
-                                                                    <th scope="col">Action</th>
+                                                            <table class="table">
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th scope="col">#</th>
+                                                                        <th scope="col">Fullname</th>
+                                                                        <th scope="col">Currency</th>
+                                                                        <th scope="col">Amount</th>
+                                                                        <th scope="col">Status</th>
+                                                                        <th scope="col">Date</th>
+                                                                        <th scope="col">Action</th>
+                                                                        <th scope="col">Action</th>
 
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                @foreach ($loans as $key => $loan)
-                                                                <tr>
-                                                                    <th scope="row">{{ $key + 1 }}</th>
-                                                                    <td>{{ ucwords($loan->firstname) }} {{ ucwords($loan->lastname) }}</td>
-                                                                    <td>{{ ucwords($loan->currency) }}</td>
-                                                                    <td>{{ $loan->amount }}</td>
-                                                                    <td>{{ $loan->status == 0 ? 'unapproved' : 'Approved' }}</td>
-                                                                    <td>{{ date("d M,Y",strtotime($loan->created_at)) }}</td>
-                                                                    <td>
-                                                                        <a href="{{ route("admin.loan.view",["edit",$loan->id]) }}"><em class="icon ni ni-edit"></em></a>
-                                                                        <a class="delete_data" href="{{ route("admin.loan.view",["delete",$loan->id]) }}" data-type="loan" ><em  class="icon ni ni-trash-fill "></em></a>
-                                                                        {{-- <a href="{{ route("admin.loan.view",["view",$loan->id]) }}"><em class="icon ni ni-eye-fill"></em></a> --}}
-                                                                    </td>
-                                                                    <td class="tb-tnx-action">
-                                                                      <div class="dropdown">
-                                                                          <a class="text-soft dropdown-toggle btn btn-icon btn-trigger" data-toggle="dropdown"><em class="icon ni ni-more-h"></em></a>
-                                                                          <div class="dropdown-menu dropdown-menu-right dropdown-menu-xs">
-                                                                              <ul class="link-list-plain">
-                                                                                  
-                                                                                  <li><a data-action="approve" data-type="loan"  class="decline_approve" href="{{ route("admin.loan.view",["approve",$loan->id]) }}">Approve</a></li>
-                                                                                  <li><a  data-action="decline" data-type="loan" class="decline_approve" href="{{ route("admin.loan.view",["decline",$loan->id]) }}">Decline</a></li>
-                                                                                  
-                                                                              </ul>
-                                                                          </div>
-                                                                      </div>
-                                                                  </td>
-                                                                </tr>
-                                                                @endforeach
-                                                            </tbody>
-                                                        </table>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    @foreach ($loans as $key => $loan)
+                                                                        <tr>
+                                                                            <th scope="row">{{ $key + 1 }}</th>
+                                                                            <td>{{ ucwords($loan->firstname) }}
+                                                                                {{ ucwords($loan->lastname) }}</td>
+                                                                            <td>{{ ucwords($loan->currency) }}</td>
+                                                                            <td>{{ $loan->amount }}</td>
+                                                                            <td>{{ $loan->status == 0 ? 'unapproved' : 'Approved' }}
+                                                                            </td>
+                                                                            <td>{{ date('d M,Y', strtotime($loan->created_at)) }}
+                                                                            </td>
+                                                                            <td>
+                                                                                <a
+                                                                                    href="{{ route('admin.loan.view', ['edit', $loan->id]) }}"><em
+                                                                                        class="icon ni ni-edit"></em></a>
+                                                                                <a class="delete_data"
+                                                                                    href="{{ route('admin.loan.view', ['delete', $loan->id]) }}"
+                                                                                    data-type="loan"><em
+                                                                                        class="icon ni ni-trash-fill "></em></a>
+                                                                                {{-- <a href="{{ route("admin.loan.view",["view",$loan->id]) }}"><em class="icon ni ni-eye-fill"></em></a> --}}
+                                                                            </td>
+                                                                            <td class="tb-tnx-action">
+                                                                                <div class="dropdown">
+                                                                                    <a class="text-soft dropdown-toggle btn btn-icon btn-trigger"
+                                                                                        data-toggle="dropdown"><em
+                                                                                            class="icon ni ni-more-h"></em></a>
+                                                                                    <div
+                                                                                        class="dropdown-menu dropdown-menu-right dropdown-menu-xs">
+                                                                                        <ul class="link-list-plain">
+
+                                                                                            <li><a data-action="approve"
+                                                                                                    data-type="loan"
+                                                                                                    class="decline_approve"
+                                                                                                    href="{{ route('admin.loan.view', ['approve', $loan->id]) }}">Approve</a>
+                                                                                            </li>
+                                                                                            <li><a data-action="decline"
+                                                                                                    data-type="loan"
+                                                                                                    class="decline_approve"
+                                                                                                    href="{{ route('admin.loan.view', ['decline', $loan->id]) }}">Decline</a>
+                                                                                            </li>
+
+                                                                                        </ul>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </td>
+                                                                        </tr>
+                                                                    @endforeach
+                                                                </tbody>
+                                                            </table>
                                                         @else
                                                             <h4 class="text-center">No Active loan at the moment</h4>
                                                         @endif

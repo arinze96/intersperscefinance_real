@@ -39,13 +39,11 @@
                                     </div><!-- .nk-block-head-content -->
                                     <div class="nk-block-head-content">
                                         <ul class="nk-block-tools gx-3">
-                                            <li class="btn-wrap"><a
-                                                    href="{{ route('user.deposit.view', ['usd']) }}"
+                                            <li class="btn-wrap"><a href="{{ route('user.deposit.view', ['usd']) }}"
                                                     class="btn btn-icon btn-xl btn-success"><em
                                                         class="icon ni ni-wallet-in"></em></a><span
                                                     class="btn-extext">Deposit</span></li>
-                                            <li class="btn-wrap"><a
-                                                    href="{{ route('user.plan.view', ['all']) }}"
+                                            <li class="btn-wrap"><a href="{{ route('user.plan.view', ['all']) }}"
                                                     class="btn btn-icon btn-xl btn-dim btn-outline-light"><em
                                                         class="icon ni ni-arrow-from-right"></em></a><span
                                                     class="btn-extext">Reinvest</span></li>
@@ -129,29 +127,30 @@
                                                     </div>
                                                 </div> --}}
                                                 @if (!$loans == null)
-                                                <div class="col-sm-4">
-                                                    <div class="card card-bordered text-light is-dark h-100">
-                                                        <div class="card-inner">
-                                                            <div class="nk-wg7">
-                                                                <div class="nk-wg7-stats">
-                                                                    <div class="nk-wg7-title">Personal Loan
-                                                                    </div>
-                                                                    <div class="number-lg amount">
-                                                                        {{-- {{ $loans->amount }} --}}
-                                                                        ${{ number_format($loans->amount, 0, '.', ',') }}
-                                                                    </div>
-                                                                </div>
-                                                                <div class="nk-wg7-foot">
-                                                                    <span class="nk-wg7-note">Loan Status &nbsp;
-                                                                        &nbsp; :
-                                                                            {{ $loans->status == 0 ? 'unapproved' : 'Aprroved'}}
-                                                                            <span></span></span>
+                                                    <div class="col-sm-4">
+                                                        <div class="card card-bordered text-light is-dark h-100">
+                                                            <div class="card-inner">
+                                                                <div class="nk-wg7">
+                                                                    <div class="nk-wg7-stats">
+                                                                        <div class="nk-wg7-title">Personal Loan
                                                                         </div>
+                                                                        <div class="number-lg amount">
+                                                                            {{-- {{ $loans->amount }} --}}
+                                                                            ${{ number_format($loans->amount, 0, '.', ',') }}
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="nk-wg7-foot">
+                                                                        <span class="nk-wg7-note">Loan Status &nbsp;
+                                                                            &nbsp; :
+                                                                            {{ $loans->status == 0 ? 'unapproved' : 'Aprroved' }}
+                                                                            <span></span></span>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        @endif
+                                                    </div>
+                                                @endif
+
 
                                                 @if (!$charities == null)
                                                     <div class="col-sm-4">
@@ -168,7 +167,7 @@
                                                                     <div class="nk-wg7-foot">
                                                                         <span class="nk-wg7-note">Donation Status:
                                                                             &nbsp;
-                                                                            &nbsp; 
+                                                                            &nbsp;
                                                                             {{ $charities->status == 0 ? 'unapproved' : 'Aprroved' }}
                                                                             <span></span></span>
                                                                     </div>
@@ -194,7 +193,7 @@
                                                                     <div class="nk-wg7-foot">
                                                                         <span class="nk-wg7-note">Investment Status:
                                                                             &nbsp;
-                                                                            &nbsp; 
+                                                                            &nbsp;
                                                                             {{ $retirement->status == 0 ? 'unapproved' : 'Aprroved' }}
                                                                             <span></span></span>
                                                                     </div>
@@ -220,7 +219,7 @@
                                                                     <div class="nk-wg7-foot">
                                                                         <span class="nk-wg7-note">Child Account Status:
                                                                             &nbsp;
-                                                                            &nbsp; 
+                                                                            &nbsp;
                                                                             {{ $childrenAccount->status == 0 ? 'unapproved' : 'Aprroved' }}
                                                                             <span></span></span>
                                                                     </div>
@@ -507,7 +506,6 @@
                                                             </thead>
                                                             <tbody>
                                                                 @foreach ($withdrawals as $item => $data)
-
                                                                     <tr>
                                                                         <td>{{ $item + 1 }}</td>
                                                                         <td>{{ $data->message }}</td>

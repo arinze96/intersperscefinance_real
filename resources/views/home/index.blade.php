@@ -28,7 +28,8 @@
                             <div class="page-banner banner-01">
                                 <div class="container">
                                     <div id="google_translate_element"
-                                    style="position:fixed;margin-top:10px; left:20px; bottom: 20px"></div>
+                                    {{-- style="position:fixed;margin-top:10px; left:20px; bottom: 20px" --}}
+                                    ></div>
         
                                 <script type="text/javascript">
                                     var duplicate_google_translate_counter = 0; //this stops google adding button multiple times
