@@ -27,7 +27,7 @@
                                     <div class="page-title-content">
                                         <h1 class="title">about us</h1>
                                         <ol class="breadcrumb">
-                                            <li><a href="{{route('app.home')}}"  class="link home">Home</a></li>
+                                            <li><a href="{{ route('app.home') }}" class="link home">Home</a></li>
                                             <li><a {{-- href="{{route('about')}}" --}} class="link active">About us</a></li>
                                         </ol>
                                     </div>
@@ -45,15 +45,16 @@
                                             <p class="timeline-text"> Hortcorp finance was established in 2013 and it
                                                 initially began trading stocks, shares and bonds, it got involved in
                                                 forex in 2015 and was among the pioneer traders of Cryptocurrencies in
-                                                the advent of Bitcoin in 2014.  Hortcorp finance is currently managed
+                                                the advent of Bitcoin in 2014. Hortcorp finance is currently managed
                                                 by a senior team which has extensive experience in the development and
                                                 implementation of systematic investment strategies. The company
                                                 emphasises strong corporate governance and the provision of first class
                                                 investor service to a client base which includes many of the world’s
                                                 leading institutional investors.
 
-                                                At  Hortcorp finance, we deliver strategic advice and solutions,
-                                                including capital raising, risk management, and trade Hortcorp finance services
+                                                At Hortcorp finance, we deliver strategic advice and solutions,
+                                                including capital raising, Risk management and trading Hortcorp finance
+                                                offers services
                                                 to corporations, institutions and individuals, We also offer-long term
                                                 and short-term investment opportunities.</p>
                                             {{-- <div class="timeline-slider">
@@ -67,12 +68,12 @@
                                 </div>
                             </div>
                         </section>
-                       
+
                         <div class="sign-up">
                             <div class="container">
                                 <div class="subscribe-email-wrapper">
                                     <div class="subscribe-email-left">
-                                        <p class="subscribe-email-title">Sign up for <span>  Hortcorp finance </span>
+                                        <p class="subscribe-email-title">Sign up for <span> Hortcorp finance </span>
                                             viewpoints!
                                         </p>
                                         <div class="description">Get a weekly email of our pros' current thinking
@@ -82,8 +83,8 @@
                                         <form>
                                             <div class="input-group form-subscribe-email">
                                                 <input type="text" placeholder="Email" class="form-control"><span
-                                                    class="input-group-btn"><button type="submit"
-                                                        class="btn-view">Get viewpoint</button></span>
+                                                    class="input-group-btn"><button type="submit" class="btn-view">Get
+                                                        viewpoint</button></span>
                                             </div>
                                         </form>
                                     </div>
