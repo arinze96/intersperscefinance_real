@@ -48,7 +48,7 @@
                                                     individual philanthropists, school groups, and more, connecting our
                                                     donors to communities and children who would otherwise be
                                                     overlooked. Whether you’re are an executive looking to boost your
-                                                    company’s social responsibility efforts, or a grandmother wanting to
+                                                    company’s social responsibility, or a grandmother wanting to
                                                     make a special gift in a child’s honor; we’re here to help you make
                                                     a difference in the world. On behalf of the millions of children
                                                     that’ll be impacted by your generosity – thank you. We partner to
@@ -187,7 +187,7 @@
                                                     the world.</p>
 
                                                 <h4 style="font-style:italics; color:#0f1341">We Fund</h4>
-                                                <p>We fund our partners’ life-changing programs for children and youth,
+                                                <p>We fund our partner's life-changing programs for children and youth,
                                                     as well as their
                                                     organizational development. We keep our grants flexible to maximize
                                                     our impact and

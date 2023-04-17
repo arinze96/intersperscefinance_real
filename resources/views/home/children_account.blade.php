@@ -92,9 +92,9 @@
                                                 <p class="paragraph">
                                                     Zero account opening balance
                                                 </p>
-                                                <p class="paragraph">
+                                                {{-- <p class="paragraph">
                                                     Minimum Investment of $15,000
-                                                </p>
+                                                </p> --}}
                                             </div>
                                         </div>
                                         <div class="col-md-6">
@@ -131,9 +131,9 @@
                                                 <p class="paragraph">
                                                     Zero account opening balance
                                                 </p>
-                                                <p class="paragraph">
+                                                {{-- <p class="paragraph">
                                                     Minimum Investment of $20,000
-                                                </p>
+                                                </p> --}}
                                             </div>
                                         </div>
                                     </div>

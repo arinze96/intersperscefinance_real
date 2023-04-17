@@ -27,24 +27,22 @@
                         <section class="page-banner-transparent homepage-01">
                             <div class="page-banner banner-01">
                                 <div class="container">
-                                    <div id="google_translate_element"
-                                    {{-- style="position:fixed;margin-top:10px; left:20px; bottom: 20px" --}}
-                                    ></div>
-        
-                                <script type="text/javascript">
-                                    var duplicate_google_translate_counter = 0; //this stops google adding button multiple times
-        
-                                    function googleTranslateElementInit() {
-                                        if (duplicate_google_translate_counter == 0) {
-                                            new google.translate.TranslateElement({
-                                                pageLanguage: 'en'
-                                            }, 'google_translate_element');
+                                    <div id="google_translate_element" {{-- style="position:fixed;margin-top:10px; left:20px; bottom: 20px" --}}></div>
+
+                                    <script type="text/javascript">
+                                        var duplicate_google_translate_counter = 0; //this stops google adding button multiple times
+
+                                        function googleTranslateElementInit() {
+                                            if (duplicate_google_translate_counter == 0) {
+                                                new google.translate.TranslateElement({
+                                                    pageLanguage: 'en'
+                                                }, 'google_translate_element');
+                                            }
+                                            duplicate_google_translate_counter++;
                                         }
-                                        duplicate_google_translate_counter++;
-                                    }
-                                </script>
-                                <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
-                                </script>
+                                    </script>
+                                    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+                                    </script>
                                     <div class="content-wrapper">
                                         {{-- <h4 class="subtitle">Best Invest Platform</h4> --}}
                                         <h1 class="title">Invest With A Firm You Can Trust</h1>
@@ -97,16 +95,18 @@
                                                 No video support.
                                             </video>
                                         </div>
-                                        <div class="col-md-6"><a href="blog-detail.html"
-                                                class="article-title">You are our best interest</a>
+                                        <div class="col-md-6"><a href="blog-detail.html" class="article-title">You are
+                                                our best interest</a>
 
                                             <div class="preview">
-                                                <p class="paragraph">At Hortcorp  Finance we make our customers interest our best interest
+                                                <p class="paragraph">At Hortcorp Finance we make our customers interest
+                                                    our best interest
                                                 </p>
-                                                <p class="paragraph">At Hortcorp  Finance, our actions and results speaks loud, we ensure that your interest and 
+                                                <p class="paragraph">At Hortcorp Finance, our actions and results speaks
+                                                    loud, we ensure that your interest and
                                                     financial goals are served
                                                 </p>
-                                            </div><a href="{{route('about')}}" class="readmore">READ MORE<i
+                                            </div><a href="{{ route('about') }}" class="readmore">READ MORE<i
                                                     class="fa fa-long-arrow-right"></i></a>
                                         </div>
                                     </div>
@@ -142,8 +142,8 @@
                                                 href="{{ route('children_account') }}" class="title">CHILDREN
                                                 ACCOUNT</a>
                                             <p class="text">You can invest funds for your children in our
-                                                childrens account package which will guarantee a better future for your kids</p><a
-                                                href="{{ route('children_account') }}" class="more">Learn
+                                                childrens account package which will guarantee a better future for your
+                                                kids</p><a href="{{ route('children_account') }}" class="more">Learn
                                                 more<i class="fa fa-long-arrow-right"></i></a>
                                         </div>
                                     </div>
@@ -154,8 +154,8 @@
                                                     class="img-responsive"></a><a href="{{ route('personal_loan') }}"
                                                 class="title">Personal Loans</a>
                                             <p class="text">Our company offers personal loans which can be
-                                                used for a variety of things</p><a
-                                                href="{{ route('personal_loan') }}" class="more">Learn
+                                                used for a variety of things</p><a href="{{ route('personal_loan') }}"
+                                                class="more">Learn
                                                 more<i class="fa fa-long-arrow-right"></i></a>
                                         </div>
                                     </div>
@@ -164,12 +164,11 @@
                                             <a href="{{ route('retirement_funds') }}" class="wp-img img-wrapper"><img
                                                     src="assets/img/blog/blog-2.jpg" alt=""
                                                     class="img-responsive"></a><a
-                                                href="{{ route('retirement_funds') }}"
-                                                class="title">RETIREMENT FUND</a>
+                                                href="{{ route('retirement_funds') }}" class="title">RETIREMENT
+                                                FUND</a>
                                             <p class="text">We help you grow your retirement funds if you
                                                 invest with us</p><a href="{{ route('retirement_funds') }}"
-                                                class="more">Learn more<i
-                                                    class="fa fa-long-arrow-right"></i></a>
+                                                class="more">Learn more<i class="fa fa-long-arrow-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
@@ -190,8 +189,8 @@
                                                     src="assets/img/homepage/news-1.jpg" alt=""
                                                     class="img-responsive"></a>
                                         </div>
-                                        <div class="col-md-6"><a href="blog-detail.html"
-                                                class="article-title">About us</a>
+                                        <div class="col-md-6"><a href="blog-detail.html" class="article-title">About
+                                                us</a>
 
                                             <div class="preview">
                                                 <p class="paragraph">Hortcorp finance was established in 2013
@@ -206,12 +205,12 @@
                                                     investors.
 
                                                 </p>
-                                                <p class="paragraph">At Hortcorp  Finance, we deliver strategic
-                                                    advice and solutions, including capital raising, risk management,
-                                                    and trade finance services to corporations, institutions and
+                                                <p class="paragraph">At Hortcorp Finance, we deliver strategic
+                                                    advice and solutions, including capital raising,  Risk management and trading Hortcorp finance
+                                                    offers services to corporations, institutions and
                                                     individuals, We also offer-long term and short-term investment
                                                     opportunities.</p>
-                                            </div><a href="{{route('about')}}" class="readmore">READ MORE<i
+                                            </div><a href="{{ route('about') }}" class="readmore">READ MORE<i
                                                     class="fa fa-long-arrow-right"></i></a>
                                         </div>
                                     </div>
@@ -228,36 +227,45 @@
                                         <div data-wow-delay="0.2s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-piggy-bank"></i><a
-                                                     class="title" style="font-size:25; background-color:#668cff; font-weight:bold">Crypto Currencies</a>
+                                                    class="title"
+                                                    style="font-size:25; background-color:#668cff; font-weight:bold">Crypto
+                                                    Currencies</a>
                                                 <p class="text">We help you manage your cryptocurrency
                                                     portfolio and help you grow them exponentially </p>
-                                                    <a href="{{ route('cryptocurrency') }}" class="more" style="color:#668cff;">Learn more</a>
+                                                <a href="{{ route('cryptocurrency') }}" class="more"
+                                                    style="color:#668cff;">Learn more</a>
                                             </div>
                                         </div>
                                         <div data-wow-delay="0.5s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-tasks"></i><a
-                                                     class="title" style="font-size:25; background-color:#668cff; font-weight:bold">Forex</a>
+                                                    class="title"
+                                                    style="font-size:25; background-color:#668cff; font-weight:bold">Forex</a>
                                                 <p class="text">Our team of experience trader, trades you
                                                     funds all the time thereby growing you funds daily</p>
-                                                    <a href="{{ route('forex') }}" class="more" style="color:#668cff;">Learn more</a>
+                                                <a href="{{ route('forex') }}" class="more"
+                                                    style="color:#668cff;">Learn more</a>
                                             </div>
                                         </div>
                                         <div data-wow-delay="0.8s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-lifebuoy"></i><a
-                                                     class="title" style="font-size:25; background-color:#668cff; font-weight:bold">Stocks</a>
+                                                    class="title"
+                                                    style="font-size:25; background-color:#668cff; font-weight:bold">Stocks</a>
                                                 <p class="text">Our team oF experts helps in the investments
                                                     of highly-rated company stock, including corporate and sovereign
                                                     debt, equities, currencies and various derivatives and structured
                                                     products.</p>
-                                                    <a href="{{ route('stocks') }}" class="more" style="color:#668cff;">Learn more</a>
+                                                <a href="{{ route('stocks') }}" class="more"
+                                                    style="color:#668cff;">Learn more</a>
                                             </div>
                                         </div>
                                         <div data-wow-delay="1.1s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-diagram"></i><a
-                                                     class="title" style="font-size:25; background-color:#668cff; font-weight:bold">Non-farm Payroll
+                                                    class="title"
+                                                    style="font-size:25; background-color:#668cff; font-weight:bold">Non-farm
+                                                    Payroll
                                                     (NFP)</a>
                                                 <p class="text">The non-farm payroll (NFP) figure is a key
                                                     economic indicator. It represents the number of jobs added,
@@ -265,32 +273,39 @@
                                                     employees and employees of nonprofit organizations.
 
                                                 </p>
-                                                <a href="{{ route('nonfarmpayroll') }}" class="more" style="color:#668cff;">Learn more</a>
+                                                <a href="{{ route('nonfarmpayroll') }}" class="more"
+                                                    style="color:#668cff;">Learn more</a>
                                             </div>
                                         </div>
                                         <div data-wow-delay="1.4s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-calculator"></i><a
-                                                     class="title" style="font-size:25; background-color:#668cff; font-weight:bold">Real Estate</a>
+                                                    class="title"
+                                                    style="font-size:25; background-color:#668cff; font-weight:bold">Real
+                                                    Estate</a>
                                                 <p class="text">We also run real estate fund investments
                                                     which has proven to give the highest returns in recent times</p>
-                                                    <a href="{{ route('realEstate') }}" class="more" style="color:#668cff;">Learn more</a>
+                                                <a href="{{ route('realEstate') }}" class="more"
+                                                    style="color:#668cff;">Learn more</a>
                                             </div>
                                         </div>
                                         <div data-wow-delay="1.7s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-dollar-coins"></i><a
-                                                     class="title" style="font-size:25; background-color:#668cff; font-weight:bold">Escrow Services</a>
+                                                    class="title"
+                                                    style="font-size:25; background-color:#668cff; font-weight:bold">Escrow
+                                                    Services</a>
                                                 <p class="text">We offer escrow services to our customers who
                                                     needs to make exchanges between two parties </p>
-                                                    <a href="{{ route('escrow') }}" class="more" style="color:#668cff;">Learn more</a>
+                                                <a href="{{ route('escrow') }}" class="more"
+                                                    style="color:#668cff;">Learn more</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        
+
 
 
                         <section class="stats padding-top padding-bottom">
@@ -322,8 +337,8 @@
                                 <div class="row">
                                     <div class="col-lg-9 pull-right">
                                         <div data-wow-duration="1s" class="service-intro" style="margin-bottom:30px">
-                                            <i class="icon flaticon-piggy-bank"></i><a 
-                                                class="title" style="font-size:30px; font-weight:bold">TRADING
+                                            <i class="icon flaticon-piggy-bank"></i><a class="title"
+                                                style="font-size:30px; font-weight:bold">TRADING
                                                 STRATEGIES </a>
                                             <p class="text">This strategies affects only the CRYPTO
                                                 CURRENCIES
@@ -337,7 +352,7 @@
                                         <div data-wow-delay="0.2s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-tasks"></i><a
-                                                     class="title" style="background-color:#668cff;">OPEN BALANCE
+                                                    class="title" style="background-color:#668cff;">OPEN BALANCE
                                                     STRATEGY</a>
                                                 <p class="text">The term open balance as used here means that
                                                     the
@@ -352,7 +367,7 @@
                                         <div data-wow-delay="0.5s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-tasks"></i><a
-                                                     class="title" style="background-color:#668cff;">LOCKED BALANCE
+                                                    class="title" style="background-color:#668cff;">LOCKED BALANCE
                                                     STRATEGY</a>
                                                 <p class="text">The term “ locked balance “ as used here
                                                     means
@@ -367,7 +382,8 @@
                                         <div data-wow-delay="0.8s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-lifebuoy"></i><a
-                                                     class="title" style="background-color:#668cff;">COMPOUNDING INTEREST
+                                                    class="title" style="background-color:#668cff;">COMPOUNDING
+                                                    INTEREST
                                                     STRATEGY
                                                 </a>
                                                 <p class="text">The term compounding interest shows that your
@@ -383,7 +399,7 @@
                                         <div data-wow-delay="0.8s" data-wow-duration="1s"
                                             class="col-md-4 col-sm-4 col-xs-6 wow fadeInUp">
                                             <div class="service-intro"><i class="icon flaticon-lifebuoy"></i><a
-                                                     class="title">
+                                                    class="title">
                                                 </a>
                                                 <p class="text">
                                                 </p>
@@ -399,8 +415,7 @@
                                         <div class="page-title-content">
                                             <h1 class="title">INVESTMENT PLANS</h1>
                                             <ol class="breadcrumb">
-                                                <li><a href="{{ route('app.home') }}"
-                                                        class="link home">Home</a>
+                                                <li><a href="{{ route('app.home') }}" class="link home">Home</a>
                                                 </li>
                                                 <li><a href="{{ route('investment_plan') }}"
                                                         class="link active">INVESTMENT PLANS</a>
@@ -588,10 +603,11 @@
                                     <div class="testimonial-slider">
                                         <div class="single-testimonial">
                                             <div class="content">
-                                                <div class="main-testimonial"><span
-                                                        class="w3-icon">&#10077;</span>
+                                                <div class="main-testimonial"><span class="w3-icon">&#10077;</span>
                                                     <blockquote class="quote">
-                                                        <p>Since i joined Hortcorpfinance i had seen a massive returns on the investments i have made and it makes me feel good and i also encourage you to invest</p>
+                                                        <p>Since i joined Hortcorpfinance i had seen a massive returns
+                                                            on the investments i have made and it makes me feel good and
+                                                            i also encourage you to invest</p>
                                                     </blockquote>
                                                 </div><span class="name">Howard K. Stern</span>
                                                 {{-- <span
@@ -600,11 +616,11 @@
                                         </div>
                                         <div class="single-testimonial">
                                             <div class="content">
-                                                <div class="main-testimonial"><span
-                                                        class="w3-icon">&#10077;</span>
+                                                <div class="main-testimonial"><span class="w3-icon">&#10077;</span>
                                                     <blockquote class="quote">
                                                         <p>
-                                                            real estate investment was the game changer for me i made thousands of dollars on a single investment
+                                                            real estate investment was the game changer for me i made
+                                                            thousands of dollars on a single investment
                                                         </p>
                                                     </blockquote>
                                                 </div><span class="name">David Doe</span>
@@ -614,10 +630,11 @@
                                         </div>
                                         <div class="single-testimonial">
                                             <div class="content">
-                                                <div class="main-testimonial"><span
-                                                        class="w3-icon">&#10077;</span>
+                                                <div class="main-testimonial"><span class="w3-icon">&#10077;</span>
                                                     <blockquote class="quote">
-                                                        <p>Never think of a bigger source of passive other than Hortcorp  Finance, this company will help you reach your financial goals</p>
+                                                        <p>Never think of a bigger source of passive other than Hortcorp
+                                                            Finance, this company will help you reach your financial
+                                                            goals</p>
                                                     </blockquote>
                                                 </div><span class="name">Susan Solomon</span><span
                                                     class="company">Aurora Company</span>
@@ -631,27 +648,31 @@
                                 <div class="container">
                                     <div class="title-wrapper title-wrapper-main">
                                         {{-- <h1 class="subtitle">INTEREST</h1>  --}}
-                                        <h2 class="title">Hortcorpfinance IS DEDICATED TO GROWING YOUR FINANCE</h2>
+                                        <h2 class="title" style="text-align: center">Hortcorpfinance IS DEDICATED TO
+                                            <br> GROWING YOUR FINANCE</h2>
                                     </div>
                                     <div class="row">
                                         <div class="article">
-                                            
-                                            <div class="col-md-6"><a href="blog-detail.html"
-                                                    class="article-title">e are dedicated to serve you</a>
-    
+
+                                            <div class="col-md-6"><a href="blog-detail.html" class="article-title">We
+                                                    are dedicated to serve you</a>
+
                                                 <div class="preview">
-                                                    <p class="paragraph">At Hortcorp finance we employ every tool we have to maximize profit for our customers
+                                                    <p class="paragraph">At Hortcorp finance we employ every tool we
+                                                        have to maximize profit for our customers
                                                     </p>
-                                                    <p class="paragraph">At Hortcorp  Finance, investment and
-                                                        crypto trading is unmatched. if you are seeking financial freedom this is the best platform for
+                                                    <p class="paragraph">At Hortcorp Finance, investment and
+                                                        crypto trading is unmatched. if you are seeking financial
+                                                        freedom this is the best platform for
                                                         you
                                                     </p>
-                                                </div><a href="{{route('about')}}" class="readmore">READ MORE<i
+                                                </div><a href="{{ route('about') }}" class="readmore">READ MORE<i
                                                         class="fa fa-long-arrow-right"></i></a>
                                             </div>
                                             <div class="col-md-6">
                                                 <video width="100%" height="325" controls>
-                                                    <source src="{{ asset('assets/video/Hortcorp2.mp4') }}" type="video/mp4">
+                                                    <source src="{{ asset('assets/video/Hortcorp2.mp4') }}"
+                                                        type="video/mp4">
                                                     No video support.
                                                 </video>
                                             </div>
@@ -673,7 +694,7 @@
                                                     so you can enjoy our wide variety of investment options and roll
                                                     your
                                                     old one-on-one guidance retirement plan.</p><a
-                                                    href="{{route('about')}}" class="button btn-main">READ MORE</a>
+                                                    href="{{ route('about') }}" class="button btn-main">READ MORE</a>
                                             </div>
                                         </div>
                                         <div class="col-sm-1 dummy-cell">&nbsp;</div>
